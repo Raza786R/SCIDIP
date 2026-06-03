@@ -1,0 +1,74 @@
+BOHRIUM BATCH VALIDATION REQUEST
+PROJECT: High-Entropy Metal-Ceramic Gradient Architecture (HE-MCGA)
+TARGET: 3D Thermomechanical FEA, Oxidation, and Phase Stability Validation
+
+Please execute the standard 11-phase validation pipeline (including 3D FEA with root smoothing r=3.5mm and platform film cooling, 10,000 thermal cycles 300K -> 1400K, and 15,000 RPM centrifugal load) for the following three candidate architectures.
+
+================================================================================
+CANDIDATE 1 (Primary - Run A Baseline)
+================================================================================
+Alloy Composition (Atomic Fractions):
+Ta0.16 W0.11 Cr0.27 V0.15 Ti0.13 Hf0.18 + 2.8 at% Al
+
+FGM Architecture:
+- Ceramic: LZO (Lanthanum Zirconate)
+- Gradient Exponent: n = 1.1
+- Total Thickness: 5.0 mm
+- Outer Pure Ceramic TBC Layer: 0.5 mm
+
+Expected Properties (for verification):
+- Local 1D SF: N/A
+- Projected 3D SF: 1.66
+- VEC: 5.2
+- CTE Mismatch: 2.83 µm/mK
+
+Validation Goals for Candidate 1:
+- Confirm SF > 1.50 (Verify prior 1.66 result).
+- Confirm oxidation mass gain < 10 mg/cm² at 1100°C.
+
+================================================================================
+CANDIDATE 2 (High-Potential - Run C Constrained DE Winner)
+================================================================================
+Alloy Composition (Atomic Fractions):
+Ta0.136 W0.141 Cr0.229 V0.140 Ti0.217 Zr0.046 Hf0.041 Al0.028 Nb0.014
+
+FGM Architecture:
+- Ceramic: LZO (Lanthanum Zirconate)
+- Gradient Exponent: n = 1.1
+- Total Thickness: 5.0 mm
+- Outer Pure Ceramic TBC Layer: 0.5 mm
+
+Expected Properties (for verification):
+- Local 1D SF: 1.5981
+- Projected 3D SF: 1.76
+- VEC: 5.02
+- CTE Mismatch: 2.66 µm/mK
+
+Validation Goals for Candidate 2:
+- Validate if 3D SF exceeds Candidate 1 (due to smaller CTE mismatch of 2.66 vs 2.83).
+- Confirm phase stability (VEC=5.02, no sigma phase).
+- Evaluate oxidation resistance of high Cr (22.9%) + Al (2.8%) mixture.
+
+================================================================================
+CANDIDATE 3 (Alternative Family - Run B Pipeline Winner)
+================================================================================
+Alloy Composition (Atomic Fractions):
+Mo0.05 Nb0.15 Ta0.15 W0.25 Cr0.40
+
+FGM Architecture:
+- Ceramic: LZO (Lanthanum Zirconate)
+- Gradient Exponent: n = 0.5
+- Total Thickness: 5.0 mm
+- Outer Pure Ceramic TBC Layer: 0.5 mm (assumed)
+
+Expected Properties (for verification):
+- Local 1D SF: 1.1851
+- VEC: ~5.8
+
+Validation Goals for Candidate 3:
+- Evaluate if 3D geometric fixes (root smoothing/cooling) can elevate the SF from 1.18 to > 1.50.
+- Assess sigma phase risk due to higher VEC (~5.8) and high Cr (40%).
+- Evaluate oxidation resistance (relies solely on Cr2O3, no Al added).
+
+================================================================================
+END OF BATCH REQUEST

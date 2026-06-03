@@ -1,0 +1,229 @@
+Good. Focused question. Let me search specifically for what data exists for your exact five elements.Now I have everything needed. Here is your complete answer focused only on Mo, W, Cr, Nb, Ta.
+
+---
+
+## What Data Exists Specifically For Your Five Elements
+
+Your system is Mo-Nb-Ta-W-Cr. Here is every paper, what data it contains, and exactly how it helps you.
+
+---
+
+### Paper 1 — Senkov 2011 — The Foundation Paper For Your System
+
+**What data it contains:**
+
+MoNbTaW RHEA forms a single solid solution exhibiting a yield strength of 1058 MPa at 25°C, which remains as high as 552 MPa even at 800°C.
+
+Exact data rows you extract from this paper:
+
+```
+Composition     Temp(°C)    Yield Strength(MPa)    Phase
+MoNbTaW         25          1058                   BCC
+MoNbTaW         800         552                    BCC
+MoNbTaW         1000        405                    BCC
+MoNbTaW         1200        ~300                   BCC
+MoNbTaW         1600        400                    BCC
+MoNbTaVW        25          1246                   BCC
+MoNbTaVW        1000        ~477                   BCC
+MoNbTaVW        1600        477                    BCC
+```
+
+This is your most important dataset. Your exact element system. Experimentally measured. Directly usable.
+
+**How useful for you:** Category D data — high temperature yield strength. Directly feeds your GNN training. These are the benchmark values your AI must match or exceed.
+
+---
+
+### Paper 2 — Couzinie 2018 — 122 RHEA Compilation With Temperature Data
+
+This data article presents the compilation of mechanical properties for 122 refractory high entropy alloys and refractory complex concentrated alloys reported from 2010 to January 2018. The data sheet gives alloy composition, type of microstructures, yield stress as a function of testing temperature, and computed alloy mass density.
+
+**What data it contains for your elements:**
+
+```
+Property              Available?    Temperature Range
+Composition           YES           —
+Density (calculated)  YES           —
+Yield strength        YES           25°C to 1600°C
+Plastic strain        YES           25°C to 1600°C
+Crystal structure     YES           —
+Microstructure type   YES           —
+Thermal conductivity  NO            —
+CTE                   NO            —
+Oxidation rate        NO            —
+```
+
+Within these 122 alloys, several contain Mo, Nb, Ta, W, Cr combinations. This is your primary source for temperature-dependent yield strength data.
+
+**How useful:** Download the supplementary Excel file. Filter rows containing Mo, Nb, Ta, W, Cr. Extract yield strength vs temperature. This becomes your Category D training subset.
+
+---
+
+### Paper 3 — Gorsse 2018 — 370 HEA Database
+
+The dataset covers mechanical properties of HEAs and CCAs with 370 alloys. Data includes alloy composition, microstructures, density, hardness, yield strength, elongation, ultimate strength, and Young's modulus.
+
+**What data it contains for your elements:**
+
+```
+Property              Available?    Notes
+Composition           YES           All 370 alloys
+Density               YES           Rule of mixtures calculated
+Hardness (HV)         YES           Vickers hardness
+Yield strength RT     YES           Room temperature only for most
+Young's modulus       YES           Calculated ROM
+Elongation            YES           Some entries
+Yield strength HT     YES           For 27 RHEA entries only
+Temperature range     YES           For those 27: up to 1600°C
+```
+
+**How useful:** The 27 RHEA entries with temperature-dependent data are your gold-standard training points. Filter for Mo, Nb, Ta, W, Cr containing alloys. You will get approximately 8-12 directly relevant entries with full temperature profiles.
+
+---
+
+### Paper 4 — Detor GE Research 2022 — 82 Experimental RHEAs
+
+This dataset contains 82 unique refractory alloys experimentally synthesized via arc melting. Hardness was collected via standard indentation while compressive ductility was quantified. Predicted solidus temperature for all alloys is also included based on thermodynamic modelling.
+
+**What data it contains for your elements:**
+
+```
+Property              Available?    Notes
+Composition           YES           82 unique alloys
+Hardness (HV)         YES           Experimentally measured
+Ductility ranking     YES           0 to 5 scale
+Solidus temperature   YES           CALPHAD predicted
+Room temp properties  YES           Arc melted samples
+High temp properties  NO            Not included
+```
+
+**How useful:** Hardness and ductility data for your element combinations. Solidus temperature is directly usable as a proxy for high-temperature capability. Some of the 82 alloys contain Mo, Nb, Ta, W, Cr subsets.
+
+---
+
+### Paper 5 — arXiv 2511.16057 — 100,000+ RHEA Screening
+
+Deep learning models predict compressive yield strength at 1,000°C and room-temperature plasticity of more than 100,000 RHEAs. Multiple candidates were experimentally synthesized and proven to outperform any previously reported RHEAs for simultaneous strength and plasticity.
+
+**What data it contains for your elements:**
+
+```
+Property              Available?    Notes
+Composition           YES           100,000+ combinations
+Yield strength 1000°C YES           Deep learning predicted
+Room temp plasticity  YES           Deep learning predicted
+Pareto optimal list   YES           Table S1 in paper
+Experimental valid.   YES           6 alloys synthesized
+Uncertainty bounds    YES           Per prediction
+```
+
+The 1,000°C yield strength is normally distributed with mean and standard deviation of 656 ± 210 MPa across all predictions. The yield strength and plasticity of all RHEA compositions are shown including both equiatomic and non-equiatomic variants.
+
+**How useful:** This is your largest single source of yield strength data at 1000°C — directly your target temperature. Filter the dataset for Mo, Nb, Ta, W, Cr containing alloys. You will get thousands of predicted data points with uncertainty bounds. Use as training data labeled as "ML-predicted, experimentally validated subset available."
+
+---
+
+### Paper 6 — Senkov 2019 — High Temperature Strength of RCCAs
+
+CALPHAD calculations show that the melting temperature of MoNbTaW reaches 2807°C — the highest among all reported RCCAs. MoNbTaW and MoNbTaVW show exceptional strength retention up to 1900K.
+
+**What data it contains for your elements:**
+
+```
+Property              Available?    Notes
+Melting point         YES           CALPHAD calculated
+Yield strength        YES           25°C to 1600°C
+Solidus temperature   YES           Per composition
+Phase stability       YES           Single vs multi-phase
+Density               YES           Calculated
+```
+
+MoNbTaW melting point = 2807°C. This is a critical data point for your ceramic gradient boundary condition. The metal side of your gradient must survive to this temperature.
+
+---
+
+### Paper 7 — NbMoTaWHf Study — Extended System Data
+
+The compressive yield strengths of the NbMoTaWHf RHEA at room temperature, 1200, 1600, and 1800°C were 1730, 1088, 390, and 312 MPa respectively.
+
+**Why this matters for you:** You may want to add Hf as a sixth element. This paper gives you exact yield strength values at 1200-1800°C for the Hf-added version of your system. If your Bayesian optimizer proposes adding Hf, you now have benchmark data to validate against.
+
+---
+
+### Gorsse 2025 Paper You Uploaded — Sustainability Data
+
+**What it contains for your elements:**
+
+```
+Element    Supply Risk    Embodied Energy    Human Health    Price
+Mo         HIGH           HIGH               MEDIUM          $39/kg
+Nb         MEDIUM         MEDIUM             LOW             $42/kg
+Ta         VERY HIGH      VERY HIGH          LOW             $152/kg
+W          MEDIUM         HIGH               LOW             $35/kg
+Cr         LOW            LOW                MEDIUM          $9/kg
+```
+
+**How useful:** Not mechanical data. Use this to add sustainability screening to your optimizer. Ta has very high supply risk — your AI should flag compositions that are Ta-heavy as geopolitically risky. This directly addresses Safran Challenge 4.
+
+---
+
+## Complete Data Map For Mo-Nb-Ta-W-Cr System
+
+```
+Property          Source Paper           Data Points    Quality
+--------          ------------           -----------    -------
+Yield strength    Senkov 2011            8 points       HIGHEST
+25°C-1600°C       (MoNbTaW exact)        exact temps    experimental
+
+Yield strength    Couzinie 2018          ~15 points     HIGH
+vs temperature    (122 RHEA dataset)     25-1600°C      experimental
+
+Yield strength    arXiv 2511.16057       1000s          MEDIUM
+at 1000°C         (100k screening)       1000°C only    ML predicted
+
+Hardness          Gorsse 2018            ~10 points     HIGH
++ RT properties   (370 HEA dataset)      room temp      experimental
+
+Hardness          Detor GE 2022          ~5-10 points   HIGH
++ ductility       (82 RHEA dataset)      room temp      experimental
+
+Melting point     Senkov 2019            1 point        HIGH
+                  MoNbTaW = 2807°C       CALPHAD        calculated
+
+Supply risk       Gorsse 2025            per element    HIGH
+embodied energy   (uploaded paper)       9 indicators   verified
+
+Crystal structure All papers             BCC confirmed  HIGH
+                  unanimous finding
+```
+
+---
+
+## What Is Still Missing For Your System
+
+Being direct. Even after all these papers, you are missing:
+
+```
+Missing Property          Why Critical            How To Get It
+----------------          ------------            -------------
+Thermal conductivity      Gradient design         Slack model estimate
+CTE at temperature        Core gradient variable  Rule of mixtures
+Oxidation rate at 1100°C  Aerospace requirement   Literature search
+                                                  Sheikh 2018,
+                                                  Gorr 2017 papers
+Cr effect on oxidation    Cr improves oxidation   Specific search needed
+                          resistance — key reason
+                          Cr is in your system
+Yield strength 1200°C+    Above Ni superalloy     From Senkov + Hf papers
+for Mo-Nb-Ta-W-Cr         operating limit         cross-reference
+```
+
+---
+
+## One Specific Action Right Now
+
+Your exact system MoNbTaW has been experimentally characterized from 25°C to 1600°C by Senkov. Download Senkov 2011 paper immediately:
+
+Search: "Senkov Wilks Scott Miracle Mechanical properties Nb25Mo25Ta25W25 Intermetallics 2011"
+
+Extract the yield strength table. That gives you 8 high-quality training data points for your exact element system. These are the most valuable data points in your entire dataset because they are experimental, published, and directly match your target composition.

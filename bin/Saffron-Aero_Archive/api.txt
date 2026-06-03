@@ -1,0 +1,346 @@
+Logo
+
+
+
+
+Navigation
+Installation
+Setting up the database
+Tutorials
+Data models
+OQMD RESTful API
+Introduction
+Querying
+FAQs
+Quick search
+OQMD RESTful API
+Introduction
+RESTful API is now supported at (http://oqmd.org)! It allows the users to access the data of around 700,000 materials easily by using simple HTTP requests. Downloading the entire SQL database is no longer required to extract materials data unless the DFT calculation-related information is to be viewed. This system is implemented within Django Python API framework. The querying on database is supported with a form-based user interface at (http://oqmd.org/api/search). But the documention provided in this page may be used for a more flexible querying and eliminating the need to use a UI. OQMD RESTful API is a new addition to the general qmpy python API. The direct database query using qmpy API on commandline to a locally hosted version of OQMD database is still fully supported in addition to the RESTful part.
+
+Querying
+A simple request can be made like this http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,spacegroup,ntypes,band_gap,delta_e&filter=element_set=(Al-Fe),O:
+
+{
+  "links": {
+   "next": "http://oqmd.org/oqmdapi/formationenergy?fields=name%2Centry_id%2Cspacegroup%2Cntypes%2Cband_gap%2Cdelta_e&filter=element_set%3D%28Al-Fe%29%2CO&icsd=True&limit=2&offset=2",
+   "previous": null,
+   "base_url": {
+       "href": "http://oqmd.org/oqmdapi",
+       "meta": {
+           "_oqmd_version": "1.0"
+       }
+   }
+  },
+  "resource": {},
+  "data": [
+   {
+       "name": "NaAlH2CO5",
+       "entry_id": 16974,
+       "spacegroup": "Imma",
+       "ntypes": 5,
+       "band_gap": 5.255,
+       "delta_e": -2.05739610121138
+   },
+   {
+       "name": "CaAl2SiH4O8",
+       "entry_id": 16995,
+       "spacegroup": "I41/a",
+       "ntypes": 5,
+       "band_gap": 5.087,
+       "delta_e": -2.49008973723542
+   }
+  ],
+  "meta": {
+   "query": {
+       "representation": "/formationenergy?fields=name,entry_id,spacegroup,ntypes,band_gap,delta_e&icsd=True&limit=2&filter=element_set=(Al-Fe),O"
+   },
+   "api_version": "1.0",
+   "time_stamp": "2019-10-08 15:13:12",
+   "data_returned": 2,
+   "data_available": 1078,
+   "comments": "",
+   "query_tree": "",
+   "more_data_available": true
+  },
+  "response_message": "OK"
+}
+URL Format
+Primary Query Fields
+Materials-based keys:
+composition: compostion of the materials or phase space, e.g. Al2O3, Fe-O
+
+icsd: whether the structure exists in ICSD, e.g. False, True, F, T
+
+noduplicate: whether the data should include duplicate entries or not, e.g. False, True, F, T
+
+Sub-query:
+filter: customized filters, see Available keywords for fields and filter, example usage:
+
+filter=element_set=(S,O) AND (NOT element=As) AND stability=0
+Pagination:
+limit: number of data return at once, e.g. 100, (default: 50)
+
+offset: the offset of data return, e.g. 100, (default: 0)
+
+Sorting:
+sort_by: the property on which the data has to be sorted, available attributes: None, delta_e, stability, (default: None)
+
+sort_offset: the offset if sort_by is used, e.g. 100
+
+desc: whether output result in descending order, e.g. False, True, F, T, (default: False)
+
+Response:
+format: response format, available attributes: api, json, xml, yaml
+
+fields: return subset of fields, see Available keywords for fields and filter, example usage:
+
+fields=sites,natoms,names
+Available keywords for fields and filter
+Keywords exclusively available for usage in filter:
+element_set: the set of elements that the compound must have, - for OR, , for AND, e.g. (Fe-Mn),O
+
+element: specify the elements inclusion or exclusion of individual elements
+
+generic: chemical formula abstract, e.g. AB, AB2
+
+Keywords exclusively available for for usage in fields:
+sites: list of atomic sites within the unit-cell
+
+formationenergy_id: ID of this instance in formation energy dataset
+
+duplicate_entry_id: OQMD ID of the preferred entry with this same crystal structure
+
+unit_cell: unit cell dimensions (an array of 3x3)
+
+fit: the type of analysis
+
+calculation_label: DFT-calculation configuration
+
+icsd_id: ICSD ID of this structure, if it exists
+
+composition_generic: chemical formula abstract
+
+name: name of the compound
+
+Keywords commonly available for both filter and fields
+prototype: structure prototype of that compound, e.g. Cu, CsCl
+
+spacegroup: the space group of the structure, e.g. “Fm-3m” (make sure to add double quotes)
+
+natoms: number of atoms in the supercell, e.g. 2, >5
+
+volume: volume of the supercell, e.g. >10
+
+ntypes: number of elements types in the compound, e.g. 2, <3
+
+stability: hull distance of the compound, e.g. 0, <-0.1,
+
+delta_e: formation energy of that compound, e.g. <-0.5,
+
+band_gap: band gap of the materials, e.g. 0, >2
+
+Response Format
+Standard Django API Format
+
+JSON
+
+XML
+
+YAML
+
+More Example Queries
+http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,icsd_id,prototype,ntypes,natoms,volume,delta_e,band_gap,stability &limit=50&offset=0&sort_offset=0&noduplicate=False&desc=False&filter=stability<0.5 AND element_set=(Al-Fe),O AND (ntypes>=3 AND natoms<9) OR ntypes<3
+
+Here, the filter key contains a logical expression using AND and OR functions. Also, response format filters such as desc, noduplicate, etc. are also shown in this example
+
+http://oqmd.org/oqmdapi/formationenergy
+
+All the properties of all materials
+
+http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,band_gap&limit=50&offset=350&filter=stability=0.0
+
+Limit and offset
+
+http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,spacegroup,prototype&sort_by=delta_e&limit=50&sort_offset=350 &noduplicate=True&desc=False&filter=stability=0
+
+Showing the use of sort, sort_offset, and noduplicate
+
+Practical Data Retrieval
+Python API Wrapper
+A python wrapper qmpy_rester for OQMD API is publicly available. The source code is open on github.
+
+_images/rester.gif
+Command line
+Use wget or curl:
+
+wget "http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,delta_e&filter=stability=0&format=json" -O outfile.json
+or
+
+curl -o outfile.yaml "http://oqmd.org/oqmdapi/formationenergy?fields=name,entry_id,delta_e&filter=stability=0&format=yaml"
+Web Browser
+CTRL+S on the webpage
+
+Additional notes
+Pagination
+Pagination is a particularly useful feature while viewing queried data in the web browser as it avoids loading a large file containing information of hundreds of thousands of materials in a single webpage. Pagination can avoid a possible browser crash and thus a full data-loss in such a data overload scenario by returning data in smaller subsets along with URLs to the next and previous subsets in the links section of the returned result. By default, the maximum data returned in each subset, references as limit, is set to be 50.
+
+OPTiMaDe RESTful Specification
+The Open Databases Integration for Materials Design (OPTiMaDe.org) consortium aims to make materials databases interoperational by developing a common REST API. This specification provides a detailed set of rules about keywords for materials data, certain rules about data lookup flexibility, and format of the returned data.
+
+Currently OQMD’s RESTful implementation is compatible with the OPTiMaDe v0.9.5 specification and we will be updating it to v0.10.0 in the near future. There are a few notable differences between OQMDAPI and OPTiMaDe API because the former follows the traditional qmpy API keywords which had been under use in OQMD database since its inception.
+
+For example, the number of different types of element species consisting a particular chemical compound is referenced by ntypes keyword in qmpy API (and thus also in OQMD RESTful API) while the same quantity is referenced as nelements in OPTiMaDe API. Queries made in either APIs are processed internally within the same workflow following the initial keyword conversions.
+
+OPTiMaDe: Example Queries
+http://oqmd.org/optimade/structures?filter=ntypes=3%20AND%20elements=Al,Mn
+
+http://oqmd.org:8080/optimade/structures?filter=_oqmd_band_gap=0 OR (_oqmd_band_gap<0.5 AND nelements>3) AND elements=O
+
+©2019, The OQMD development team. | Powered by Sphinx 4.4.0 & Alabaster 0.7.12 | Page source
+
+mp_api key ="nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii"
+
+
+links for jarvis dataset
+
+ 
+JARVIS
+Databases
+WebApps
+Tools
+Tutorials
+Outreach
+The JARVIS (Joint Automated Repository for Various Integrated Simulations) is an infrastructure designed to automate materials discovery and optimization using classical force-field, density functional theory, machine learning, quantum computation calculations and experiments.
+
+User-registration is free, click on the Login/Sign up button. Access to the database and web apps requires user credentials. Find more details about JARVIS in: Nature Portfolio, AIP and other publications. For upcoming events, checkout the JARVIS-Events page.
+
+Overview
+Established: January, 2017
+Funding: MGI, CHIPS
+Published articles: 50+
+Citations: 4500+
+Users: 150000+
+Data downloads: 1.5 million+
+Materials: 80000+
+Properties: 1 million+
+Several databases, webapps, tutorials and tools.
+
+Integrated tools
+JARVIS Mission Logo
+For a given materials performance metric, several JARVIS components can work together to design optimized or completely new materials.
+
+Introduction video
+
+
+This video presents a short ~1 minute introduction to JARVIS.
+
+Databases
+Name	URLs	Description
+1. JARVIS-DFT	https://jarvis.nist.gov/jarvisdft	Density Functional Theory (DFT) calculation database for 80000+ materials, millions of properties using OptB88vdW and TBmBJ methods, with/without spin-orbit coupling.
+2. JARVIS-FF	https://jarvis.nist.gov/jarvisff	Classical force-field (FF) calculation database for ~2000 materials, >100 Classical FFs
+3. JARVIS-QETB	https://jarvis.nist.gov/jarvisqetb	Density functional theory database for 800000+ materials using PBEsol method.
+4. JARVIS-ChemNLP	https://jarvis.nist.gov/jarvischemnlp	Database of open access papers based on chemical formula filters.
+5. JARVIS-Leaderboard	https://pages.nist.gov/jarvis_leaderboard/	A large collection of benchmark methods for materials design methods including theory and experiments, to enhance transparency and reproducibility, with >300 benchmarks, 9 million data points
+6. JARVIS-Tools-Notebooks	https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks	A Jupyter/Google-Colab Notebook Collection for Materials Design.
+7. JARVIS-OPTIMADE	https://jarvis.nist.gov/optimade/jarvisdft/	Open Databases Integration for Materials Design (OPTIMADE) API for JARVIS-DFT data.
+9. JARVIS-SuperConDB	https://jarvis.nist.gov/supercon	Superconductor database for 3D and 2D materials with DFT.
+10. JARVIS-InterfacDB	https://jarvis.nist.gov/interfacedb	Interface database.
+11. JARVIS-Universal Search	https://jarvis.nist.gov/jarvisus	Integrated search for multiple databases.
+12. JARVIS-DMFT	https://jarvis.nist.gov/jarvisbdft	Dynamical Mean Field Theory Database.
+13. FigShare curated datasets	https://pages.nist.gov/jarvis/databases/	FigShare based databases.
+14. JARVIS-DFT2	https://jarvis.nist.gov/jarvisdft2	Density Functional Theory (DFT) calculation database for 80000+ materials, millions of properties using OptB88vdW and TBmBJ methods, with/without spin-orbit coupling.
+WebApps
+Name	URLs	Description
+1. ALIGNN property predictor	https://jarvis.nist.gov/jalignn/	Atomistic Line Graph Neural Network for fast property prediction.
+2. ALIGNN Force-field	https://jarvis.nist.gov/jalignnff/	Atomistic Line Graph Neural Network Force-field for fast structure optimization.
+3. Solar cells	https://jarvis.nist.gov/jarvissolar	Predict theoretical solar cell performance of a material.
+4. Direct Air Capture	https://jarvis.nist.gov/jdac	Predicts CO2 adsorption isotherm of an input metal organic framework.
+5. Scanning Tunneling Microscopy	https://jarvis.nist.gov/jarvisstm	Tersoff-Hamann approach based scanning tunneling microscopy images.
+6. Scanning Transmission Electron Microscopy	https://jarvis.nist.gov/jstem	Scanning transmission electron microscopy (STEM) using convolution approximation.
+7. Heterostructure	https://jarvis.nist.gov/jarvish	Zur algorithm based designing of material interfaces/heterostructures.
+8. Catalysis	https://jarvis.nist.gov/jcatalysis	Predicts adsorption energy of a molecule on a substrate.
+9. JARVIS-Visualization	https://jarvis.nist.gov/jarvisviz	Quick atomic structure visualizer.
+10. JARVIS-XRD	https://jarvis.nist.gov/jxrd	Predicts theoretical X-ray diffraction patterns.
+11. JARVIS-WTBH	https://jarvis.nist.gov/jarviswtb	Predicts the Wannier Tight-binding Hamiltonian derived properties.
+13. JARVIS-Battery	https://jarvis.nist.gov/jbattery	Predict volumetric/gravimetric capacities, voltage profiles.
+14. JARVIS-ML/CFID	https://jarvis.nist.gov/jarvisml	Classical Force-Field Inspired Descriptors based predicted properties.
+Tools
+Name	URLs	Description
+1. JARVIS-Tools	https://github.com/usnistgov/jarvis	JARVIS-Tools: An open-source software package for data-driven atomistic materials design.
+2. ALIGNN	https://github.com/usnistgov/alignn	ALIGNN: Atomistic Line Graph Neural Network and force-field.
+3. JARVIS-Leaderboard	https://github.com/usnistgov/jarvis_leaderboard	JARVIS-Leaderboard: Explore State-of-the-Art Materials Design Methods and Reproducible Benchmarks.
+4. AtomGPT	https://github.com/usnistgov/atomgpt	AtomGPT: Atomistic Generative Pretrained Transformer for Forward and Inverse Materials Design.
+5. ChemNLP	https://github.com/usnistgov/chemnlp	ChemNLP: A Natural Language Processing based Library for Materials Chemistry Text Data.
+6. AtomVision	https://github.com/usnistgov/atomvision	AtomVision: Deep learning framework for atomistic image data.
+7. AtomQC	https://github.com/usnistgov/atomqc	AtomQC: Atomistic Calculations on Quantum Computers.
+8. InterMat	https://github.com/usnistgov/intermat	InterMat: Interface materials design toolkit.
+9. DefectMat	https://github.com/usnistgov/defectmat	DefectMat: Defect materials design toolkit.
+10. TB3Py	https://github.com/usnistgov/tb3py	TB3Py: Two- and three-body tight-binding calculations for materials.
+Tutorials
+Name	URLs	Description
+1. JARVIS-Tools-Notebooks	https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks	A Jupyter/Google-Colab Notebook Collection for Materials Design.
+2. JARVIS-Tools-Tutorials	https://pages.nist.gov/jarvis/tutorials/	Workflow setup and analysis documentation.
+3. JARVIS-Leaderboard-Notebooks	https://pages.nist.gov/jarvis_leaderboard/notebooks/	Notebooks for contributing to leaderboard.
+Outreach
+Name	URLs	Description
+1. JARVIS-Publications	https://pages.nist.gov/jarvis/publications/	Peer-reviewed publications from the JARVIS team.
+2. JARVIS-School	https://jarvis.nist.gov/events/school	A tutorial/hands-on session to introduce open-access databases and tools for materials-design.
+3. AIMS workshop	https://jarvis.nist.gov/events/aims	Artificial Intelligence for Materials Science workshop.
+4. QMMS workshop	https://jarvis.nist.gov/events/qmms	Quantum Matters in Materials Science workshop.
+5. ReproHack	https://forms.gle/MfZsW7H7PpLMf8Yb9	Reproducibility Hackathon.
+6. SlideShare	https://www.slideshare.net/KAMALCHOUDHARY4	Collection of presentation slides.
+7. Google group	https://groups.google.com/a/list.nist.gov/g/jarvis	Google group JARVIS related announcements.
+8. Guidance/Help/Issues	https://github.com/usnistgov/jarvis/issues	Comment/questions/concerns to share.
+9. MATSCI Forum	https://matsci.org/c/jarvis/48/	Community/discourse on MATSCI.
+
+Statistics
+JARVIS-DFT materials (77096)
+
+JARVIS-FF materials (2538)
+
+JARVIS-ML (1429605)
+
+OptB88vdW electronic bandgaps and formation energies (77096)
+
+TBmBJ bandgaps (18293)
+
+Elastic Tensors (25513)
+
+Topological SOC spillage (11383)
+
+Infrared intensities (4801)
+
+Dielectric function (15860)
+
+2D exfoliation energy (812)
+
+Carrier effective mass (17642)
+
+Piezoelectric tensors (4801)
+
+Seebeck coeff. (23210)
+
+Electric field gradient (11865)
+
+Solar-SLME (8614)
+
+JARVIS-WannierTB (1771)
+
+JARVIS-STM (1432)
+
+JARVIS-Hetero (226778)
+
+
+
+
+Founder and developer: Dr. Kamal Choudhary
+
+Contributors: (Drs.) Francesca Tavazza, Kevin F. Garrity, Daniel Wines, Andrew C. E. Reid, Brian DeCost, Adam J. Biacchi, Ramya Gurunathan, Taner Yildirim, Angela R. Hight Walker, Zachary Trautt, Jason Hattrick-Simpers, A. Gilad Kusne, Andrea Centrone, Albert Davydov, Jie Jiang, Ruth Pachter, Gowoon Cheon, Evan Reed, Ankit Agarwal, Xiaofeng Qian, Vinit Sharma, Houlong Zhuang, Sergei Kalinin, Ghanshyam Pilania, Pinar Acar, Subhasish Mandal, Kristjan Haule, David Vanderbilt, Igor Mazin, Karin Rabe, Mark Kasule.
+
+
+
+CDCS Version 3.10.0
+Terms of use
+Powered by: cdcs-logo CDCS & JARVIS-Tools
+Site Privacy  Accessibility  Privacy Program  Copyright & Disclaimers  Vulnerability Disclosure  No Fear Act Policy  FOIA  Environmental Policy  Scientific Integrity  Information Quality Standards  Commerce.gov  Science.gov  USA.gov  Vote.gov
+National Institute of Standards and Technology logo

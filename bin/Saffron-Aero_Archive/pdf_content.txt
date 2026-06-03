@@ -1,0 +1,1090 @@
+Critical Bottlenecks and Mitigation Strategies for an
+AI-Driven  Inverse  Design  Platform  Targeting  High-
+Entropy Metal-Ceramic Gradient Architectures
+Summary For  ML  model  selection,  a  hybrid  approach  is  recommended:  use
+composition-only models like transformer-based or stacking ensemble models for
+initial high-throughput screening of millions of compositions, as they do not require
+exact 3D structures. For the Bayesian Optimization under data scarcity, implement a
+multi-fidelity  active  learning  loop  with  a  hierarchical  surrogate  model  (e.g.,  low-
+fidelity empirical rules, medium-fidelity ML predictions, high-fidelity FEA) and use
+acquisition  functions  like  Expected  Improvement  or  Knowledge  Gradient  to
+strategically  select  candidates  for  expensive  FEniCS  simulations.  Critical  workflow
+drawbacks include the severe computational cost and potential numerical instability
+of  running  10,000  thermal  cycles  in  FEniCS,  the  risk  of  error  propagation  from
+oversimplified  empirical  rules  in  early  screening,  and  the  physical  limitations  of
+continuum  models  in  capturing  atomic-scale  interface  phenomena.  Mitigations
+involve  reduced-order  modeling  for  FEA,  uncertainty  quantification,  and  a  tiered
+validation protocol.
+1.  ML  Model  Selection  for  High-Throughput  Property  Prediction  in
+Refractory High-Entropy Alloys
+The core challenge in predicting properties for millions of unsimulated high-entropy alloys
+(HEAs) in a 5-element refractory system (Mo, Nb, Ta, W, Cr) is the fundamental trade-off between
+model accuracy and data availability. This section analyzes the primary modeling approaches,
+focusing on their applicability given the absence of defined 3D atomic structures for synthetically
+generated compositions.
+1.1 Limitations of Structure-Dependent Models like ALIGNN
+Atomistic graph neural networks, such as ALIGNN, require precise 3D crystal structure inputs
+(e.g., in .cif format) to generate accurate property predictions. This presents an insurmountable
+barrier for the initial high-throughput screening of fractional compositions, as these alloys lack
+defined atomic configurations. Generating Special Quasi-random Structure (SQS) supercells for
+millions of compositions to feed into ALIGNN would be computationally prohibitive, as the cost
+scales with the number of elements and atoms involved1. Therefore, while powerful for well-
+characterized systems, ALIGNN is not viable for the initial screening stage of this inverse design
+pipeline.
+www.bohrium.com scimaster.bohrium.com
+AI Generated
+Supported by SciMaster
+1
+1.2 Viability of Composition-Only and Empirical Models
+Given  the  structural  data  bottleneck,  composition-only  models  or  those  using  empirical
+descriptors offer a more practical path for initial screening.
+Empirical Rules for Phase Stability: Miedema's semi-empirical rules are a established tool
+for predicting single-phase body-centered cubic (BCC) stability in refractory HEAs2 1 3. They
+provide  a  computationally  cheap  first-pass  filter.  However,  their  limitations  are  well-
+documented; they rely on approximations and may omit critical thermodynamic and kinetic
+factors, leading to potential inaccuracies in complex multicomponent systems2 3. Their use
+should be tempered with an understanding of these constraints.
+Machine Learning on Compositional Features: Models like Roost or CrabNet, which predict
+properties directly from elemental descriptors and compositions, are better suited for high-
+throughput  screening.  They  bypass  the  need  for  atomic  coordinates.  Their  accuracy,
+however, is inherently limited by the quality and scope of their training data. For the vast,
+unexplored  5-element  compositional  space,  data  scarcity  is  a  severe  issue,  risking  poor
+model generalizability and extrapolation errors.
+1.3 Evaluating Workarounds: Virtual Crystal Approximation and SQS
+For compositions that pass initial screening, higher-fidelity property prediction (e.g., for bulk
+modulus, thermal conductivity) requires some structural approximation.
+Virtual Crystal Approximation (VCA): VCA averages atomic potentials over a surrogate BCC
+lattice. It is highly efficient but becomes inaccurate for systems with significant atomic size
+mismatch or lattice distortion, as it cannot capture local atomic environments. For the Mo-
+Nb-Ta-W-Cr system with moderate atomic radius variations, VCA may introduce substantial
+errors in enthalpy and predicted phase stability1.
+Special Quasi-random Structure (SQS): SQS supercells explicitly model disorder and are
+necessary for accurate property prediction when atomic size differences matter. The cost of
+generating and computing properties via density functional theory (DFT) for SQS models
+scales unfavorably with the number of components and atoms, making it impractical for
+screening  millions  of  compositions1.  It  is  best  reserved  for  a  small  subset  of  the  most
+promising candidates.
+1.4 Recommended Hybrid, Tiered Strategy
+A pragmatic solution employs a multi-stage workflow that balances computational cost with
+predictive fidelity.
+Tier 1: High-Throughput Compositional Screening
+Method: Use a composition-only ML model (e.g., Roost/CrabNet) trained on available
+refractory HEA data, supplemented by predictions from empirical rules like Miedema's
+enthalpy criteria.
+• 
+• 
+• 
+• 
+1. 
+◦ 
+AI Generated
+Supported by SciMaster
+2
+Input: Elemental  descriptors  (electronegativity,  atomic  radius)  and  thermodynamic
+parameters (mixing enthalpy, atomic size mismatch).
+Goal: Rapidly filter millions of compositions down to thousands with a high probability
+of BCC single-phase stability and promising property ranges.
+Tier 2: Approximate Structural Validation
+Method: Apply VCA on surrogate BCC lattices for the pre-selected compositions from
+Tier 1.
+Goal: Perform  a  more  physically  informed  check  for  stability  and  estimate  key
+properties.  Compositions  showing  clear  signs  of  instability  or  unrealistic  properties
+(based on VCA's known limitations) are filtered out.
+Tier 3: High-Fidelity Verification
+Method: Generate SQS supercells and perform DFT calculations only for the top 0.1% to
+1% of candidates remaining after Tiers 1 and 2.
+Goal: Obtain accurate property predictions for the final candidate pool to be passed to
+the Bayesian Optimization loop. This stage validates and refines the predictions from the
+faster, approximate tiers.
+1.5 Integration with Active Learning
+This tiered strategy naturally integrates with an active learning framework to combat data
+scarcity. The ML models in Tier 1 can be designed to quantify their own prediction uncertainty.
+Compositions  with  high  uncertainty  (e.g.,  those  near  predicted  phase  boundaries)  or  high
+expected performance can be prioritized for the expensive SQS/DFT calculations in Tier 3. The
+results from these targeted high-fidelity simulations are then fed back to retrain and improve the
+Tier 1 screening models, creating a closed-loop, data-efficient discovery process.
+1.6 Key Trade-offs and Risks
+Approach Primary
+Advantage Primary Limitation Best Use Case
+Miedema's RulesExtremely fast, low
+computational cost.
+Semi-empirical; may
+miss complex stability
+factors23.
+Initial, coarse
+filtering for phase
+stability.
+Composition-
+Only ML
+Fast; scales to
+millions of
+compositions.
+Accuracy limited by
+training data; risky
+extrapolation.
+High-throughput
+screening of vast
+compositional space.
+Virtual Crystal
+Approximation
+Much faster than
+SQS; includes lattice
+info.
+Fails for significant
+atomic size mismatch/
+distortion.
+Intermediate
+validation for pre-
+screened
+compositions.
+◦ 
+◦ 
+2. 
+◦ 
+◦ 
+3. 
+◦ 
+◦ 
+AI Generated
+Supported by SciMaster
+3
+Approach Primary
+Advantage Primary Limitation Best Use Case
+SQS + DFT High physical fidelity
+and accuracy.
+Computationally
+prohibitive for large-
+scale screening.
+Final verification of
+top candidate alloys.
+The major risk lies in the cumulative errors from the approximate models in Tiers 1 and 2. An
+erroneous  prediction  of  phase  stability  could  propagate  through  the  pipeline,  leading  the
+Bayesian Optimizer to waste resources on compositions prone to phase separation, especially
+under  the  1400K  thermal  cycling  target4 5.  Therefore,  the  final  FEniCS  FEA  simulations  on
+gradient architectures must serve as the ultimate physical validation, catching failures that the
+preceding surrogate models may have missed.
+2.  Bayesian  Optimization  Framework  Design  under  Extreme  Data
+Scarcity
+2.1 The Challenge of Data Scarcity and BO's Suitability
+The design of high-entropy alloys (HEAs), particularly for the five-element Mo-Nb-Ta-W-Cr
+refractory system, is fundamentally constrained by extreme data scarcity. Acquiring experimental
+or first-principles Density Functional Theory (DFT) data is prohibitively expensive, and the vast
+dimensionality  of  the  five-element  compositional  space  renders  traditional  trial-and-error
+methods  inefficient.  Bayesian  Optimization  (BO)  is  a  sequential  optimization  framework  that
+uses a surrogate model and acquisition function to guide efficient exploration with a minimal
+number of evaluations, making it particularly suitable for such data-scarce scenarios.
+2.2 Multi-Fidelity Bayesian Optimization Architecture
+A  multi-fidelity  Bayesian  Optimization  (MFBO)  framework  offers  a  significant  advantage
+under data scarcity by strategically integrating information sources of varying cost and accuracy.
+This  approach  balances  computational  expense  against  predictive  fidelity.  A  representative
+structure for this project could be organized as follows:
+Fidelity
+Level Data Source TypeCost Accuracy Role in BO
+Low-Fidelity Empirical Rules
+(Miedema's rules)
+Very
+Low Medium Initial screening, search
+space reduction
+Medium-
+Fidelity
+Machine Learning
+Prediction ModelsLow Medium-
+High
+Surrogate model training,
+candidate pre-screening
+AI Generated
+Supported by SciMaster
+4
+Fidelity
+Level Data Source TypeCost Accuracy Role in BO
+High-FidelityMolecular Dynamics
+(MD) Simulation
+Mediu
+m High
+Key property validation,
+dynamic mechanism
+assessment
+Ultra-High-
+Fidelity
+FEniCS Finite
+Element Analysis
+(FEA)
+Very
+High Highest Final verification, interface
+failure risk assessment
+This structure allows the BO loop to rely heavily on cheap low- and medium-fidelity models
+for broad exploration, reserving the extremely expensive FEniCS FEA simulations for only the
+most promising or uncertain candidates identified by the surrogate.
+2.3 Surrogate Model Selection and Training Strategy
+The choice and training of the surrogate model is critical under data scarcity. While Gaussian
+Processes (GPs) are a standard choice for BO due to their inherent uncertainty quantification,
+they  face  challenges  in  high-dimensional,  mixed-variable  spaces  (containing  both  continuous
+compositions and categorical structural descriptors).
+Adaptive Surrogate Strategies:
+Latent Variable Gaussian Process (LVGP): For design spaces with mixed variables, the LVGP
+model  maps  categorical  variables  to  a  continuous  latent  space  to  improve  modeling,
+demonstrating effectiveness under extreme data scarcity 67.
+Ensemble  and  Adaptive  Models: To  enhance  robustness,  ensemble  methods  or  more
+adaptive  Bayesian  surrogate  models,  such  as  Bayesian  multivariate  adaptive  regression
+splines  or  Bayesian  additive  regression  trees,  can  be  employed.  These  may  offer  better
+performance for high-dimensional or non-smooth objective functions common in materials
+design 8.
+Physically  Constrained  Gaussian  Processes: Incorporating  known  physical  constraints
+(e.g., thermodynamic stability bounds) into the GP prior can improve model reliability and
+extrapolation even with scarce data 9.
+Training Data Strategy:
+Active Learning Loop: The BO framework itself functions as an active learning loop. The
+acquisition  function  selects  compositions  expected  to  provide  the  maximum  information
+gain  (e.g.,  to  reduce  prediction  uncertainty  or  improve  the  optimum),  ensuring  each
+expensive FEA evaluation is maximally informative.
+Cost-Aware  Sampling: In  a  multi-fidelity  setting,  algorithms  like  Cost-Aware  Gradient
+Entropy Search (CAGES) can systematically identify samples that maximize information gain
+about  the  objective  function  per  unit  of  evaluation  cost,  which  is  crucial  for  efficient
+optimization 10.
+1. 
+2. 
+3. 
+• 
+• 
+AI Generated
+Supported by SciMaster
+5
+2.4 Acquisition Function Design and Exploration-Exploitation
+Under data scarcity, the design of the acquisition function must carefully balance exploring
+unknown regions of the space and exploiting known promising areas.
+Adaptive Acquisition Strategies:
+Expected Improvement (EI) / Upper Confidence Bound (UCB): These standard functions
+can be effective but may require tuning for the specific landscape.
+Local  BO  for  High  Dimensions: For  high-dimensional  problems,  local  BO  methods  like
+TuRBO,  which  maintains  a  collection  of  local  models,  can  offer  more  efficient  global
+optimization by focusing exploration adaptively 11.
+Multi-Objective  Acquisition: Since  the  target  "Interface  Failure  Risk"  is  a  composite  loss
+function, it may be beneficial to decompose it into multiple objectives (e.g., minimize stress,
+maximize  conductivity,  ensure  stability).  Multi-objective  BO  using  an  acquisition  function
+like  Expected  Hypervolume  Improvement  (EHVI)  could  then  identify  a  Pareto  frontier  of
+optimal trade-offs.
+2.5 Workflow Integration and Computational Efficiency
+For the specific goal of optimizing a metal-ceramic gradient architecture, the BO framework
+must be integrated into a hierarchical workflow.
+Hierarchical  Optimization  Architecture: A  practical  workflow  begins  with  generating
+millions of fractional compositions, followed by a low-cost filter for BCC single-phase stability
+using empirical rules like Miedema's (acknowledging their documented limitations in complex
+multi-component systems 213). The filtered set is then evaluated by a fast, composition-only ML
+surrogate model (e.g., Roost/CrabNet) to predict bulk properties. The BO loop operates on this
+pre-screened  space:  its  surrogate  model,  trained  on  accumulated  FEA  results,  suggests  new
+candidate compositions. These candidates are first vetted by the low-cost filters and ML model
+before the most promising are passed to the expensive FEniCS FEA for the final, high-fidelity
+evaluation of the loss function. The results are fed back to update the BO surrogate, closing the
+loop.
+Efficiency Optimization:
+Parallel/Batch Evaluation: Batch BO variants allow for the parallel evaluation of multiple
+candidates,  which  is  essential  for  leveraging  high-performance  computing  resources  and
+mitigating the time cost of FEA simulations.
+Search Space Pruning: Rigorous application of stability filters (mixing enthalpy, atomic size
+mismatch) based on available facts  2 4 5 prunes the search space to physically plausible
+regions, preventing wasted computation on unstable alloys.
+1. 
+2. 
+3. 
+• 
+• 
+AI Generated
+Supported by SciMaster
+6
+2.6 Special Considerations for Interface Failure Risk Minimization
+The  objective  function  
+ requires specific attention:
+Constraint  Handling: The  phase  stability  penalty  should  be  treated  as  a  hard  constraint
+within  the  BO,  rejecting  any  candidate  that  fails  the  enthalpy  and  size  mismatch  criteria
+before it reaches the FEA stage.
+Uncertainty Propagation: The acquisition function should account for uncertainty not only
+in the surrogate model's prediction of the loss but also in the propagation of errors from the
+lower-fidelity screening models.
+Gradient  Design  Variables: The  optimization  must  consider  the  spatial  gradient  of
+composition  as  a  key  design  variable.  The  BO's  surrogate  model  must  be  capable  of
+modeling  the  relationship  between  the  compositional  gradient  profile  and  the  resulting
+spatially-dependent FEA outputs like stress and CTE mismatch.
+2.7 Implementation Challenges and Mitigation
+Key challenges in this data-scarce environment include:
+Surrogate Model Misspecification: With little data, an inappropriate model choice can lead
+the optimization astray. Mitigation involves starting with flexible models (like LVGP), using
+ensemble methods for robustness 128, and incorporating any available physical priors 9.
+Cold Start Problem: Initializing the BO loop requires some seed data. This can be addressed
+by using the highest-confidence predictions from the physics/ML screening stage as initial
+points, or by employing meta-learning techniques to transfer priors from related material
+systems if such data exists 1314.
+Validation  of  Low-Fidelity  Filters: The  accuracy  of  the  initial  Miedema/ML  screening  is
+paramount. Their predictions must be periodically validated against high-fidelity results to
+prevent the systematic exclusion of promising regions of the composition space.
+3. Computational and Physical Limitations of FEniCS Thermal Cycling
+Simulations
+3.1 Scalability and Parallelization Bottlenecks
+Performing  10,000  thermal  cycles  at  1400K  on  a  gradient  architecture  using  FEniCS  FEA
+presents  significant  computational  scalability  challenges.  The  complexity  grows  exponentially
+for  a  five-element  Mo-Nb-Ta-W-Cr  high-entropy  alloy  gradient  structure.  Each  thermal  cycle
+requires solving fully coupled thermo-elastic equations:
+Loss=w1⋅(ΔCTEinterface)
++w2⋅(MaxVon_Mises_Stress)
+−w3⋅(Thermal_Conductivity)
++Penalty(Phase_Stability)Loss = w_1 \cdot (\Delta CTE_{interface}) + w_2 \cdot (Max_{Von\_Mises\_Stress}) - w_3 \cdot (Thermal\_Conductivity) + Penalty(Phase\_Stability)
+Loss=w ⋅1 (ΔCTE )+interface w ⋅2 (Max )−Von_Mises_Stress
+w ⋅3 (Thermal_Conductivity)+Penalty(Phase_Stability)
+1. 
+2. 
+3. 
+• 
+• 
+• 
+ρcp∂T∂t=∇⋅(k∇T)+Q\rho c_p \frac{\partial T}{\partial t} = \nabla \cdot (k\nabla T) + Qρc =p ∂t
+∂T ∇⋅(k∇T)+Q
+∇⋅σ+f=0\nabla \cdot \sigma + f = 0∇⋅σ+f =0
+AI Generated
+Supported by SciMaster
+7
+where  the  thermal  stress  tensor   and  the  coefficient  of  thermal
+expansion  varies spatially across the gradient interface.
+While FEniCS has been used to simulate thermal fatigue in high-entropy alloys with gradient
+architectures151617, the computational cost for the proposed scale is prohibitive. Simulating
+complex,  multi-phase  structures  under  temperature  cycling  is  computationally  intensive1819.
+The  proposed  approach,  while  providing  a  framework  for  modeling  these  behaviors,  faces
+limitations regarding scalability for large-scale or industrial components1617.
+3.2 Validity and Limitations of the Physical Model
+The  physical  models  within  FEniCS  face  fundamental  limitations  for  long-term  thermal
+fatigue simulation.
+1. Temperature-Dependent Material Constitutive Behavior The mechanical behavior of
+high-entropy  alloys  at  1400K  is  significantly  different  from  room  temperature.  For  instance,
+studies on CoCrFeMnNi alloys show yield stress and tensile strength decrease with increasing
+temperature,  while  elongation  increases18.  This  temperature-induced  softening  and  plastic
+enhancement must be accurately captured. For the Mo-Nb-Ta-W-Cr system, a critical bottleneck
+is the lack of high-temperature constitutive data, forcing reliance on extrapolated or idealized
+models.
+2. Assumption of Continuity at the Gradient Interface FEniCS typically assumes material
+properties vary continuously within elements. However, the metal-ceramic gradient interface is
+discontinuous at the micro-scale. This continuum assumption fails to capture:
+Atomic-scale diffusion and interfacial reactions.
+Nano-scale stress concentrations and defect formation.
+Mismatched time scales for phase transformation and precipitation kinetics.
+3. Cumulative Errors from Cyclic History Effects The cumulative error over 10,000 cycles
+may render results non-physical. Long-term material degradation mechanisms like oxidation and
+creep  are  often  not  considered18.  Furthermore,  microstructural  evolution  processes  such  as
+grain  growth  occur  on  time  scales  much  longer  than  the  simulation  time  step  and  are  not
+captured by standard continuum models.
+3.3 Numerical Stability and Convergence Challenges
+The  strongly  nonlinear  nature  of  the  coupled  thermo-elastic  problem  leads  to  numerical
+stability issues. A staggered iterative solution scheme (updating temperature, then displacement/
+stress fields, then temperature-dependent properties) may diverge under conditions prevalent in
+this simulation:
+Large Thermal Gradients: A ΔT > 500K at the interface can cause singularities due to abrupt
+changes in the coefficient of thermal expansion.
+σ=C:
+(ϵ−αΔTI)
+\
+s
+i
+g
+m
+a
+=
+C
+:
+(
+\
+e
+p
+s
+i
+l
+o
+n
+-
+\
+a
+l
+p
+h
+a
+\
+D
+e
+l
+t
+a
+T
+I
+)
+σ=C: (ϵ−αΔTI)
+α\alphaα
+• 
+• 
+• 
+1. 
+AI Generated
+Supported by SciMaster
+8
+Material  Nonlinearity:  Plastic  deformation  and  damage  accumulation  alter  the  global
+stiffness matrix.
+Time Integration Stability: Explicit schemes require impractically small time steps, while
+implicit schemes drastically increase computational cost.
+Local mesh refinement is required at the gradient interface to resolve steep gradients, but
+dynamic mesh adaptation in a parallel environment introduces challenges like load imbalance
+and interpolation errors for historical state variables (e.g., plastic strain).
+3.4 Validation Gaps and Experimental Disconnect
+The reliability of FEniCS simulations is constrained by a lack of experimental validation data,
+a  noted  limitation  in  existing  studies15 16 17 19.  A  significant  gap  exists  between  simulation
+capabilities and experimental observations:
+Aspect Experimental Observation Typical FEniCS Modeling
+Capability
+Micro-
+mechanisms
+Dislocation motion, grain
+boundary migration Continuum approximation
+Damage
+Evolution
+Micro-crack nucleation and
+coalescence
+Continuum Damage Mechanics
+(CDM) models
+Interfacial
+Phenomena
+Atomic diffusion, intermetallic
+formation
+Pre-defined cohesive zone or
+interface models
+The  simulations  also  assume  idealized  boundary  conditions,  which  may  limit  direct
+applicability to real-world scenarios18.
+3.5 Mitigation Strategies and Alternative Approaches
+To address these limitations, the following mitigation strategies are proposed:
+Computational Acceleration:
+Reduced-Order  Modeling  (ROM):  Employ  techniques  like  Proper  Orthogonal
+Decomposition (POD) to create fast surrogate models, reducing cost by orders of magnitude
+for the initial high-throughput screening.
+Multi-Fidelity Modeling: Combine low-fidelity, fast models for screening with high-fidelity
+FEniCS simulations for final validation of top candidates.
+Adaptive  Workflows:  Implement  an  active  learning  loop  where  a  lightweight  surrogate
+model  pre-screens  the  vast  compositional  space,  and  the  expensive  FEniCS  simulation  is
+invoked  only  for  the  most  promising  or  uncertain  designs  identified  by  Bayesian
+Optimization.
+2. 
+3. 
+1. 
+2. 
+3. 
+AI Generated
+Supported by SciMaster
+9
+Physical Model Enhancement:
+Multi-Scale Integration: Inform FEniCS boundary conditions or constitutive laws with data
+from atomistic or phase-field simulations of the interface.
+Data  Assimilation:  Calibrate  and  update  simulation  parameters  using  any  available
+experimental data, however scarce.
+Uncertainty  Quantification:  Systematically  quantify  and  propagate  uncertainties  from
+material  parameters,  boundary  conditions,  and  model  form  to  understand  prediction
+confidence.
+In conclusion, while FEniCS provides a powerful framework, its application to 10,000-cycle
+simulations  of  gradient  structures  at  1400K  requires  careful  acknowledgment  of  its
+computational and physical limits1518161719. A successful workflow must integrate strategies
+for computational efficiency, multi-scale physical fidelity, and rigorous validation within a data-
+scarce environment.
+4.  Validity  and  Limitations  of  Empirical  Rules  for  High-Throughput
+Screening
+4.1 Fundamentals and Scope of Empirical Screening Rules
+In the design of high-entropy alloys (HEAs), empirical rules such as Miedema's rules, Hume-
+Rothery  rules,  and  valence  electron  concentration  (VEC)  criteria  are  widely  used  for  initial
+screening.  These  rules  provide  simplified  criteria  for  predicting  phase  stability  in  multi-
+component alloy systems based on fundamental physicochemical properties of the constituent
+elements.
+Miedema's rules predict the likelihood of solid solution formation by calculating parameters
+like  mixing  enthalpy  (ΔHmix)  and  atomic  size  mismatch  (δ).  For  refractory  HEAs  (RHEAs),
+particularly in five-element systems like Mo-Nb-Ta-W-Cr, these rules are often applied to forecast
+body-centered  cubic  (BCC)  single-phase  stability3.  Hume-Rothery  rules  focus  on  atomic  size
+difference (typically <15%), crystal structure match, electronegativity difference, and VEC. As an
+extension,  VEC  rules  correlate  phase  structure  with  electron  concentration:  alloys  with  VEC
+between 5.7–7.2 predominantly form BCC structures, while those with VEC ≥ 8.4 tend to form
+face-centered cubic (FCC) structures20.
+4.2 Inherent Limitations and Accuracy Challenges
+Despite  their  computational  simplicity  and  speed,  which  are  advantageous  for  high-
+throughput  screening,  the  inherent  limitations  of  empirical  rules  become  pronounced  in
+complex multi-component systems.
+1. Oversimplification and Neglect of Local Environment Effects Methods like Miedema's
+model and the Virtual Crystal Approximation (VCA) treat an alloy as a "virtual" metal by averaging
+elemental properties. This approach has critical limitations: it ignores local atomic environment
+1. 
+2. 
+3. 
+AI Generated
+Supported by SciMaster
+10
+effects by replacing individual atoms with an average atom, and it is only reliable for alloying
+elements  with  similar  chemical  properties,  such  as  in  refractory  HEAs.  It  fails  when  disorder
+significantly impacts the crystal field Hamiltonian2.
+2.  Systematic  Bias  in  Predictive  Accuracy The  predictive  accuracy  of  empirical  rules  is
+often limited, especially when capturing complex interactions:
+They  cannot  capture  non-linear  interactions  and  synergistic  effects  in  multi-component
+systems.
+Their  extrapolation  capability  is  poor  for  new  alloy  systems  that  deviate  from  the  data
+distribution on which the rules were established.
+Comparative  studies  suggest  that  while  empirical  rules  offer  valuable  insights,  machine
+learning (ML) approaches consistently demonstrate higher predictive accuracy by leveraging
+extensive datasets to identify non-linear patterns. However, ML models require substantial
+high-quality training data and often lack interpretability21.
+3. Neglect of Kinetics and Non-Equilibrium Processes Empirical rules are primarily based
+on thermodynamic equilibrium assumptions, overlooking critical kinetic factors in real synthesis:
+They cannot account for the influence of processing parameters like cooling rate or defect
+density on phase stability.
+They  ignore  the  formation  mechanisms  of  metastable  phases  under  non-equilibrium
+conditions.
+For  instance,  under  rapid  cooling,  a  predicted  "stable  BCC  phase"  might  undergo
+amorphization or other phase transformations not captured by the rules4.
+4.3 Specific Limitations in the Five-Element Refractory System
+For the target Mo-Nb-Ta-W-Cr system, applying empirical rules faces specific challenges:
+1. Limitations of Atomic Size and Electronegativity Parameters
+Parameter Limitation Impact on Mo-Nb-Ta-W-Cr System
+Atomic Size
+Mismatch (δ)
+Considers only binary
+interactions, ignoring multi-
+body effects.
+In a five-element system, local strain
+fields are complex, and a simple size
+criterion may fail.
+Mixing Enthalpy
+(ΔHmix)
+Based on the Miedema
+model, which neglects
+temperature dependence.
+Enthalpy changes at the target high
+temperature (1400 K) are not considered.
+Electronegativity
+Difference
+Simplifies electronic
+interactions, ignoring orbital
+hybridization.
+d-electron interactions among transition
+metals are complex and inadequately
+modeled by simple electronegativity.
+• 
+• 
+• 
+• 
+• 
+• 
+AI Generated
+Supported by SciMaster
+11
+2. Blind Spots in Phase Stability Prediction
+Empirical  rules  cannot  predict  short-range  order  (SRO),  which  significantly  influences  the
+mechanical properties of HEAs22.
+They  ignore  contributions  from  magnetic  and  vibrational  entropy,  which  are  crucial  for
+phase stability at high temperatures.
+They are ill-equipped to handle phase separation or the formation of complex intermetallic
+compounds5.
+3.  Specific  Challenges  for  Gradient  Interface  Systems In  metal-ceramic  gradient
+architectures, empirical rules face additional hurdles:
+The chemical gradient at the interface leads to local composition variations, invalidating the
+uniform composition assumption underlying the rules.
+Stress fields generated by the coefficient of thermal expansion (CTE) mismatch affect phase
+stability, a factor not included in empirical models.
+Interface diffusion and reactions may form new phases, which empirical rules cannot predict.
+4.4 Comparative Analysis with Computational Models
+A comparison with more precise methods highlights the trade-offs involved with empirical
+rules:
+1. Trade-off Between Accuracy and Computational Cost
+Method Predictive
+Accuracy
+Computational
+Cost
+Applicable
+Scale Key Limitation
+Miedema's
+Rules
+Moderate
+(~70-80%) Very Low Millions
+(screening)
+Oversimplified,
+ignores local
+environment.
+Virtual
+Crystal
+Approximatio
+n (VCA)
+Low to
+Moderate Low Large-scale
+screening
+Only for similar
+elements, ignores
+disorder effects.
+Special
+Quasirandom
+Structure
+(SQS)
+High Medium Thousands
+(screening)
+Limited by
+supercell size,
+challenging for
+many components.
+Machine
+Learning
+Models
+High (>90%) High training cost,
+low prediction cost
+Millions
+(screening)
+Requires large
+training datasets,
+"black box"
+problem21.
+• 
+• 
+• 
+• 
+• 
+• 
+AI Generated
+Supported by SciMaster
+12
+Method Predictive
+Accuracy
+Computational
+Cost
+Applicable
+Scale Key Limitation
+First-
+Principles
+Calculations
+Highest Very High Tens to
+Hundreds
+Computational
+cost scales
+cubically with
+atom count.
+2.  Data  Requirements  and  Scalability The  main  advantage  of  empirical  rules  is  their
+minimal data requirement, but this also limits their predictive power. For data-scarce systems
+like  the  five-element  refractory  space,  empirical  rules  can  provide  an  initial  filter,  but  their
+predictions necessitate subsequent validation through more rigorous methods or experiments23.
+4.5 Risk Assessment of Catastrophic Physical Drawbacks
+Relying  solely  on  empirical  rules  for  initial  screening  carries  the  risk  of  several  critical
+physical failures:
+1. Risk of Phase Stability Misjudgment
+Incorrectly  predicting  single-phase  stability  could  lead  to  the  formation  of  harmful
+intermetallic compounds during actual synthesis.
+Ignoring temperature-dependent phase transformations may result in phase decomposition
+under high-temperature service conditions (e.g., 1400 K)4.
+Phase stability changes in oxidizing or corrosive environments are not considered.
+2. Neglect of Interface Failure Mechanisms
+Empirical  rules  cannot  predict  diffusion-controlled  phase  transformations  at  the  gradient
+interface.
+They ignore stress-induced phase transformations during thermal cycling.
+The formation and evolution of interfacial reaction layers are not predictable.
+3. Systemic Error in Property Prediction
+Property  predictions  (e.g.,  thermal  conductivity,  elastic  modulus)  based  on  empirical
+correlations may contain systemic biases.
+The  influence  of  microstructure  (grain  boundaries,  dislocations)  on  properties  is  not
+captured.
+The complex process-structure-property relationship is overlooked.
+4.6 Mitigation Strategies and Multi-Scale Integration
+To  overcome  these  limitations,  a  hierarchical,  multi-scale  integrated  approach  is
+recommended:
+1. Hierarchical Screening Strategy A practical workflow involves using empirical rules for
+the  initial,  coarse  screening  of  millions  of  compositions  due  to  their  low  cost.  Promising
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+AI Generated
+Supported by SciMaster
+13
+candidates are then passed to more accurate but expensive methods: first to machine learning
+models trained on relevant data2425, then to computational thermodynamics (e.g., CALPHAD),
+and  finally  to  first-principles  calculations  or  experimental  synthesis  for  the  most  elite
+candidates26.
+2. Physics-Informed Machine Learning Integrating empirical rules as physical constraints
+or  features  into  machine  learning  models  can  improve  interpretability  and  performance,
+especially  when  training  data  is  limited.  Transfer  learning  can  also  be  employed  to  leverage
+knowledge from related, better-studied alloy systems.
+3. Introduction of Dynamic Descriptors Beyond static elemental parameters, incorporating
+dynamic descriptors related to processing (e.g., cooling rate, defect density) and non-equilibrium
+thermodynamics  can  make  screening  more  relevant  to  actual  manufacturing  and  service
+conditions.
+4. Experimental-Computational Closed-Loop Validation Establishing a rapid experimental
+validation  platform  (e.g.,  combinatorial  synthesis)  provides  essential  feedback  to  refine  and
+validate  the  screening  rules.  Active  learning  strategies,  often  embedded  within  a  Bayesian
+Optimization  framework,  can  intelligently  select  the  most  informative  compositions  for
+expensive validation, maximizing knowledge gain per experiment or simulation.
+In  conclusion,  for  designing  five-element  refractory  metal-ceramic  gradient  structures,
+empirical  rules  serve  as  a  valuable  first-pass,  high-throughput  screening  tool.  However,  their
+significant limitations necessitate a robust validation and correction mechanism. A multi-tiered
+strategy that strategically combines empirical rules with machine learning and computational
+thermodynamics,  guided  by  active  learning,  is  essential  to  balance  computational  cost  with
+predictive  accuracy  and  avoid  catastrophic  errors  in  phase  stability  and  interface  behavior
+prediction.
+5. Integration Challenges in the Multi-Scale Inverse Design Workflow
+The proposed multi-scale inverse design workflow for High-Entropy Metal-Ceramic Gradient
+Architectures  (HE-MCGA)  presents  critical  integration  challenges  that  span  from  initial
+composition screening to final thermal cycling simulations. These challenges primarily involve
+data flow bottlenecks between machine learning predictions and finite element analysis (FEA),
+gradient  interface  modeling  complexities,  and  the  amplification  of  uncertainties  through  the
+multi-stage pipeline.
+5.1  ML  Model  Selection  for  Property  Prediction:  Composition  vs.  Structure-
+Aware Approaches
+The  choice  between  composition-only  and  structure-aware  models  represents  a
+fundamental  trade-off  between  computational  efficiency  and  physical  accuracy  in  the  high-
+throughput screening stage. This decision directly impacts the feasibility of predicting properties
+for millions of unsimulated compositions.
+AI Generated
+Supported by SciMaster
+14
+Structure-aware  models  like  ALIGNN  require  precise  atomic  configurations,  which  are
+unavailable for synthetically generated fractional compositions. Generating these configurations,
+for  instance  using  Special  Quasi-Random  Structures  (SQS),  is  computationally  expensive  and
+scales poorly with the number of elements27. The Virtual Crystal Approximation (VCA) offers a
+computationally  efficient  alternative  but  may  lack  the  detailed  structural  accuracy  needed  to
+capture the true disordered nature of high-entropy alloys28.
+The trade-offs between these methods are significant:
+Approach Computational
+Cost Accuracy Integration Challenge
+Virtual Crystal
+Approximation
+(VCA)
+Low, efficient for high-
+throughput screening
+Limited, may
+oversimplify alloy
+disorder
+Risk of propagating
+structural inaccuracies to
+downstream FEA
+simulations
+Special Quasi-
+Random
+Structure (SQS)
+High, scales poorly
+with element count
+More realistic
+representation of
+disorder
+Computational
+bottleneck for screening
+millions of compositions
+Neural
+Evolution
+Structure (NES)
+~1000× speed-up
+over SQS
+Maintains
+accuracy with
+consistent
+composition
+Potential trade-offs in
+structural diversity
+require validation29
+For workflow integration, a hybrid approach is recommended: use VCA or a composition-
+only model for the initial screening of millions of compositions to identify promising regions,
+then generate targeted SQS structures only for the most promising candidates for more accurate
+property prediction. This strategy balances the need for computational speed in exploration with
+the requirement for structural fidelity in final evaluation.
+5.2  Bayesian  Optimization  under  Extreme  Data  Scarcity:  Multi-Fidelity  Active
+Learning Strategies
+The  Bayesian  Optimization  (BO)  framework  must  function  effectively  given  the  extreme
+scarcity of experimental or DFT data for the full 5-element (Mo, Nb, Ta, W, Cr) compositional
+space. A standard BO approach would be inefficient and likely fail. Instead, the framework must
+be  structured  as  an  active  learning  loop  that  intelligently  allocates  expensive  computational
+resources.
+AI Generated
+Supported by SciMaster
+15
+The core strategy involves using a lightweight, multi-fidelity surrogate model. This model
+would be trained initially on all available data, including low-fidelity sources like empirical rules
+and medium-fidelity CALPHAD predictions. The BO loop then operates in cycles:
+The  surrogate  model  predicts  the  objective  function  (Interface  Failure  Risk)  and  its  own
+uncertainty across the vast compositional space.
+An acquisition function, designed for data scarcity, selects the next batch of compositions to
+evaluate.  This  function  should  balance  exploration (sampling  regions  of  high  model
+uncertainty) and exploitation (sampling regions predicted to be optimal).
+Only the most promising or uncertain candidates from this batch are passed to the expensive
+FEniCS FEA for the 10,000-cycle thermal simulation.
+The results from FEA are fed back to retrain and improve the surrogate model, closing the
+active learning loop.
+This approach minimizes the number of costly FEA simulations required by ensuring they are
+performed only on compositions that are either highly likely to be optimal or will provide the
+maximum information gain to improve the model for future iterations.
+5.3  Critical  Workflow  Drawbacks:  Error  Propagation  and  Computational
+Scalability
+Several  physical  and  computational  drawbacks  threaten  the  workflow's  validity  and
+scalability, potentially leading to catastrophic errors in the final lifetime predictions.
+1.  Limitations  of  Empirical  Rules  for  Initial  Screening Relying  on  empirical  rules  like
+Miedema's model for the initial BCC single-phase stability filter is a significant vulnerability. The
+provided  facts  consistently  note  that  while  useful,  these  rules  have  inherent  limitations  in
+complex  multicomponent  systems2 1 3.  They  are  based  on  approximations  and  omit  key
+thermodynamic and kinetic factors3. An alloy passing these filters may not be truly stable under
+the non-equilibrium conditions of processing or the extreme thermal cycling at 1400K. Phase
+stability  in  refractory  high-entropy  alloys  is  highly  temperature-dependent,  with  single-phase
+solid solutions often stable only at high temperatures4 5. Using oversimplified empirical criteria
+risks  propagating  fundamentally  unstable  compositions  deep  into  the  workflow,  wasting
+computational resources and yielding misleading results.
+2. Computational Scalability of FEniCS Thermal Cycling Simulations The plan to simulate
+10,000 thermal cycles at 1400K for gradient architectures with FEniCS presents a severe, possibly
+prohibitive, computational challenge. The FEA of a spatially graded 5mm architecture with five
+distinct metal compositions blended into a ceramic requires a highly refined 3D mesh to resolve
+stress  concentrations  at  the  interface.  Each  thermal  cycle  is  a  transient,  non-linear  coupled
+thermo-mechanical simulation. Performing this analysis 10,000 times for a single composition
+candidate is extraordinarily computationally intensive. Scaling this to even dozens of candidates
+from the BO loop would demand immense high-performance computing resources, creating a
+major bottleneck that limits the number of compositions that can be realistically evaluated.
+1. 
+2. 
+3. 
+4. 
+AI Generated
+Supported by SciMaster
+16
+3. Amplification of Uncertainty Through the Pipeline Errors introduced at early stages do
+not  remain  contained;  they  amplify  through  subsequent  stages.  A  composition  incorrectly
+deemed  stable  by  empirical  rules  receives  ML-predicted  properties  based  on  that  flawed
+premise.  The  BO  algorithm  then  might  select  this  composition  based  on  these  inaccurate
+properties.  Finally,  the  FEA  simulation,  while  physically  detailed,  is  performed  on  a  material
+system whose fundamental stability is wrong. The final prediction of interface failure risk and
+operational  lifetime,  therefore,  rests  on  a  chain  of  propagated  errors.  This  multi-stage
+amplification can lead to confident but completely unreliable predictions.
+Mitigation Strategies for Robust Integration To address these drawbacks, the workflow
+must be redesigned with uncertainty and efficiency as core principles:
+Uncertainty Quantification: Embed uncertainty estimates at every stage (stability filter, ML
+prediction, BO surrogate) and propagate these uncertainties through the pipeline to the final
+FEA result.
+Tiered Fidelity Screening: Implement a stricter, multi-tiered screening process before FEA.
+After  the  empirical  filter,  use  rapid,  lower-fidelity  models  (e.g.,  analytical  thermo-elastic
+models) to further down-select candidates. Reserve the full 10,000-cycle FEniCS simulation
+only for the absolute top-tier candidates that pass all previous checks.
+Physics-Guided  ML: Use  physics-based  constraints  and  known  stability  data  for  related
+systems5 to  guide  and  constrain  the  ML  property  prediction  models,  improving  their
+reliability when extrapolating to novel compositions.
+Reduced-Order  Modeling  for  FEA: Explore  reduced-order  models  or  surrogate  models
+trained on a smaller set of full FEA simulations to approximate the 10,000-cycle outcome for
+a larger set of BO candidates, reserving the full simulation for final validation.
+The  integration  challenges  highlight  that  the  workflow's  success  depends  not  just  on
+individual  component  accuracy,  but  on  a  coherent  strategy  to  manage  computational  cost,
+quantify uncertainty, and prevent error propagation across the multi-scale design pipeline.
+6.  Mitigation  Strategies  and  Alternative  Approaches  for  Critical
+Bottlenecks
+This  section  addresses  the  three  critical  bottlenecks  identified  in  the  HE-MCGA  inverse
+design  platform  through  a  synthesis  of  practical  solutions,  alternative  methodologies,  and
+computational  optimization  techniques.  Each  bottleneck  is  analyzed  with  specific  mitigation
+strategies that balance accuracy requirements with computational constraints.
+6.1 1. ML Model Selection and Property Prediction Strategies
+The  challenge  of  predicting  properties  for  millions  of  fractional  HEAs  without  exact  3D
+configurations requires a pragmatic hybrid approach that circumvents the limitations of ALIGNN
+while maintaining predictive accuracy.
+• 
+• 
+• 
+• 
+AI Generated
+Supported by SciMaster
+17
+A  multi-fidelity  computational  strategy  is  recommended.  For  the  initial  high-throughput
+screening of millions of compositions, composition-only machine learning (ML) models offer a
+viable and efficient surrogate. These models, which predict properties based on compositional
+features  without  requiring  atomic  structure,  are  well-suited  for  this  stage30 31.  For  instance,
+models  employing  neural  networks  or  k-nearest  neighbors  have  demonstrated  capability  in
+predicting HEA phase structures with good accuracy30. While such models are limited by the
+scope of their training data, they provide a critical first-pass filter.
+To enhance the robustness of these predictions and address data scarcity, the ML models
+should  be  augmented  with  physics-informed  features  derived  from  empirical  rules.  Key
+parameters  for  phase  stability  prediction  in  refractory  HEAs,  such  as  those  calculated  using
+Miedema's  semi-empirical  model,  can  be  integrated  as  input  descriptors2 1 3.  This  approach
+combines the pattern recognition power of ML with domain knowledge, improving extrapolation
+to unexplored regions of the 5-element compositional space. However, the inherent limitations
+of  Miedema's  rules—such  as  approximations  in  complex  multicomponent  systems—must  be
+acknowledged, and their predictions should be treated as guiding priors rather than definitive
+truths23.
+For  compositions  that  pass  the  initial  ML  screening  and  require  more  reliable  property
+estimates  (e.g.,  elastic  modulus,  thermal  conductivity),  a  tiered  atomistic  modeling  approach
+should  be  employed.  The  Virtual  Crystal  Approximation  (VCA)  provides  a  computationally
+efficient method for rapid property estimation by treating the alloy as an average crystal. For
+systems with constituent elements of similar atomic radii and electronic configurations, VCA can
+offer  reasonable  accuracy.  For  compositions  exhibiting  significant  atomic  size  mismatch  or
+where greater fidelity is needed, Special Quasirandom Structures (SQS) should be generated to
+better capture local lattice distortions. The decision to use VCA or SQS can be guided by simple
+compositional  thresholds,  creating  an  adaptive  protocol  that  optimizes  computational  cost
+against required accuracy.
+6.2 2. Bayesian Optimization Under Extreme Data Scarcity
+The requirement to perform Bayesian Optimization (BO) with scarce experimental or DFT
+data  for  the  full  compositional  space  necessitates  a  framework  that  tightly  integrates  active
+learning. BO must function not just as an optimizer, but as an intelligent data acquisition loop.
+The  core  of  this  strategy  is  a  hierarchical  surrogate  modeling  approach.  A  low-fidelity
+surrogate,  such  as  the  composition-only  ML  model  described  above,  can  screen  millions  of
+points. Promising candidates from this screening are evaluated with a medium-fidelity model
+(e.g., VCA or SQS calculations). Only the most optimal or uncertain compositions from this tier
+are passed to the high-fidelity, expensive FEniCS FEA simulations3233. This multi-fidelity setup
+ensures that the costly FEA is reserved for a minimal set of truly promising designs.
+Within this hierarchy, the BO's acquisition function must be carefully designed for the multi-
+objective  loss  function  (Loss = w1*(ΔCTE_interface) + w2*(Max_Von_Mises_Stress)
+AI Generated
+Supported by SciMaster
+18
+- w3*(Thermal_Conductivity) + Penalty(Phase_Stability)).  Methods  like  Expected
+Improvement can be extended to handle multiple objectives and incorporate the phase stability
+penalty as a constraint3334. Furthermore, the BO should actively learn these constraints, using
+the predictions from Miedema's rules and other stability criteria to avoid regions of the design
+space likely to form undesirable phases34.
+To combat data scarcity from the outset, the surrogate model should be bootstrapped using
+transfer learning. Available data from related refractory HEA systems—even those not containing
+the exact same five elements—can provide a foundational understanding of trends in properties
+like modulus and phase stability5. Physics-based priors, including the outputs from empirical
+rules,  should  be  integrated  into  the  Gaussian  process  models  used  in  BO  to  guide  early
+exploration meaningfully33.
+6.3 3. Computational Workflow Optimization and Validation
+The  proposed  workflow  faces  significant  scalability  challenges,  particularly  in  the  FEniCS
+FEA simulation of 10,000 thermal cycles on a spatially graded architecture. Relying solely on full-
+order simulations for this task is computationally prohibitive.
+A primary mitigation strategy is the adoption of reduced-order modeling techniques for the
+thermal cycling analysis. Instead of simulating every cycle at full resolution, an adaptive cycle
+selection protocol can be implemented. A small number of initial cycles can be simulated in
+detail to capture transient behavior, followed by simulations at increasingly sparse intervals once
+the response stabilizes. The behavior for intermediate cycles can be interpolated, with periodic
+full-resolution checkpoints for validation. This can reduce the number of full solves by one to two
+orders of magnitude.
+The spatial gradient itself presents both a challenge and an opportunity for optimization.
+The  5mm  gradient  architecture  can  be  exploited  via  domain  decomposition  techniques.  The
+domain  can  be  split  into  subdomains  of  more  homogeneous  material,  allowing  for  coarser
+meshing  in  bulk  regions  and  fine  meshing  only  at  the  critical  metal-ceramic  interface  where
+stress  concentrations  occur.  Parallel  computing  strategies,  such  as  MPI-based  domain
+decomposition, are essential to leverage high-performance computing resources effectively for
+these large-scale, nonlinear thermo-mechanical simulations.
+Finally, the validity of the entire workflow, which hinges on empirical rules and surrogate
+models for screening, must be rigorously addressed. A multi-scale validation hierarchy is crucial.
+Predictions from the ML surrogates and atomistic models (VCA/SQS) should be validated against
+any  available  higher-fidelity  data,  such  as  DFT  results  or  CALPHAD  calculations  for  select
+benchmark compositions5. Most importantly, the workflow must include strategic experimental
+validation.  A  carefully  chosen  set  of  10-20  compositions,  spanning  the  predicted  Pareto  front
+from  the  BO,  should  be  synthesized  and  characterized.  This  provides  ground-truth  data  to
+calibrate  models,  validate  critical  interface  property  predictions,  and  ultimately  verify  the
+platform's design recommendations24.
+AI Generated
+Supported by SciMaster
+19
+7. Reference
+Phase  stability  of  a  ductile  single-phase  BCC  Hf0.5Nb0.5Ta0.5Ti1.5Zr  refractory  high-
+entropy alloy,  https://linkinghub.elsevier.com/retrieve/pii/S0966979518300335↩↩2 ↩3 ↩4
+↩5↩6↩7
+Structure and Strength of a Highly Stable Eight-Element BCC Refractory High Entropy
+Alloy, https://www.sciencedirect.com:5037/science/article/abs/pii/S0925838825069750↩↩2
+↩3↩4↩5↩6↩7↩8↩9↩10
+Body-centered cubic phase stability in cobalt-free refractory high-entropy alloys, https://
+linkinghub.elsevier.com/retrieve/pii/S2211379724003711↩↩2↩3↩4↩5↩6↩7↩8↩9
+Thermal Stability of Microstructure of High-Entropy Alloys Based on Refractory Metals
+Hf, Nb, Ta, Ti, V, and Zr, https://www.mdpi.com/2075-4701/12/3/394↩↩2↩3↩4↩5↩6
+First-principles  prediction  of  high-entropy-alloy  stability,  https://arxiv.org/abs/
+1706.09282↩↩2↩3↩4↩5↩6↩7
+Data-Centric  Mixed-Variable  Bayesian  Optimization  for  Materials  Design,  https://
+asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2019/59186/Anaheim,
+%20California,%20USA/1069846↩
+Data-Centric  Mixed-Variable  Bayesian  Optimization  For  Materials  Design,  https://
+arxiv.org/abs/1907.02577↩
+Bayesian  optimization  with  adaptive  surrogate  models  for  automated  experimental
+design, https://www.nature.com/articles/s41524-021-00662-x↩↩2
+A Survey of Constrained Gaussian Process Regression: Approaches and Implementation
+Challenges, https://arxiv.org/pdf/2006.09319↩↩2
+CAGES: Cost-Aware Gradient Entropy Search for Efficient Local Multi-Fidelity Bayesian
+Optimization, https://arxiv.org/pdf/2405.07760↩
+Scalable  Global  Optimization  via  Local  Bayesian  Optimization,  https://arxiv.org/pdf/
+1910.01739↩
+Uncertainty-Aware  Mixed-Variable  Machine  Learning  for  Materials  Design,  https://
+arxiv.org/pdf/2207.04994↩
+Meta-Learning Priors for Safe Bayesian Optimization, https://arxiv.org/pdf/2210.00762↩
+Transfer Learning for Bayesian Optimization: A Survey,  https://arxiv.org/pdf/2302.05927
+↩
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+AI Generated
+Supported by SciMaster
+20
+Temperature-dependent fatigue response of a Fe44Mn36Co10Cr10 high entropy alloy: A
+coupled  in-situ  electron  microscopy  study  and  crystal  plasticity  simulation,  https://
+linkinghub.elsevier.com/retrieve/pii/S0142112321002450↩↩2↩3
+Study  on  thermal  fatigue  stability  in  microstructure  and  mechanical  property  of
+Fe35Ni35Cr20Mn10 high-entropy alloy wire and pearlite wire at high/medium temperature
+environment,  https://www.sciencedirect.com/science/article/pii/S0142112324001324?
+dgcid=rss_sd_all&↩↩2↩3↩4
+Temperature gradient enhances the solidification process and properties of a CoCrFeNi
+high-entropy  alloy:  Atomic  insights  from  molecular  dynamics  simulations,  https://
+linkinghub.elsevier.com/retrieve/pii/S0927025623005323↩↩2↩3↩4
+Mechanical-thermal coupling fatigue failure of CoCrFeMnNi high entropy alloy,  https://
+www.sciencedirect.com/science/article/pii/S2238785424008809?dgcid=rss_sd_all&↩↩2 ↩3
+↩4↩5
+Extremely  high  fatigue  resistance  in  an  ultrafine  grained  high  entropy  alloy,  https://
+linkinghub.elsevier.com/retrieve/pii/S2352940719300058↩↩2↩3
+Descriptors  for  phase  prediction  in  high-entropy  alloys:  a  review  of  ...,  https://
+www.sciencedirect.com/science/article/pii/S0264127526005502↩
+Machine-learning  phase  prediction  of  high-entropy  alloys,  https://
+linkinghub.elsevier.com/retrieve/pii/S1359645419301454↩↩2
+Phase  Stability  and  Short-Range  Order  of  High  Entropy  Alloys,  https://www.mpie.de/
+3998331/SRO_RHEAs↩
+Phase  Prediction  Methodologies  for  Rapid  Screening  of  High  Entropy  Alloys,  https://
+www.semanticscholar.org/paper/8cbc365a96c1f9fcb437e8fd14987c287ab82f45↩
+Phase  prediction  and  experimental  realisation  of  a  new  high  entropy  ...,  https://
+www.nature.com/articles/s41598-023-31461-7↩
+Thermodynamic  and  Electronic  Descriptor-Driven  Machine  Learning  for  Phase
+Prediction  in  High-Entropy  Alloys:  Experimental  Validation,  https://
+www.semanticscholar.org/paper/b0b8e60db4d4817176283ce7681fe0608b0b6090↩
+High-Throughput  Calculations  for  High-Entropy  Alloys,  https://www.frontiersin.org/
+journals/materials/articles/10.3389/fmats.2020.00290/full↩
+Special quasirandom structures, https://link.aps.org/doi/10.1103/PhysRevLett.65.353↩
+Comparison  of  two  calculation  models  for  high  entropy  alloys:  Virtual  crystal
+approximation and special quasi-random structure, https://linkinghub.elsevier.com/retrieve/
+pii/S0167577X20314610↩
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+AI Generated
+Supported by SciMaster
+21
+Neural evolution structure generation: High entropy alloys, https://aip.scitation.org/doi/
+10.1063/5.0049000↩
+Machine  Learning–Based  Prediction  of  Complex  Combination  Phases  in  High-Entropy
+Alloys, https://www.mdpi.com/2075-4701/15/3/227↩↩2
+Machine-Learning-Assisted  Phase  Prediction  in  High-Entropy  Alloys  Using  Two-Step
+Feature Selection Strategy, https://link.springer.com/article/10.1007/s40195-025-01876-4↩
+Rapid  discovery  of  promising  materials  via  active  learning  with  multi-objective
+optimization, https://linkinghub.elsevier.com/retrieve/pii/S2352492823019360↩
+Bayesian optimization for materials design, https://arxiv.org/abs/1506.01349↩↩2↩3
+Multi-objective  materials  bayesian  optimization  with  active  learning  of  design
+constraints:  Design  of  ductile  refractory  multi-principal-element  alloys,  https://
+www.sciencedirect.com/science/article/pii/S1359645422005146↩↩2
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+AI Generated
+Supported by SciMaster
+22
