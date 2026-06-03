@@ -87,7 +87,7 @@ You must upload a Technical Deck (Max 12 MB PDF). Do not make a traditional star
 
 ### Slide 4: The Winning Architecture (Candidate C)
 *   **Narrative:** Ta₀.₁₃₆ W₀.₁₄₁ Cr₀.₂₂₉ V₀.₁₄₀ Ti₀.₂₁₇ Zr₀.₀₄₆ Hf₀.₀₄₁ Nb₀.₀₁₄ + 2.8 at% Al. We stripped out heavy Hafnium, added Titanium for density reduction (9.78 g/cm³), and Aluminum for α-Al₂O₃ oxidation armor.
-*   **Visual:** A table comparing Candidate C vs the Baseline (showing our superior Safety Factor, lower density, and better oxidation). 
+*   **Visual:** A table comparing Candidate C vs the Baseline (Candidate 1) AND the industry State-of-the-Art Benchmark (**Inconel 718 / CMSX-4 Ni-based superalloys**), proving our superior Safety Factor, lower density, and better oxidation under extreme limits. 
 
 ### Slide 5: High-Fidelity Validation (Bohrium / SciMaster)
 *   **Narrative:** We didn't just stop at AI. We ran rigorous 3D physics validation on Bohrium.
