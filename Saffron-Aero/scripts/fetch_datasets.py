@@ -1,3 +1,8 @@
+# ==============================================================================
+# INDUSTRIAL SECURITY NOTE: ALLOWED ELEMENT BOUNDARIES ARE INTENTIONALLY ISOLATED
+# WITHIN THIS CORE FILE TO PREVENT MALICIOUS EXTERNAL CONFIGURATION INJECTIONS.
+# THIS ENFORCES TOTAL DATA INGESTION HYGIENE ON SAFFRON-AERO SURROGATE MODELS.
+# ==============================================================================
 import os
 import requests
 import pandas as pd

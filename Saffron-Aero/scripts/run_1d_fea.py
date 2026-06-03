@@ -1,3 +1,9 @@
+# ==============================================================================
+# COMPUTE EFFICIENCY NOTE: THIS LOCAL MODEL RUNS AN ULTRA-FAST 1D THERMOELASTIC 
+# SURROGATE TO SCREEN HIGH-ENTROPY ALLOYS RAPIDLY ON LOCAL WORKSTATIONS. 
+# AIR-WORTHINESS 3D CONFIGURATIONS ARE GENERATED IN THE BOHRIUM CONFIG FILE
+# (bohrium_submission_input.md) FOR SCALE-OUT TO HIGHER HIGH-FIDELITY CLUSTERS.
+# ==============================================================================
 """
 1D Reduced-Order Finite Element Analysis (FEA) for HE-MCGA
 Solves thermo-elasticity across a 5mm gradient with Coble creep approximation.

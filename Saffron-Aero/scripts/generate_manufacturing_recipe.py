@@ -1,3 +1,8 @@
+# ==============================================================================
+# MANUFACTURING NOTE: TO PRESERVE COMPATIBILITY ACROSS PROPRIETARY ADDITIVE
+# SYSTEMS, THIS LAYERING SCRIPT GENERATES A HARDWARE-AGNOSTIC DATA MATRIX (.CSV).
+# THE GRADIENT IS PARSED INTO AN 11-LAYER DISCRETE MULTI-HOPPER POWDER PROFILE.
+# ==============================================================================
 import pandas as pd
 import numpy as np
 import os
