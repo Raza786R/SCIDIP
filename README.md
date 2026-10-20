@@ -4,7 +4,26 @@ This repository contains all working files, documents, scripts, and references f
 
 ---
 
-## Repository Structure
+## ⭐ START HERE — Latest Files
+
+### 📁 `IIT DELHI LATEST/`
+**This is the only folder you need to look at for the current SCIDIP work.**
+
+Contains exactly 5 files — the latest, verified versions:
+
+| File | What it is |
+|---|---|
+| `CrystalParadigm_SCIDIP_PitchDeck_Final_latest.pptx` | Final pitch deck for SCIDIP presentation |
+| `CrystalParadigm_SCIDIP_TechnicalAppendix_latest.docx` | Final technical appendix (submitted document) |
+| `CrystalParadigm_SCIDIP_Formal_Proposal.docx` | Formal project proposal with budget and phases |
+| `CrystalParadigm_SCIDIP_Founder_Briefing_Script.docx` | Founder briefing Q&A script |
+| `CrystalParadigm_Mentor_Briefing.docx` | Mentor briefing document (materials science view) |
+
+> All other folders contain previous versions, working scripts, and reference material. **Do not treat any file outside this folder as the latest version.**
+
+---
+
+## Full Repository Structure
 
 ### 📁 `IIT_DELHI_SCIDIP/`
 All files related to the IIT Delhi SCIDIP 2026 program application.
