@@ -1,0 +1,5486 @@
+[
+  {
+    "slide_num": 1,
+    "shape_count": 35,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "1 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Shape 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.0,
+        "top": 6.85,
+        "width": 13.33,
+        "height": 0.0
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "SCIDIP PROGRAM APPLICATION",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 8.0,
+        "height": 0.3,
+        "text": "Advanced Materials  ·  Advanced Batteries  ·  Electric Mobility  ·  Sustainability",
+        "font_size": 10,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.3,
+        "width": 7.7,
+        "height": 1.75,
+        "text": "Accelerating Innovation at the Intersection of AI and Material Science",
+        "font_size": 29,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 3.15,
+        "width": 7.3,
+        "height": 1.0,
+        "text": "Crystal Paradigm is an elite Deep-Tech Discovery Platform. We leverage artificial intelligence and high-performance computing to accelerate material discovery from 5 years to 4 weeks.",
+        "font_size": 14,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.55,
+        "top": 1.35,
+        "width": 1.9,
+        "height": 1.9,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 9.006,
+        "top": 1.806,
+        "width": 0.988,
+        "height": 0.988
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.15,
+        "top": 0.95,
+        "width": 2.7,
+        "height": 2.7
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.35,
+        "top": 3.2,
+        "width": 0.12,
+        "height": 0.12,
+        "fill_color": "00B8FF"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.8,
+        "top": 1.6,
+        "width": 0.12,
+        "height": 0.12,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.15,
+        "top": 4.15,
+        "width": 1.35,
+        "height": 1.0,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.57,
+        "top": 4.32,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 8.69,
+        "top": 4.44,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.15,
+        "top": 4.86,
+        "width": 1.35,
+        "height": 0.25,
+        "text": "Batteries",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.7,
+        "top": 4.15,
+        "width": 1.35,
+        "height": 1.0,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.12,
+        "top": 4.32,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 10.24,
+        "top": 4.44,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.7,
+        "top": 4.86,
+        "width": 1.35,
+        "height": 0.25,
+        "text": "Sensors",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.25,
+        "top": 4.15,
+        "width": 1.35,
+        "height": 1.0,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.67,
+        "top": 4.32,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 11.79,
+        "top": 4.44,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.25,
+        "top": 4.86,
+        "width": 1.35,
+        "height": 0.25,
+        "text": "Aerospace",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.35,
+        "width": 5.85,
+        "height": 2.25,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 4.61,
+        "width": 0.52,
+        "height": 0.52,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 4",
+        "shape_type": "PICTURE (13)",
+        "left": 1.005,
+        "top": 4.735,
+        "width": 0.27,
+        "height": 0.27
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 4.61,
+        "width": 4.65,
+        "height": 0.5,
+        "text": "OUR EXPANDING PIPELINE",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 5.0,
+        "width": 5.3,
+        "height": 0.5,
+        "text": "Our AI architecture is highly scalable. We are actively advancing research across:",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 5.45,
+        "width": 5.3,
+        "height": 0.5,
+        "text": "•  Supercapacitors & Solid-State Battery Electrolytes (Li-ion & Na-ion)",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 5.87,
+        "width": 5.3,
+        "height": 0.5,
+        "text": "•  Next-Generation Solar Materials & Advanced Sensor Matrices",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 6.15,
+        "width": 5.3,
+        "height": 0.45,
+        "text": "Current Traction: 1 Patent Accepted, 4 Research Papers Under Review, and active industry collaborations.",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.65,
+        "top": 4.35,
+        "width": 6.08,
+        "height": 2.25,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.95,
+        "top": 4.5,
+        "width": 5.5,
+        "height": 0.32,
+        "text": "THE SCIDIP SPEARHEAD",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.95,
+        "top": 4.9,
+        "width": 5.5,
+        "height": 1.6,
+        "text": "For this application, we are deploying our most extreme, fully-validated Proof of Concept: An AI-generated, aerospace-grade Refractory High-Entropy Alloy (RHEA) engineered to solve Sona Comstar's terrestrial thermal bottlenecks.",
+        "font_size": 14,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 7.12,
+        "width": 10.5,
+        "height": 0.28,
+        "text": "Crystal Paradigm Logo  |  SCIDIP Program Application",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      }
+    ]
+  },
+  {
+    "slide_num": 2,
+    "shape_count": 44,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "2 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "AEROSPACE PROOF OF CONCEPT",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.7,
+        "text": "PROVING THE PHYSICS: THE AEROSPACE THERMAL BOTTLENECK",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.42,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "Our AI engine was built to solve the hardest thermal problem in modern engineering: Turbine Entry Temperatures (TET) exceeding 1400°C.",
+        "font_size": 14,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.05,
+        "width": 5.85,
+        "height": 2.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 2.25,
+        "width": 5.25,
+        "height": 0.3,
+        "text": "THE AEROTHERMAL FIRE LIMIT",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "FF5A5F"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 2.65,
+        "width": 5.25,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.1,
+        "top": 2.65,
+        "width": 0.55,
+        "height": 0.28
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.65,
+        "top": 2.8,
+        "width": 0.4,
+        "height": 0.4
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.05,
+        "top": 2.67,
+        "width": 0.35,
+        "height": 0.5
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.9,
+        "top": 2.65,
+        "width": 0.6,
+        "height": 0.5
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 3.27,
+        "width": 5.25,
+        "height": 0.25,
+        "text": "cracked ceramic armor — CTE mismatch",
+        "font_size": 10,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 3.57,
+        "width": 5.25,
+        "height": 0.6,
+        "text": "Traditional nickel-based superalloys have hit a physical ceiling. When shielded with ceramics, the massive Coefficient of Thermal Expansion (CTE) mismatch causes the protective armor to violently spall off under rapid thermal cycling.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 2.05,
+        "width": 5.85,
+        "height": 2.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.15,
+        "top": 2.25,
+        "width": 5.25,
+        "height": 0.3,
+        "text": "THE CRYSTAL PARADIGM AI SOLUTION (CANDIDATE C)",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.15,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.627,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "17E6A8"
+      },
+      {
+        "name": "Shape 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.105,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "2EE6B1"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.582,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "46E7B9"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.059,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "5DE8C1"
+      },
+      {
+        "name": "Shape 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.536,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "74E9CA"
+      },
+      {
+        "name": "Shape 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.014,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "8BE9D2"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.491,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "A2EADA"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.968,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "BAEBE2"
+      },
+      {
+        "name": "Shape 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.445,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "D1EBEB"
+      },
+      {
+        "name": "Shape 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.923,
+        "top": 2.65,
+        "width": 0.457,
+        "height": 0.4,
+        "fill_color": "E8ECF3"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.15,
+        "top": 3.1,
+        "width": 5.25,
+        "height": 0.25,
+        "text": "11-layer FGM — metallic HEA  →  LZO ceramic  (n = 1.1)",
+        "font_size": 10,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.15,
+        "top": 3.45,
+        "width": 5.25,
+        "height": 0.7,
+        "text": "Instead of laboratory trial-and-error, our proprietary 11-phase AI pipeline computationally invented a completely new Refractory High-Entropy Alloy (Ta-W-Cr-V-Ti-Zr-Hf + 2.8% Al).",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.86,
+        "top": 4.79,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.98,
+        "top": 4.91,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 31",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.5,
+        "top": 4.79,
+        "width": 2.77,
+        "height": 0.5,
+        "text": "THE PHYSICS",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 32",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.86,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.1,
+        "text": "By forcing a Titanium-dominant solid solution, we mathematically closed the CTE gap.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 33",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.73,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 34",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.99,
+        "top": 4.79,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 5.11,
+        "top": 4.91,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 35",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.63,
+        "top": 4.79,
+        "width": 2.77,
+        "height": 0.5,
+        "text": "THE MANUFACTURING",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 36",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.99,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.1,
+        "text": "We deployed an 11-layer Functionally Graded Material (FGM) matrix using an exact n=1.1 power-law gradient.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 37",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.86,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 38",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.12,
+        "top": 4.79,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 9.24,
+        "top": 4.91,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 39",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.76,
+        "top": 4.79,
+        "width": 2.77,
+        "height": 0.5,
+        "text": "THE RESULT",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 40",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.12,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.1,
+        "text": "Interface shear stress was dropped to an ultra-low 15.95 MPa, completely eliminating delamination under extreme thermal shock.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 3,
+    "shape_count": 28,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "3 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "FROM AEROSPACE TO MOBILITY",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.7,
+        "text": "THE SCIDIP CROSSOVER: FROM AEROSPACE TO EPIC MOBILITY",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.42,
+        "width": 12.13,
+        "height": 0.5,
+        "text": "If our AI architecture can prevent a jet turbine from melting at 1400°C, it can revolutionize the thermal limits of terrestrial mobility.",
+        "font_size": 14,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.15,
+        "width": 4.6,
+        "height": 1.25,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 2.51,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 1.012,
+        "top": 2.642,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.6,
+        "top": 2.39,
+        "width": 3.4,
+        "height": 0.35,
+        "text": "AEROSPACE EXTREMES",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.6,
+        "top": 2.77,
+        "width": 3.4,
+        "height": 0.4,
+        "text": "1400°C Turbine Entry Temperature",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.45,
+        "top": 2.51,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 5.582,
+        "top": 2.642,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.25,
+        "top": 2.15,
+        "width": 6.48,
+        "height": 1.25,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.53,
+        "top": 2.51,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 6.662,
+        "top": 2.642,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.25,
+        "top": 2.39,
+        "width": 5.3,
+        "height": 0.35,
+        "text": "TERRESTRIAL MOBILITY",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.25,
+        "top": 2.77,
+        "width": 5.3,
+        "height": 0.4,
+        "text": "H13 Forging Dies & EV Switched Reluctance Motors (SRMs)",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 3.65,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "We are entering the IIT Delhi SCIDIP program under the Advanced Materials category because the exact thermal bottlenecks throttling aerospace are actively capping Sona Comstar's \"EPIC\" mobility roadmap:",
+        "font_size": 13,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.3,
+        "width": 5.9,
+        "height": 2.4,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 4.58,
+        "width": 0.6,
+        "height": 0.6,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 1.044,
+        "top": 4.724,
+        "width": 0.312,
+        "height": 0.312
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.7,
+        "top": 4.58,
+        "width": 4.6,
+        "height": 0.7,
+        "text": "1. Precision Forging Dies (Driveline)",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 5.35,
+        "width": 5.3,
+        "height": 1.2,
+        "text": "Sona Comstar's legacy H13 tool steel dies suffer from rapid thermal fatigue and yield strength collapse at 1200°C during high-speed gear forging. Our HEA architectures retain over 917.7 MPa yield strength at these exact temperatures.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.83,
+        "top": 4.3,
+        "width": 5.9,
+        "height": 2.4,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 4.58,
+        "width": 0.6,
+        "height": 0.6,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 4",
+        "shape_type": "PICTURE (13)",
+        "left": 7.274,
+        "top": 4.724,
+        "width": 0.312,
+        "height": 0.312
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.93,
+        "top": 4.58,
+        "width": 4.6,
+        "height": 0.7,
+        "text": "2. Next-Generation Traction Motors (Electric)",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 5.35,
+        "width": 5.3,
+        "height": 1.2,
+        "text": "As Sona Comstar scales magnet-less Switched Reluctance Motors (SRMs), traditional metals degrade under the severe localized thermal loads generated by extreme torque densities.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 4,
+    "shape_count": 20,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "4 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "COMMERCIAL STRATEGY",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.7,
+        "text": "DEPLOYING AEROSPACE GRADE MATERIALS AT COMMERCIAL SCALE",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.42,
+        "width": 12.13,
+        "height": 0.45,
+        "text": "Our AI engine does not just optimize for physics; it optimizes for the supply chain.",
+        "font_size": 14,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.15,
+        "width": 3.87,
+        "height": 4.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 2.45,
+        "width": 0.62,
+        "height": 0.62,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 1.029,
+        "top": 2.599,
+        "width": 0.322,
+        "height": 0.322
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 3.25,
+        "width": 3.31,
+        "height": 0.7,
+        "text": "1. Raw Material Cost Reduction",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 4.0,
+        "width": 3.31,
+        "height": 2.55,
+        "text": "By programmatically identifying that we could substitute highly expensive, supply-constrained Hafnium with optimized Titanium, our AI dropped the raw material cost of the alloy by 15-20% (achieving ~$170/kg), making aerospace-grade materials viable for commercial automotive forging.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.73,
+        "top": 2.15,
+        "width": 3.87,
+        "height": 4.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.01,
+        "top": 2.45,
+        "width": 0.62,
+        "height": 0.62,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 5.159,
+        "top": 2.599,
+        "width": 0.322,
+        "height": 0.322
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.01,
+        "top": 3.25,
+        "width": 3.31,
+        "height": 0.7,
+        "text": "2. ESG & Sustainability",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.01,
+        "top": 4.0,
+        "width": 3.31,
+        "height": 2.55,
+        "text": "Crystal Paradigm's Candidate C is fully quantified for environmental impact, capping Embodied Energy at a highly sustainable 1680 MJ/kg—directly supporting zero-emissions manufacturing goals.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.86,
+        "top": 2.15,
+        "width": 3.87,
+        "height": 4.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.14,
+        "top": 2.45,
+        "width": 0.62,
+        "height": 0.62,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 9.289,
+        "top": 2.599,
+        "width": 0.322,
+        "height": 0.322
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.14,
+        "top": 3.25,
+        "width": 3.31,
+        "height": 0.7,
+        "text": "3. Supply Chain Resilience (\"Make in India\")",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.14,
+        "top": 4.0,
+        "width": 3.31,
+        "height": 2.55,
+        "text": "By utilizing a 9-element multi-principal matrix, we drastically reduce reliance on single critical minerals (like Neodymium) controlled by volatile foreign supply chains. Our pipeline ensures true indigenous, self-reliant IP generation for the Indian mobility sector.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 5,
+    "shape_count": 46,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "5 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "AI ENGINE · STEP 1",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE CRYSTAL PARADIGM AI ENGINE: STEP 1",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Secure Ingestion & Empirical Thermodynamic Gating",
+        "font_size": 16,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.72,
+        "width": 12.13,
+        "height": 0.85,
+        "text": "Before a single machine learning model is trained, our pipeline strictly enforces the laws of physics and commercial viability. We ingest massive combinatorial spaces (Materials Project, AFLOW), but ruthlessly filter out unstable or toxic formulations using Miedema's Empirical Rules to ensure day-on",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.75,
+        "width": 3.6,
+        "height": 1.1,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.84,
+        "top": 3.03,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.972,
+        "top": 3.162,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 2.99,
+        "width": 2.5,
+        "height": 0.6,
+        "text": "Raw Combinatorial Database",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.45,
+        "top": 3.03,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "0A0E1A"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 4.582,
+        "top": 3.162,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.25,
+        "top": 2.75,
+        "width": 3.6,
+        "height": 1.1,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.49,
+        "top": 3.03,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 5.622,
+        "top": 3.162,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.2,
+        "top": 2.99,
+        "width": 2.5,
+        "height": 0.6,
+        "text": "Thermodynamic Gating Filter",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.1,
+        "top": 3.03,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "0A0E1A"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 9.232,
+        "top": 3.162,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.9,
+        "top": 2.75,
+        "width": 2.83,
+        "height": 1.1,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.14,
+        "top": 3.03,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 4",
+        "shape_type": "PICTURE (13)",
+        "left": 10.272,
+        "top": 3.162,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.85,
+        "top": 2.99,
+        "width": 1.85,
+        "height": 0.6,
+        "text": "ESG-Compliant Candidates",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.15,
+        "width": 12.13,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.15,
+        "width": 12.13,
+        "height": 0.5,
+        "text": "✓  SONA COMSTAR 75% SUPPLIER ESG RULE — COMPLIANCE VERIFIED AT INGESTION",
+        "font_bold": true,
+        "font_color": "000000"
+      },
+      {
+        "name": "Text 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.85,
+        "width": 12.13,
+        "height": 0.35,
+        "text": "THE THERMODYNAMIC GATING PROTOCOL",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.28,
+        "width": 2.93,
+        "height": 1.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 5.48,
+        "width": 0.48,
+        "height": 0.48,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 5",
+        "shape_type": "PICTURE (13)",
+        "left": 0.935,
+        "top": 5.595,
+        "width": 0.25,
+        "height": 0.25
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 6.06,
+        "width": 2.53,
+        "height": 0.4,
+        "text": "Atomic Size Mismatch (δ)",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 6.41,
+        "width": 2.53,
+        "height": 0.3,
+        "text": "≤ 6.6%",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.67,
+        "top": 5.28,
+        "width": 2.93,
+        "height": 1.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.89,
+        "top": 5.48,
+        "width": 0.48,
+        "height": 0.48,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 6",
+        "shape_type": "PICTURE (13)",
+        "left": 4.005,
+        "top": 5.595,
+        "width": 0.25,
+        "height": 0.25
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.87,
+        "top": 6.06,
+        "width": 2.53,
+        "height": 0.4,
+        "text": "Enthalpy of Mixing (ΔH_mix)",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.87,
+        "top": 6.41,
+        "width": 2.53,
+        "height": 0.3,
+        "text": "-15 to +5 kJ/mol",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.74,
+        "top": 5.28,
+        "width": 2.93,
+        "height": 1.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.96,
+        "top": 5.48,
+        "width": 0.48,
+        "height": 0.48,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 7",
+        "shape_type": "PICTURE (13)",
+        "left": 7.075,
+        "top": 5.595,
+        "width": 0.25,
+        "height": 0.25
+      },
+      {
+        "name": "Text 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.94,
+        "top": 6.06,
+        "width": 2.53,
+        "height": 0.4,
+        "text": "Valence Electron Conc. (VEC)",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 31",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.94,
+        "top": 6.41,
+        "width": 2.53,
+        "height": 0.3,
+        "text": "4.0 – 6.8",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 32",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.81,
+        "top": 5.28,
+        "width": 2.93,
+        "height": 1.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 33",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.03,
+        "top": 5.48,
+        "width": 0.48,
+        "height": 0.48,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 8",
+        "shape_type": "PICTURE (13)",
+        "left": 10.145,
+        "top": 5.595,
+        "width": 0.25,
+        "height": 0.25
+      },
+      {
+        "name": "Text 34",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.01,
+        "top": 6.06,
+        "width": 2.53,
+        "height": 0.4,
+        "text": "Omega Parameter (Ω)",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 35",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.01,
+        "top": 6.41,
+        "width": 2.53,
+        "height": 0.3,
+        "text": "≥ 1.1",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 36",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 6.95,
+        "width": 12.13,
+        "height": 0.3,
+        "text": "This is critical: A VEC < 6.8 mathematically guarantees a stable Body-Centered Cubic (BCC) matrix and explicitly eliminates the risk of brittle Sigma phase formation.",
+        "font_size": 10,
+        "font_color": "6E7A90"
+      }
+    ]
+  },
+  {
+    "slide_num": 6,
+    "shape_count": 30,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "6 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "AI ENGINE · STEP 2",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE CRYSTAL PARADIGM AI ENGINE: STEP 2",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Dual-Stream Machine Learning Surrogates",
+        "font_size": 16,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.72,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "To predict material behavior for Sona Comstar's extreme-environment SRMs and H13 forging dies, we engineered a dual-stream surrogate architecture mapping both theoretical physics and real-world variance.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.45,
+        "width": 5.85,
+        "height": 4.35,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 2.71,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 1.012,
+        "top": 2.842,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.58,
+        "top": 2.71,
+        "width": 4.65,
+        "height": 0.3,
+        "text": "MODEL 1 — THEORETICAL BULK MODULUS",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.58,
+        "top": 3.01,
+        "width": 4.65,
+        "height": 0.28,
+        "text": "Random Forest",
+        "font_size": 12,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 3.43,
+        "width": 2.55,
+        "height": 1.35,
+        "fill_color": "0A2A40"
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 3.47,
+        "width": 2.55,
+        "height": 0.7,
+        "text": "0.977",
+        "font_size": 34,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 4.17,
+        "width": 2.55,
+        "height": 0.3,
+        "text": "AUDITED TEST R²",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.6,
+        "top": 3.43,
+        "width": 2.57,
+        "height": 1.35,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.6,
+        "top": 3.47,
+        "width": 2.57,
+        "height": 0.7,
+        "text": "8.11 GPa",
+        "font_size": 30,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.6,
+        "top": 4.17,
+        "width": 2.57,
+        "height": 0.3,
+        "text": "MEAN ABSOLUTE ERROR",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 5.0,
+        "width": 5.29,
+        "height": 1.6,
+        "text": "Architecture & Features: 100 Estimators predicting across atomic radius (r), electronegativity (X), VEC, melting temp (Tm), and mass standard deviations.",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 2.45,
+        "width": 5.85,
+        "height": 4.35,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 2.71,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 7.262,
+        "top": 2.842,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.83,
+        "top": 2.71,
+        "width": 4.65,
+        "height": 0.3,
+        "text": "MODEL 2 — EXPERIMENTAL YIELD STRENGTH",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.83,
+        "top": 3.01,
+        "width": 4.65,
+        "height": 0.28,
+        "text": "Gradient Boosting",
+        "font_size": 12,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Shape 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 3.43,
+        "width": 2.55,
+        "height": 1.35,
+        "fill_color": "3D2E0A"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 3.47,
+        "width": 2.55,
+        "height": 0.7,
+        "text": "0.45×",
+        "font_size": 34,
+        "font_bold": true,
+        "font_color": "FFB020"
+      },
+      {
+        "name": "Text 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 4.17,
+        "width": 2.55,
+        "height": 0.3,
+        "text": "THERMAL KNOCKDOWN FACTOR",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.85,
+        "top": 3.43,
+        "width": 2.57,
+        "height": 1.35,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.85,
+        "top": 3.47,
+        "width": 2.57,
+        "height": 0.7,
+        "text": "~1200°C",
+        "font_size": 30,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.85,
+        "top": 4.17,
+        "width": 2.57,
+        "height": 0.3,
+        "text": "FORGING DIE OPERATING TEMP",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.13,
+        "top": 5.0,
+        "width": 5.29,
+        "height": 1.75,
+        "text": "Transfer Learning Logic: Trained on an experimental MPEA dataset. We heavily weighted exact 5-element target alloys (Weight=10) while leveraging broader refractory alloys (Weight=1) to extract underlying high-temperature physics. The Thermal Knockdown Penalty: Because forging dies operate near 1200°",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "FFB020"
+      }
+    ]
+  },
+  {
+    "slide_num": 7,
+    "shape_count": 40,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "7 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "AI ENGINE · STEP 3",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE CRYSTAL PARADIGM AI ENGINE: STEP 3",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Constrained Differential Evolution (DE)",
+        "font_size": 16,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.72,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "To discover completely novel alloys, our AI sweeps a continuous 9-element space using a Softmax activation function to generate perfect sum-to-one fractional matrices.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.4,
+        "width": 5.6,
+        "height": 3.0,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.152,
+        "top": 3.0,
+        "width": 5.6,
+        "height": 2.1,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.824,
+        "top": 3.252,
+        "width": 4.256,
+        "height": 1.596,
+        "fill_color": "163326"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.44,
+        "top": 3.483,
+        "width": 3.024,
+        "height": 1.134,
+        "fill_color": "0F4530"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.056,
+        "top": 3.714,
+        "width": 1.792,
+        "height": 0.672,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.862,
+        "top": 3.96,
+        "width": 0.18,
+        "height": 0.18,
+        "fill_color": "FFFFFF"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.052,
+        "top": 4.19,
+        "width": 2.0,
+        "height": 0.25,
+        "text": "GLOBAL OPTIMUM",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 2.58,
+        "width": 5.1,
+        "height": 0.3,
+        "text": "SAFETY-FACTOR OPTIMIZATION LANDSCAPE",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.55,
+        "width": 5.6,
+        "height": 0.85,
+        "text": "*Result (Candidate C):* The DE optimizer found a globally optimal solution (Titanium 21.7%) that cleared every penalty and dropped the CTE mismatch to an unprecedented 2.66 μm/mK.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.6,
+        "top": 2.38,
+        "width": 5.85,
+        "height": 0.3,
+        "text": "OBJECTIVE PENALTIES — SONA COMSTAR COMMERCIAL LIMITS",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.6,
+        "top": 2.4,
+        "width": 5.85,
+        "height": 0.83,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 2.58,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 2.58,
+        "width": 0.46,
+        "height": 0.46,
+        "text": "1",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 2.5,
+        "width": 3.65,
+        "height": 0.3,
+        "text": "Sigma Phase Mitigation",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 2.8,
+        "width": 3.65,
+        "height": 0.38,
+        "text": "if \"Sigma Formers\" (W + Cr + Mo) exceed 50%",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.95,
+        "top": 2.4,
+        "width": 1.35,
+        "height": 0.83,
+        "text": "Penalty 5.0",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "FFB020"
+      },
+      {
+        "name": "Shape 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.6,
+        "top": 3.33,
+        "width": 5.85,
+        "height": 0.83,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 3.51,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 3.51,
+        "width": 0.46,
+        "height": 0.46,
+        "text": "2",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 3.43,
+        "width": 3.65,
+        "height": 0.3,
+        "text": "Vanadium Volatility",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 3.73,
+        "width": 3.65,
+        "height": 0.38,
+        "text": "prevents toxic outgassing during high-temp operation",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.95,
+        "top": 3.33,
+        "width": 1.35,
+        "height": 0.83,
+        "text": "V ≤ 20%",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "FFB020"
+      },
+      {
+        "name": "Shape 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.6,
+        "top": 4.26,
+        "width": 5.85,
+        "height": 0.83,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 4.44,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 4.44,
+        "width": 0.46,
+        "height": 0.46,
+        "text": "3",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 31",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 4.36,
+        "width": 3.65,
+        "height": 0.3,
+        "text": "ESG Weight Budget",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 32",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 4.66,
+        "width": 3.65,
+        "height": 0.38,
+        "text": "hard penalty above this density; aligns with EV lightweighting",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 33",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.95,
+        "top": 4.26,
+        "width": 1.35,
+        "height": 0.83,
+        "text": "≤ 11.0 g/cm³",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "FFB020"
+      },
+      {
+        "name": "Shape 34",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.6,
+        "top": 5.19,
+        "width": 5.85,
+        "height": 0.83,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 35",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 5.37,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 36",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.78,
+        "top": 5.37,
+        "width": 0.46,
+        "height": 0.46,
+        "text": "4",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 37",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 5.29,
+        "width": 3.65,
+        "height": 0.3,
+        "text": "Oxidation Barrier",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 38",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.38,
+        "top": 5.59,
+        "width": 3.65,
+        "height": 0.38,
+        "text": "minimum chromium requirement",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 39",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.95,
+        "top": 5.19,
+        "width": 1.35,
+        "height": 0.83,
+        "text": "≥ 15% Cr",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "FFB020"
+      }
+    ]
+  },
+  {
+    "slide_num": 8,
+    "shape_count": 8,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "8 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "VERIFICATION & TRL STATUS",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "WHAT IS PROVEN TODAY AND WHAT IS NOT",
+        "font_size": 24,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "High-Fidelity Verification Metrics and TRL Maturity Status",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.75,
+        "text": "Our platform is currently at TRL 3+. All computational physics and validations are fully confirmed in-silico via PyCalphad, 1D/3D FEA, and MACE MD. We are applying to SCIDIP to execute physical TRL 4 lab validation utilizing IIT Delhi's Central Research Facility (CRF) and NIDHI-CoE.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Table 0",
+        "shape_type": "TABLE (19)",
+        "left": 0.6,
+        "top": 2.6,
+        "width": 12.13,
+        "height": 1.0
+      },
+      {
+        "name": "Text 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 7.12,
+        "width": 10.5,
+        "height": 0.28,
+        "text": "PyCalphad · 1D/3D FEA · MACE MD  —  IIT Delhi CRF & NIDHI-CoE for physical TRL 4 validation",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      }
+    ]
+  },
+  {
+    "slide_num": 9,
+    "shape_count": 37,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "9 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "FROM CHEMISTRY TO MANUFACTURING",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE FINAL ARCHITECTURE (CANDIDATE C)",
+        "font_size": 25,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "From In-Silico Chemistry to Print-Ready Manufacturing",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "Through 11 phases of autonomous generation, our AI produced Candidate C, a hyper-optimized Refractory High-Entropy Alloy designed specifically for extreme thermal shock.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.5,
+        "top": 2.35,
+        "width": 4.23,
+        "height": 4.3,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.75,
+        "top": 2.53,
+        "width": 3.73,
+        "height": 0.3,
+        "text": "11-LAYER PRINT MATRIX",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.75,
+        "top": 2.87,
+        "width": 3.73,
+        "height": 0.24,
+        "text": "cross-section, 0.0mm → 5.0mm",
+        "font_size": 10,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 3.3,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 3.532,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "17E6A8"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 3.764,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "2EE6B1"
+      },
+      {
+        "name": "Shape 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 3.995,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "46E7B9"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 4.227,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "5DE8C1"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 4.459,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "74E9CA"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 4.691,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "8BE9D2"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 4.923,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "A2EADA"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 5.155,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "BAEBE2"
+      },
+      {
+        "name": "Shape 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 5.386,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "D1EBEB"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.0,
+        "top": 5.618,
+        "width": 3.23,
+        "height": 0.212,
+        "fill_color": "E8ECF3"
+      },
+      {
+        "name": "Text 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.75,
+        "top": 5.95,
+        "width": 3.73,
+        "height": 0.3,
+        "text": "Layer 1 (100% Alloy)  →  Layer 11 (100% LZO Ceramic)",
+        "font_size": 8,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.75,
+        "top": 6.27,
+        "width": 3.73,
+        "height": 0.28,
+        "text": "manufacturing_recipe.csv",
+        "font_size": 10,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Shape 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.35,
+        "width": 7.1,
+        "height": 1.38,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 2.55,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.94,
+        "top": 2.67,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.45,
+        "top": 2.49,
+        "width": 6.05,
+        "height": 0.35,
+        "text": "1. The Titanium Pivot (CTE Matching)",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 2.89,
+        "width": 6.66,
+        "height": 0.8,
+        "text": "Our AI intentionally substituted heavy Hafnium for Titanium (21.7%). Because Titanium has the highest Coefficient of Thermal Expansion (8.6 µm/mK) in the refractory space, it aggressively closed the CTE mismatch with the ceramic coating, dropping the gap to just 2.66 μm/mK.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 3.87,
+        "width": 7.1,
+        "height": 1.38,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 4.07,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 0.94,
+        "top": 4.19,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.45,
+        "top": 4.01,
+        "width": 6.05,
+        "height": 0.35,
+        "text": "2. The Aluminum Armor (Oxidation Resistance)",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 4.41,
+        "width": 6.66,
+        "height": 0.8,
+        "text": "The AI identified that standard Chromium oxidizes and sublimates above 1100°C. We executed a micro-addition of 2.8 at% Aluminum to force the formation of a highly stable α-Al₂O₃ protective armor scale, capping mass gain at 7.5 mg/cm².",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.39,
+        "width": 7.1,
+        "height": 1.38,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 31",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 5.59,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 0.94,
+        "top": 5.71,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 32",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.45,
+        "top": 5.53,
+        "width": 6.05,
+        "height": 0.35,
+        "text": "3. The Manufacturing Recipe",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 33",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 5.93,
+        "width": 6.66,
+        "height": 0.8,
+        "text": "We have directly exported the continuous FGM physics curves into a discrete, print-ready 11-layer manufacturing_recipe.csv (ranging from 0.0mm 100% alloy to 5.0mm 100% LZO ceramic). This is ready for immediate Multi-Hopper Directed Energy Deposition (DED) 3D printing.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 10,
+    "shape_count": 34,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "10 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "COMMERCIAL IMPACT",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE COMMERCIAL IMPACT FOR SONA COMSTAR",
+        "font_size": 25,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Fleet Scalability and Direct Operating Cost Reductions",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "By bridging aerospace materials into Sona Comstar's EPIC mobility framework, we generate massive downstream financial returns.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.25,
+        "width": 12.13,
+        "height": 0.02,
+        "fill_color": "2A3550"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 1.88,
+        "width": 3.0,
+        "height": 0.3,
+        "text": "IMPACT AREA",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.0,
+        "top": 1.88,
+        "width": 3.9,
+        "height": 0.3,
+        "text": "THE PHYSICS TRIGGER",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.1,
+        "top": 1.88,
+        "width": 4.6,
+        "height": 0.3,
+        "text": "THE COMMERCIAL RESULT",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.3,
+        "width": 12.13,
+        "height": 1.42,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 2.735,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.932,
+        "top": 2.867,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 2.3,
+        "width": 2.3,
+        "height": 1.42,
+        "text": "Raw Material Procurement",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.0,
+        "top": 2.45,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.2,
+        "top": 2.3,
+        "width": 3.7,
+        "height": 1.42,
+        "text": "75% reduction in Hafnium, substituted with Titanium.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.1,
+        "top": 2.45,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.3,
+        "top": 2.3,
+        "width": 4.3,
+        "height": 1.42,
+        "text": "15-20% Drop in Alloy Cost: Achieves ~$170/kg, enabling high-volume EV commercialization.",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 3.9,
+        "width": 12.13,
+        "height": 1.42,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 4.335,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 0.932,
+        "top": 4.467,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 3.9,
+        "width": 2.3,
+        "height": 1.42,
+        "text": "Tooling & Forging Uptime",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.0,
+        "top": 4.05,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.2,
+        "top": 3.9,
+        "width": 3.7,
+        "height": 1.42,
+        "text": "H13 Dies retain 917.7 MPa yield strength at 1200°C.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.1,
+        "top": 4.05,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.3,
+        "top": 3.9,
+        "width": 4.3,
+        "height": 1.42,
+        "text": "Drastic MRO Reduction: Eliminates thermal fatigue cracking, vastly extending tooling life and manufacturing throughput.",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.5,
+        "width": 12.13,
+        "height": 1.42,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.8,
+        "top": 5.935,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 0.932,
+        "top": 6.067,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 5.5,
+        "width": 2.3,
+        "height": 1.42,
+        "text": "Next-Gen EV Motors",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.0,
+        "top": 5.65,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.2,
+        "top": 5.5,
+        "width": 3.7,
+        "height": 1.42,
+        "text": "Elimination of localized thermal hotspots in SRMs.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.1,
+        "top": 5.65,
+        "width": 0.0,
+        "height": 1.12
+      },
+      {
+        "name": "Text 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.3,
+        "top": 5.5,
+        "width": 4.3,
+        "height": 1.42,
+        "text": "Rare-Earth Independence: Enables high-power magnet-less motors without thermal degradation.",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      }
+    ]
+  },
+  {
+    "slide_num": 11,
+    "shape_count": 32,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "11 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "SCIDIP DEPLOYMENT 1",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "SCIDIP DEPLOYMENT 1: NEXT-GEN FORGING DIES",
+        "font_size": 25,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Solving Sona Comstar's Differential Gear Bottleneck",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.75,
+        "text": "Sona Comstar's core competitive advantage lies in precision forging of differential bevel gears. However, legacy H13 tool steel dies suffer massive yield strength collapse and thermal fatigue when operating near 1200°C, causing costly manufacturing downtime.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.65,
+        "width": 5.85,
+        "height": 2.0,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 2.87,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.982,
+        "top": 3.002,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.55,
+        "top": 2.95,
+        "width": 4.65,
+        "height": 0.4,
+        "text": "LEGACY H13 TOOL STEEL DIE",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 3.55,
+        "width": 5.25,
+        "height": 1.0,
+        "text": "Rapid thermal fatigue & yield strength collapse at 1200°C during high-speed gear forging → cracking, downtime.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 2.65,
+        "width": 5.85,
+        "height": 2.0,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.1,
+        "top": 2.87,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 7.232,
+        "top": 3.002,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.8,
+        "top": 2.95,
+        "width": 4.65,
+        "height": 0.4,
+        "text": "CANDIDATE C FGM FORGING DIE",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.15,
+        "top": 3.55,
+        "width": 5.25,
+        "height": 1.0,
+        "text": "Operates smoothly at 1200°C — retains 917.7 MPa yield strength, no delamination.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.85,
+        "width": 12.13,
+        "height": 0.35,
+        "text": "THE CRYSTAL PARADIGM UPGRADE: Our 11-layer FGM architecture replaces the traditional monolithic die.",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.25,
+        "width": 3.87,
+        "height": 1.6,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 5.45,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 0.93,
+        "top": 5.56,
+        "width": 0.239,
+        "height": 0.239
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.4,
+        "top": 5.45,
+        "width": 2.87,
+        "height": 0.46,
+        "text": "The Core",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.82,
+        "top": 5.97,
+        "width": 3.43,
+        "height": 0.82,
+        "text": "The Ta-W-Cr-V-Ti-Zr-Hf alloy retains >917.7 MPa yield strength at 1200°C, preventing mechanical deformation under massive forging pressures.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.73,
+        "top": 5.25,
+        "width": 3.87,
+        "height": 1.6,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.95,
+        "top": 5.45,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 5.06,
+        "top": 5.56,
+        "width": 0.239,
+        "height": 0.239
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.53,
+        "top": 5.45,
+        "width": 2.87,
+        "height": 0.46,
+        "text": "The Surface",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.95,
+        "top": 5.97,
+        "width": 3.43,
+        "height": 0.82,
+        "text": "The LZO (Lanthanum Zirconate) ceramic outer layer acts as a supreme thermal barrier, preventing heat transfer from the hot-forged blank into the die infrastructure.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.86,
+        "top": 5.25,
+        "width": 3.87,
+        "height": 1.6,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.08,
+        "top": 5.45,
+        "width": 0.46,
+        "height": 0.46,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 4",
+        "shape_type": "PICTURE (13)",
+        "left": 9.19,
+        "top": 5.56,
+        "width": 0.239,
+        "height": 0.239
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.66,
+        "top": 5.45,
+        "width": 2.87,
+        "height": 0.46,
+        "text": "The Result",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.08,
+        "top": 5.97,
+        "width": 3.43,
+        "height": 0.82,
+        "text": "Elimination of rapid thermal fatigue cracking, vastly extending tooling life and accelerating manufacturing throughput.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 12,
+    "shape_count": 29,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "12 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "SCIDIP DEPLOYMENT 2",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "SCIDIP DEPLOYMENT 2: MAGNET-LESS EV MOTORS",
+        "font_size": 25,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Enabling Rare-Earth Independence in Traction Motors",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.8,
+        "text": "As part of the \"EPIC\" roadmap, Sona Comstar is heavily investing in Switched Reluctance Motors (SRMs) to eliminate reliance on imported Neodymium magnets. The engineering bottleneck? SRMs generate extreme, localized thermal hotspots that degrade traditional stator/rotor metals.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.75,
+        "width": 5.85,
+        "height": 3.9,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 2.95,
+        "width": 5.35,
+        "height": 0.3,
+        "text": "SRM STATOR — SCHEMATIC",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.175,
+        "top": 3.5,
+        "width": 2.7,
+        "height": 2.7
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.958,
+        "top": 4.283,
+        "width": 1.134,
+        "height": 1.134,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.357,
+        "top": 4.71,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "FF5A5F"
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.871,
+        "top": 5.552,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.899,
+        "top": 5.552,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "FF5A5F"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.413,
+        "top": 4.71,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.899,
+        "top": 3.868,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "FF5A5F"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.871,
+        "top": 3.868,
+        "width": 0.28,
+        "height": 0.28,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.958,
+        "top": 4.73,
+        "width": 1.134,
+        "height": 0.24,
+        "text": "rotor",
+        "font_size": 8,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 6.25,
+        "width": 5.35,
+        "height": 0.28,
+        "text": "●  localized thermal hotspot     ●  Candidate C thermal shielding",
+        "font_size": 9,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 2.75,
+        "width": 5.85,
+        "height": 1.05,
+        "text": "THE CRYSTAL PARADIGM UPGRADE: By deploying our aerospace-derived Candidate C, we provide Sona Comstar with a structural material capable of surviving localized high-temperature spikes without compromising mechanical integrity.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 3.95,
+        "width": 5.85,
+        "height": 1.3,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.07,
+        "top": 4.15,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 7.19,
+        "top": 4.27,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.73,
+        "top": 4.13,
+        "width": 4.75,
+        "height": 0.32,
+        "text": "Thermal Shielding",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.07,
+        "top": 4.5,
+        "width": 5.41,
+        "height": 0.7,
+        "text": "The FGM gradient handles rapid thermal cycling without delamination (15.95 MPa interface shear stress), acting as a physical shield for sensitive copper windings.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.85,
+        "top": 5.4,
+        "width": 5.85,
+        "height": 1.3,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.07,
+        "top": 5.6,
+        "width": 0.5,
+        "height": 0.5,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 7.19,
+        "top": 5.72,
+        "width": 0.26,
+        "height": 0.26
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.73,
+        "top": 5.58,
+        "width": 4.75,
+        "height": 0.32,
+        "text": "Make-In-India Supply Chain",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.07,
+        "top": 5.95,
+        "width": 5.41,
+        "height": 0.7,
+        "text": "By substituting Hafnium for Titanium, we drastically drop the alloy cost to ~$170/kg, making aerospace-grade thermal protection economically viable for high-volume Indian EV manufacturing.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 13,
+    "shape_count": 33,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "13 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "DE-RISKING THE SUPPLY CHAIN",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "INTELLECTUAL PROPERTY & DE-RISKING THE SUPPLY CHAIN",
+        "font_size": 23,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "True Aatmanirbharta for the Indian Mobility Sector",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.55,
+        "text": "Sona Comstar's strategic reliance on rare-earth elements for EV motors is a massive supply chain vulnerability. Crystal Paradigm offers a computational pathway to complete import substitution.",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.4,
+        "width": 4.6,
+        "height": 1.9,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 2.68,
+        "width": 0.6,
+        "height": 0.6,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 1.024,
+        "top": 2.824,
+        "width": 0.312,
+        "height": 0.312
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 3.4,
+        "width": 4.05,
+        "height": 0.3,
+        "text": "CURRENT DEPENDENCY",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "FF5A5F"
+      },
+      {
+        "name": "Text 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.88,
+        "top": 3.72,
+        "width": 4.05,
+        "height": 0.5,
+        "text": "Foreign-controlled Neodymium & Rare-Earth imports for EV motor magnets",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.45,
+        "top": 3.08,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "0A0E1A"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 5.582,
+        "top": 3.212,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Shape 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.25,
+        "top": 2.4,
+        "width": 6.48,
+        "height": 1.9,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Shape 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.53,
+        "top": 2.68,
+        "width": 0.6,
+        "height": 0.6,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 6.674,
+        "top": 2.824,
+        "width": 0.312,
+        "height": 0.312
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.53,
+        "top": 3.4,
+        "width": 6.0,
+        "height": 0.3,
+        "text": "INDIGENOUS INDIAN INNOVATION",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.53,
+        "top": 3.72,
+        "width": 6.0,
+        "height": 0.5,
+        "text": "Powered by Crystal Paradigm AI + IIT Delhi — built on globally abundant Titanium & Chromium",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 4.79,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 0.982,
+        "top": 4.922,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.54,
+        "top": 4.79,
+        "width": 2.72,
+        "height": 0.55,
+        "text": "1. The IP Moat",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.85,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.2,
+        "text": "Our proprietary 11-phase AI architecture is a continuous IP generation engine. Candidate C is merely our first output; we can computationally generate bespoke materials for any thermal bottleneck Sona Comstar faces.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.73,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.98,
+        "top": 4.79,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 4",
+        "shape_type": "PICTURE (13)",
+        "left": 5.112,
+        "top": 4.922,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.67,
+        "top": 4.79,
+        "width": 2.72,
+        "height": 0.55,
+        "text": "2. Make-in-India Reality",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.98,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.2,
+        "text": "By engineering out exotic, foreign-controlled minerals and optimizing around globally abundant Titanium and Chromium, we guarantee a secure, indigenous supply chain for Sona Comstar's next-gen components.",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.86,
+        "top": 4.55,
+        "width": 3.87,
+        "height": 2.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.11,
+        "top": 4.79,
+        "width": 0.55,
+        "height": 0.55,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 5",
+        "shape_type": "PICTURE (13)",
+        "left": 9.242,
+        "top": 4.922,
+        "width": 0.286,
+        "height": 0.286
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.8,
+        "top": 4.79,
+        "width": 2.72,
+        "height": 0.55,
+        "text": "3. The IIT Delhi IP Framework",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.11,
+        "top": 5.45,
+        "width": 3.37,
+        "height": 1.2,
+        "text": "We are prepared to navigate the FITT incubation framework to jointly patent physical material formulations developed within the Central Research Facility (CRF).",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 14,
+    "shape_count": 32,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "14 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "THE CORPORATE ASK",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE CRYSTAL PARADIGM CORPORATE ASK",
+        "font_size": 25,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Bridging the Gap Between Informatics and the Factory Floor",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.65,
+        "text": "Crystal Paradigm is completely computationally validated (TRL 3+). We are applying to the Advanced Materials track of the SCIDIP program to access the precise ecosystem required to cross the \"valley of death\".",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.55,
+        "width": 12.13,
+        "height": 0.65,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 2.55,
+        "width": 12.13,
+        "height": 0.65,
+        "text": "TRL 6 COMMERCIALIZATION",
+        "font_size": 17,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.03,
+        "top": 3.2,
+        "width": 0.04,
+        "height": 0.15,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 3.35,
+        "width": 2.9,
+        "height": 3.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.77,
+        "top": 3.6,
+        "width": 0.56,
+        "height": 0.56,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 1.904,
+        "top": 3.734,
+        "width": 0.291,
+        "height": 0.291
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.75,
+        "top": 4.3,
+        "width": 2.6,
+        "height": 0.6,
+        "text": "1. Technology & Lab Support",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.78,
+        "top": 4.95,
+        "width": 2.54,
+        "height": 1.85,
+        "text": "Immediate access to the NIDHI-CoE and CRF to execute High-Temperature XRD, SEM, and Simultaneous Thermal Analysis (STA) on physical witness coupons.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.07,
+        "top": 3.2,
+        "width": 0.04,
+        "height": 0.15,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.64,
+        "top": 3.35,
+        "width": 2.9,
+        "height": 3.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 4.81,
+        "top": 3.6,
+        "width": 0.56,
+        "height": 0.56,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 4.944,
+        "top": 3.734,
+        "width": 0.291,
+        "height": 0.291
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.79,
+        "top": 4.3,
+        "width": 2.6,
+        "height": 0.6,
+        "text": "2. Sona Comstar Mentorship",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.82,
+        "top": 4.95,
+        "width": 2.54,
+        "height": 1.85,
+        "text": "Direct engineering alignment with Sona Comstar's precision forging division to ensure our 11-layer print matrices match factory-floor DED manufacturing tolerances.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.11,
+        "top": 3.2,
+        "width": 0.04,
+        "height": 0.15,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.68,
+        "top": 3.35,
+        "width": 2.9,
+        "height": 3.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.85,
+        "top": 3.6,
+        "width": 0.56,
+        "height": 0.56,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 7.984,
+        "top": 3.734,
+        "width": 0.291,
+        "height": 0.291
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.83,
+        "top": 4.3,
+        "width": 2.6,
+        "height": 0.6,
+        "text": "3. SCIDIP Seed Ecosystem",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.86,
+        "top": 4.95,
+        "width": 2.54,
+        "height": 1.85,
+        "text": "Integration into the SCIDIP funding and incubation framework to finance raw material atomization and multi-hopper 3D printing of the physical prototypes.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.15,
+        "top": 3.2,
+        "width": 0.04,
+        "height": 0.15,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Shape 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.72,
+        "top": 3.35,
+        "width": 2.9,
+        "height": 3.55,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Shape 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.89,
+        "top": 3.6,
+        "width": 0.56,
+        "height": 0.56,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 3",
+        "shape_type": "PICTURE (13)",
+        "left": 11.024,
+        "top": 3.734,
+        "width": 0.291,
+        "height": 0.291
+      },
+      {
+        "name": "Text 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.87,
+        "top": 4.3,
+        "width": 2.6,
+        "height": 0.6,
+        "text": "4. Corporate Market Connect",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.9,
+        "top": 4.95,
+        "width": 2.54,
+        "height": 1.85,
+        "text": "Joint integration of the physical prototypes into Sona Comstar's downstream EV supply chain.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 15,
+    "shape_count": 32,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "15 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "EXECUTION ROADMAP",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE 24-MONTH INCUBATION ROADMAP",
+        "font_size": 26,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "From Computational Validation to Sona Comstar Integration",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.68,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Our execution strategy is strictly mapped to the 24-month SCIDIP incubation cycle at Atal Incubation Centre (AIC).",
+        "font_size": 12,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 2.55,
+        "width": 11.28,
+        "height": 0.06,
+        "fill_color": "2A3550"
+      },
+      {
+        "name": "Shape 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.13,
+        "top": 2.43,
+        "width": 0.3,
+        "height": 0.3,
+        "fill_color": "2A3550"
+      },
+      {
+        "name": "Shape 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.98,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Text 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.98,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "text": "M1",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "0A0E1A"
+      },
+      {
+        "name": "Shape 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.75,
+        "top": 3.15,
+        "width": 2.9,
+        "height": 3.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.95,
+        "top": 3.32,
+        "width": 2.5,
+        "height": 0.26,
+        "text": "MONTHS 1–6",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.95,
+        "top": 3.58,
+        "width": 2.5,
+        "height": 0.55,
+        "text": "Powder Synthesis",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.95,
+        "top": 4.2,
+        "width": 2.5,
+        "height": 2.3,
+        "text": "Procure raw metal powders (Ta, W, Cr, V, Ti, Zr, Hf, Al) and utilize IIT Delhi labs to verify composition purity and atomization quality.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.01,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.01,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "text": "M2",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "0A0E1A"
+      },
+      {
+        "name": "Shape 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.78,
+        "top": 3.15,
+        "width": 2.9,
+        "height": 3.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 17",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.98,
+        "top": 3.32,
+        "width": 2.5,
+        "height": 0.26,
+        "text": "MONTHS 6–12",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 18",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.98,
+        "top": 3.58,
+        "width": 2.5,
+        "height": 0.55,
+        "text": "Additive Manufacturing",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 19",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 3.98,
+        "top": 4.2,
+        "width": 2.5,
+        "height": 2.3,
+        "text": "Execute the 11-layer manufacturing_recipe.csv via DED (Directed Energy Deposition) to print physical witness coupons.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 20",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.04,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Text 21",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.04,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "text": "M3",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "0A0E1A"
+      },
+      {
+        "name": "Shape 22",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.81,
+        "top": 3.15,
+        "width": 2.9,
+        "height": 3.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 23",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.01,
+        "top": 3.32,
+        "width": 2.5,
+        "height": 0.26,
+        "text": "MONTHS 12–18",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 24",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.01,
+        "top": 3.58,
+        "width": 2.5,
+        "height": 0.55,
+        "text": "NIDHI-CoE Testing",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 25",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.01,
+        "top": 4.2,
+        "width": 2.5,
+        "height": 2.3,
+        "text": "Conduct physical yield strength, thermal cycling, and burner-rig adhesion tests at IIT Delhi to physically validate the 1.50 Safety Factor.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 26",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.07,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "fill_color": "00E5A0"
+      },
+      {
+        "name": "Text 27",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 11.07,
+        "top": 2.36,
+        "width": 0.44,
+        "height": 0.44,
+        "text": "M4",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "0A0E1A"
+      },
+      {
+        "name": "Shape 28",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 9.84,
+        "top": 3.15,
+        "width": 2.9,
+        "height": 3.5,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Text 29",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.04,
+        "top": 3.32,
+        "width": 2.5,
+        "height": 0.26,
+        "text": "MONTHS 18–24",
+        "font_size": 10,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 30",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.04,
+        "top": 3.58,
+        "width": 2.5,
+        "height": 0.55,
+        "text": "Corporate Handover",
+        "font_size": 13,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 31",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 10.04,
+        "top": 4.2,
+        "width": 2.5,
+        "height": 2.3,
+        "text": "Present fully validated TRL 5/6 hardware to Sona Comstar for direct integration into H13 forging dies and SRM stator prototypes.",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 16,
+    "shape_count": 15,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "16 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "THE RESEARCH LEADS",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE RESEARCH LEADS",
+        "font_size": 27,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "Guided by Elite Academic and Scientific Expertise",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Shape 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.85,
+        "width": 5.85,
+        "height": 5.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.95,
+        "top": 2.15,
+        "width": 1.15,
+        "height": 1.15
+      },
+      {
+        "name": "Text 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.3,
+        "top": 2.2,
+        "width": 3.85,
+        "height": 0.4,
+        "text": "Dr. Shilpa Choudhary",
+        "font_size": 16,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.3,
+        "top": 2.6,
+        "width": 3.85,
+        "height": 0.3,
+        "text": "AI / ML Lead",
+        "font_size": 12,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.95,
+        "top": 3.5,
+        "width": 5.15,
+        "height": 3.35,
+        "text": "Recognized among the Top 2% Scientists Worldwide by Stanford University (2024), brings over 16 years of research expertise in Artificial Intelligence, Deep Learning, and AI-driven scientific applications. With postdoctoral research experience at the Singapore Institute of Technology and the National",
+        "font_size": 11,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.88,
+        "top": 1.85,
+        "width": 5.85,
+        "height": 5.15,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 7.23,
+        "top": 2.15,
+        "width": 1.15,
+        "height": 1.15
+      },
+      {
+        "name": "Text 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.58,
+        "top": 2.13,
+        "width": 3.85,
+        "height": 0.55,
+        "text": "Dr. Kasarapu Venkataramana",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.58,
+        "top": 2.67,
+        "width": 3.85,
+        "height": 0.4,
+        "text": "Materials Science & Experimental Validation Lead",
+        "font_size": 10,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.23,
+        "top": 3.5,
+        "width": 5.15,
+        "height": 3.35,
+        "text": "Dr. Venkataramana is currently a Research Associate at CSIR-IICT working on a DRDO sponsored project. He is an Associate Fellow of the Telangana Academy of Sciences (2024) and brings 12 years of research and 5 years of academic teaching experience to the team. He has authored 38 research publication",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      }
+    ]
+  },
+  {
+    "slide_num": 17,
+    "shape_count": 20,
+    "shapes": [
+      {
+        "name": "Text 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.28,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 11,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 12.5,
+        "top": 7.12,
+        "width": 0.65,
+        "height": 0.28,
+        "text": "17 / 18",
+        "font_size": 9,
+        "font_color": "6E7A90"
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.42,
+        "width": 6.0,
+        "height": 0.32,
+        "text": "THE AI ENGINEERING ENGINE",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 0.72,
+        "width": 12.1,
+        "height": 0.55,
+        "text": "THE CORE AI ARCHITECTS",
+        "font_size": 27,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.25,
+        "width": 12.13,
+        "height": 0.4,
+        "text": "The Prodigious Engine Driving the Day-to-Day AI Innovation",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Shape 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 1.85,
+        "width": 5.85,
+        "height": 3.85,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 0.95,
+        "top": 2.15,
+        "width": 1.05,
+        "height": 1.05
+      },
+      {
+        "name": "Text 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.15,
+        "top": 2.13,
+        "width": 4.0,
+        "height": 0.4,
+        "text": "Mohammed Ahmed Raza",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 2.15,
+        "top": 2.53,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "AI Research Intern",
+        "font_size": 11,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 8",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.95,
+        "top": 3.35,
+        "width": 5.15,
+        "height": 2.25,
+        "text": "Mohammed Ahmed Raza is a Computer Science and Engineering student at Neil Gogte Institute of Technology (NGIT) and a Certified AI/ML Professional from iHub-Data, IIIT Hyderabad. He previously served as a Winter Research Intern at IIIT Hyderabad, where he engineered advanced computer vision systems f",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 9",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.88,
+        "top": 1.85,
+        "width": 5.85,
+        "height": 3.85,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 7.23,
+        "top": 2.15,
+        "width": 1.05,
+        "height": 1.05
+      },
+      {
+        "name": "Text 10",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.43,
+        "top": 2.13,
+        "width": 4.0,
+        "height": 0.4,
+        "text": "K. Indrasena Reddy [Indra]",
+        "font_size": 14,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 11",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 8.43,
+        "top": 2.53,
+        "width": 4.0,
+        "height": 0.3,
+        "text": "AI Research Intern",
+        "font_size": 11,
+        "font_color": "00B8FF"
+      },
+      {
+        "name": "Text 12",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.23,
+        "top": 3.35,
+        "width": 5.15,
+        "height": 2.25,
+        "text": "K. Indrasena Reddy is a Computer Science Engineering student at Neil Gogte Institute of Technology (NGIT). He previously served as an AI Developer Intern at Viswam.AI, where he built natural language processing applications and contributed to experimental language model research. Currently, he advan",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Shape 13",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.6,
+        "top": 5.9,
+        "width": 12.13,
+        "height": 1.1,
+        "fill_color": "0A3B2E"
+      },
+      {
+        "name": "Shape 14",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.9,
+        "top": 6.17,
+        "width": 0.56,
+        "height": 0.56,
+        "fill_color": "141B2E"
+      },
+      {
+        "name": "Image 2",
+        "shape_type": "PICTURE (13)",
+        "left": 1.034,
+        "top": 6.304,
+        "width": 0.291,
+        "height": 0.291
+      },
+      {
+        "name": "Text 15",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.7,
+        "top": 6.05,
+        "width": 10.73,
+        "height": 0.3,
+        "text": "STRATEGIC SCALE CAPABILITY",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      },
+      {
+        "name": "Text 16",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.7,
+        "top": 6.34,
+        "width": 10.73,
+        "height": 0.6,
+        "text": "The Extended Crystal Paradigm Engineering Team: The core architecture is rapidly scaled and supported by a dedicated extended team of 18 specialized AI Research Interns, ensuring massive parallel execution bandwidth for complex multi-physics simulations and AI training pipelines.",
+        "font_size": 12,
+        "font_bold": true,
+        "font_color": "00E5A0"
+      }
+    ]
+  },
+  {
+    "slide_num": 18,
+    "shape_count": 10,
+    "shapes": [
+      {
+        "name": "Shape 0",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 5.66,
+        "top": 1.05,
+        "width": 2.0,
+        "height": 2.0
+      },
+      {
+        "name": "Shape 1",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 6.06,
+        "top": 1.45,
+        "width": 1.2,
+        "height": 1.2,
+        "fill_color": "1A2338"
+      },
+      {
+        "name": "Image 0",
+        "shape_type": "PICTURE (13)",
+        "left": 6.348,
+        "top": 1.738,
+        "width": 0.624,
+        "height": 0.624
+      },
+      {
+        "name": "Text 2",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 0.0,
+        "top": 3.15,
+        "width": 13.33,
+        "height": 0.65,
+        "text": "CRYSTAL PARADIGM",
+        "font_size": 34,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 3",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.5,
+        "top": 3.85,
+        "width": 10.33,
+        "height": 0.5,
+        "text": "Accelerating Deep-Tech Materials from 5 Years to 4 Weeks.",
+        "font_size": 16,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 4",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.5,
+        "top": 4.5,
+        "width": 10.33,
+        "height": 0.75,
+        "text": "We have completely solved the computational bottleneck.\nWe are ready to build the physical reality.",
+        "font_size": 14,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Text 5",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.5,
+        "top": 5.35,
+        "width": 10.33,
+        "height": 0.4,
+        "text": "Join us at the SCIDIP Advanced Materials Track.",
+        "font_size": 15,
+        "font_bold": true,
+        "font_color": "F5F7FA"
+      },
+      {
+        "name": "Image 1",
+        "shape_type": "PICTURE (13)",
+        "left": 5.92,
+        "top": 5.9,
+        "width": 1.5,
+        "height": 1.5
+      },
+      {
+        "name": "Text 6",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 1.5,
+        "top": 5.9,
+        "width": 4.4,
+        "height": 0.4,
+        "text": "crystalparadigm.in  |  khub.crystalparadigm@gmail.com",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      },
+      {
+        "name": "Text 7",
+        "shape_type": "AUTO_SHAPE (1)",
+        "left": 7.42,
+        "top": 5.9,
+        "width": 4.4,
+        "height": 1.5,
+        "text": "Scan QR Code to access the\n50+ Page Technical Appendix",
+        "font_size": 10,
+        "font_color": "AAB4C6"
+      }
+    ]
+  }
+]

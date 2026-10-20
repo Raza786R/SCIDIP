@@ -1,0 +1,59 @@
+﻿=== FINAL: CrystalParadigm_SCIDIP_PitchDeck_Final.pptx ===
+Slides: 14
+  Slide 1 (3 shapes): Advanced Materials for Extreme-Environment Applications Crystal Paradigm is a research-driven organization at the inters
+  Slide 2 (35 shapes): CRYSTAL PARADIGM  ┬╖  SCIDIP APPLICATION | STRATEGIC ALIGNMENT: SCIDIP FOCUS AREAS | Bridging the gap between AI-driven discovery and physical bulk materials. | FOCUS AREA 1 | ADVANCED MATERIALS
+  Slide 3 (5 shapes): CRYSTAL PARADIGM FOR EXTREME-ENVIRONMENT ADVANCED MATERIALS | AI-Driven Inverse Design of Graded Transpiration Shields
+  Slide 4 (13 shapes): WHY THIS MATTERS NOW | Addressing Extreme-Environment Industrial Imperatives and Supply Chain Resilience | The Aerothermal Fire Limit | Next-generation turbine entries run at 1400^C (1673^K). These severe limits introduce extreme expansion stresses and oxi | Supply Chain Resilience
+  Slide 5 (18 shapes): THE TECHNICAL PROBLEM IN ONE PICTURE | Thermal Expansion Discontinuity | Metallic base (╬▒ Γëê 6.44-14.0 ╬╝m/m┬╖K) vs LZO coating (╬▒ = 9.1 ╬╝m/m┬╖K). Interface shear forces exceed 850 MPa, far surpass | Microstructural Phase Decay | Oxygen diffusion precipitates brittle sigma phases , causing rapid material loss and interface failure.
+  Slide 6 (5 shapes): OUR ADVANCED ARCHITECTURE & RECIPIENT LAYOUT | 11-Layer Graded FGM Design Profile  (Proprietary Composition Ratios Masked Pending Formal NDA Review)
+  Slide 7 (16 shapes): WHY WE WIN TECHNICALLY | System-Level Innovation and Active Environmental Armor | Our platform executes a unified optimization run that solves for substrate chemistry, gradient shapes, and active transp | PHASE STABILITY | Audited VEC of 5.02 ensures a stable single-phase BCC solid solution with zero sigma phase risk up to its solidus limit 
+  Slide 8 (52 shapes): WHAT IS PROVEN TODAY AND WHAT IS NOT | High-Fidelity Verification Metrics and TRL Maturity Status | High-Fidelity Models | In-memory properties surrogate model audited at Test R^2 = 0.977 and MAE = 8.11 GPa. Verified via cloud-scaled 3D FEniCS | Ab Initio Phase Consistency
+  Slide 9 (20 shapes): VALIDATION PLAN TO TRL 4+ | Validation Plan to TRL 4+ - Incubation Milestone Framework | PHASE 1 | Multi-Physics Structural Audits | Final certification of ALREADY ACHIEVED structural aerospace Safety Factor of 1.71 via 3D FEniCS FEA and MACE Molecular 
+  Slide 10 (21 shapes): TECHNOLOGY VALIDATION & DEPLOYMENT ROADMAP | From In Silico Design to Physical Validation & Deployment | IN SILICO DESIGN SCREENING | LENS FGM WITNESS COUPONS | THERMAL CYCLING VALIDATION
+  Slide 11 (33 shapes): ECONOMIC VALUE & OPERATING SAVINGS LEDGER | Fleet Scalability and Direct Operating Cost Reductions (Aerospace Case Study - Platform Applicable to Precision Forging  | Assessment Parameter | Governing Aerospace Formula | Baseline Input Variable
+  Slide 12 (3 shapes): 
+  Slide 13 (1 shapes): 
+  Slide 14 (17 shapes): CLOSING & COLLABORATION ROADMAP | Why Us, Why Now | We have successfully engineered a constrained 9-element RHEA+FGM system achieving a 3D-validated aerospace Safety Factor | The Crystal Paradigm Team | Our scientific foundation is anchored by top-tier mentors, including Dr. Shilpa Choudhary (Stanford Top 2% Scientist, 16
+
+=== BY_CLAUDE: CrystalParadigm_SCIDIP_PitchDeck(by claude).pptx ===
+Slides: 18
+  Slide 1 (35 shapes): 1 / 18 | SCIDIP PROGRAM APPLICATION | Advanced Materials  ┬╖  Advanced Batteries  ┬╖  Electric Mobility  ┬╖  Sustainability | Accelerating Innovation at the Intersection of AI and Material Science | Crystal Paradigm is an elite Deep-Tech Discovery Platform. We leverage artificial intelligence and high-performance comp
+  Slide 2 (44 shapes): CRYSTAL PARADIGM | 2 / 18 | AEROSPACE PROOF OF CONCEPT | PROVING THE PHYSICS: THE AEROSPACE THERMAL BOTTLENECK | Our AI engine was built to solve the hardest thermal problem in modern engineering: Turbine Entry Temperatures (TET) exc
+  Slide 3 (28 shapes): CRYSTAL PARADIGM | 3 / 18 | FROM AEROSPACE TO MOBILITY | THE SCIDIP CROSSOVER: FROM AEROSPACE TO EPIC MOBILITY | If our AI architecture can prevent a jet turbine from melting at 1400┬░C, it can revolutionize the thermal limits of terr
+  Slide 4 (20 shapes): CRYSTAL PARADIGM | 4 / 18 | COMMERCIAL STRATEGY | DEPLOYING AEROSPACE GRADE MATERIALS AT COMMERCIAL SCALE | Our AI engine does not just optimize for physics; it optimizes for the supply chain.
+  Slide 5 (46 shapes): CRYSTAL PARADIGM | 5 / 18 | AI ENGINE ┬╖ STEP 1 | THE CRYSTAL PARADIGM AI ENGINE: STEP 1 | Secure Ingestion & Empirical Thermodynamic Gating
+  Slide 6 (30 shapes): CRYSTAL PARADIGM | 6 / 18 | AI ENGINE ┬╖ STEP 2 | THE CRYSTAL PARADIGM AI ENGINE: STEP 2 | Dual-Stream Machine Learning Surrogates
+  Slide 7 (40 shapes): CRYSTAL PARADIGM | 7 / 18 | AI ENGINE ┬╖ STEP 3 | THE CRYSTAL PARADIGM AI ENGINE: STEP 3 | Constrained Differential Evolution (DE)
+  Slide 8 (8 shapes): CRYSTAL PARADIGM | 8 / 18 | VERIFICATION & TRL STATUS | WHAT IS PROVEN TODAY AND WHAT IS NOT | High-Fidelity Verification Metrics and TRL Maturity Status
+  Slide 9 (37 shapes): CRYSTAL PARADIGM | 9 / 18 | FROM CHEMISTRY TO MANUFACTURING | THE FINAL ARCHITECTURE (CANDIDATE C) | From In-Silico Chemistry to Print-Ready Manufacturing
+  Slide 10 (34 shapes): CRYSTAL PARADIGM | 10 / 18 | COMMERCIAL IMPACT | THE COMMERCIAL IMPACT FOR SONA COMSTAR | Fleet Scalability and Direct Operating Cost Reductions
+  Slide 11 (32 shapes): CRYSTAL PARADIGM | 11 / 18 | SCIDIP DEPLOYMENT 1 | SCIDIP DEPLOYMENT 1: NEXT-GEN FORGING DIES | Solving Sona Comstar's Differential Gear Bottleneck
+  Slide 12 (29 shapes): CRYSTAL PARADIGM | 12 / 18 | SCIDIP DEPLOYMENT 2 | SCIDIP DEPLOYMENT 2: MAGNET-LESS EV MOTORS | Enabling Rare-Earth Independence in Traction Motors
+  Slide 13 (33 shapes): CRYSTAL PARADIGM | 13 / 18 | DE-RISKING THE SUPPLY CHAIN | INTELLECTUAL PROPERTY & DE-RISKING THE SUPPLY CHAIN | True Aatmanirbharta for the Indian Mobility Sector
+  Slide 14 (32 shapes): CRYSTAL PARADIGM | 14 / 18 | THE CORPORATE ASK | THE CRYSTAL PARADIGM CORPORATE ASK | Bridging the Gap Between Informatics and the Factory Floor
+  Slide 15 (32 shapes): CRYSTAL PARADIGM | 15 / 18 | EXECUTION ROADMAP | THE 24-MONTH INCUBATION ROADMAP | From Computational Validation to Sona Comstar Integration
+  Slide 16 (15 shapes): CRYSTAL PARADIGM | 16 / 18 | THE RESEARCH LEADS | THE RESEARCH LEADS | Guided by Elite Academic and Scientific Expertise
+  Slide 17 (20 shapes): CRYSTAL PARADIGM | 17 / 18 | THE AI ENGINEERING ENGINE | THE CORE AI ARCHITECTS | The Prodigious Engine Driving the Day-to-Day AI Innovation
+  Slide 18 (10 shapes): CRYSTAL PARADIGM | Accelerating Deep-Tech Materials from 5 Years to 4 Weeks. | We have completely solved the computational bottleneck. We are ready to build the physical reality. | Join us at the SCIDIP Advanced Materials Track. | crystalparadigm.in  |  khub.crystalparadigm@gmail.com
+
+=== V2: CrystalParadigm_SCIDIP_PitchDeck_v2.pptx ===
+Slides: 18
+  Slide 1 (19 shapes): 1 / 18 | SCIDIP PROGRAM APPLICATION | Advanced Materials  ┬╖  Advanced Batteries  ┬╖  Electric Mobility  ┬╖  Sustainability | Accelerating Innovation at the Intersection of AI and Material Science | Crystal Paradigm is an elite Deep-Tech Discovery Platform. We leverage artificial intelligence and high-performance comp
+  Slide 2 (29 shapes): CRYSTAL PARADIGM | 2 / 18 | AEROSPACE PROOF OF CONCEPT | PROVING THE PHYSICS: THE AEROSPACE THERMAL BOTTLENECK | Our AI engine was built to solve the hardest thermal problem in modern engineering: Turbine Entry Temperatures (TET) exc
+  Slide 3 (19 shapes): CRYSTAL PARADIGM | 3 / 18 | FROM AEROSPACE TO MOBILITY | THE SCIDIP CROSSOVER: FROM AEROSPACE TO EPIC MOBILITY | If our AI architecture can prevent a jet turbine from melting at 1400┬░C, it can revolutionize the thermal limits of terr
+  Slide 4 (20 shapes): CRYSTAL PARADIGM | 4 / 18 | COMMERCIAL STRATEGY | DEPLOYING AEROSPACE GRADE MATERIALS AT COMMERCIAL SCALE | Our AI engine does not just optimize for physics; it optimizes for the supply chain.
+  Slide 5 (29 shapes): CRYSTAL PARADIGM | 5 / 18 | AI ENGINE ┬╖ STEP 1 | THE CRYSTAL PARADIGM AI ENGINE: STEP 1 | Secure Ingestion & Empirical Thermodynamic Gating
+  Slide 6 (32 shapes): CRYSTAL PARADIGM | 6 / 18 | AI ENGINE ┬╖ STEP 2 | THE CRYSTAL PARADIGM AI ENGINE: STEP 2 | Dual-Stream Machine Learning Surrogates
+  Slide 7 (34 shapes): CRYSTAL PARADIGM | 7 / 18 | AI ENGINE ┬╖ STEP 3 | THE CRYSTAL PARADIGM AI ENGINE: STEP 3 | Constrained Differential Evolution (DE)
+  Slide 8 (9 shapes): CRYSTAL PARADIGM | 8 / 18 | VERIFICATION & TRL STATUS | WHAT IS PROVEN TODAY AND WHAT IS NOT | High-Fidelity Verification Metrics and TRL Maturity Status
+  Slide 9 (18 shapes): CRYSTAL PARADIGM | 9 / 18 | FROM CHEMISTRY TO MANUFACTURING | THE FINAL ARCHITECTURE (CANDIDATE C) | From In-Silico Chemistry to Print-Ready Manufacturing
+  Slide 10 (8 shapes): CRYSTAL PARADIGM | 10 / 18 | COMMERCIAL IMPACT | THE COMMERCIAL IMPACT FOR SONA COMSTAR | Fleet Scalability and Direct Operating Cost Reductions
+  Slide 11 (25 shapes): CRYSTAL PARADIGM | 11 / 18 | SCIDIP DEPLOYMENT 1 | SCIDIP DEPLOYMENT 1: NEXT-GEN FORGING DIES | Solving Sona Comstar's Differential Gear Bottleneck
+  Slide 12 (20 shapes): CRYSTAL PARADIGM | 12 / 18 | SCIDIP DEPLOYMENT 2 | SCIDIP DEPLOYMENT 2: MAGNET-LESS EV MOTORS | Enabling Rare-Earth Independence in Traction Motors
+  Slide 13 (24 shapes): CRYSTAL PARADIGM | 13 / 18 | DE-RISKING THE SUPPLY CHAIN | INTELLECTUAL PROPERTY & DE-RISKING THE SUPPLY CHAIN | True Aatmanirbharta for the Indian Mobility Sector
+  Slide 14 (29 shapes): CRYSTAL PARADIGM | 14 / 18 | THE CORPORATE ASK | THE CRYSTAL PARADIGM CORPORATE ASK | Bridging the Gap Between Informatics and the Factory Floor
+  Slide 15 (33 shapes): CRYSTAL PARADIGM | 15 / 18 | EXECUTION ROADMAP | THE 24-MONTH INCUBATION ROADMAP | From Computational Validation to Sona Comstar Integration
+  Slide 16 (17 shapes): CRYSTAL PARADIGM | 16 / 18 | THE RESEARCH LEADS | THE RESEARCH LEADS | Guided by Elite Academic and Scientific Expertise
+  Slide 17 (20 shapes): CRYSTAL PARADIGM | 17 / 18 | THE AI ENGINEERING ENGINE | THE CORE AI ARCHITECTS | The Prodigious Engine Driving the Day-to-Day AI Innovation
+  Slide 18 (10 shapes): PORTRAIT: Crystal Paradigm Logo | CRYSTAL PARADIGM | Accelerating Deep-Tech Materials from 5 Years to 4 Weeks. | We have completely solved the computational bottleneck. We are ready to build the physical reality. | Join us at the SCIDIP Advanced Materials Track.
+

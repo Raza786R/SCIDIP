@@ -1,0 +1,313 @@
+SAFRAN
+EXPLORE
+Smart Materials
+Safran Group
+
+FAQ
+•
+Previous Edition
+•
+Rules of the EXPLORE Program
+Contact Us
+Tackle the challenges of Smart Materials with
+Safran Explore!
+Join us to shape the future of aerospace technology.
+
+Apply now!
+About Safran Explore
+Safran Explore is the open innovation program of Safran Group. Its purpose: to identify, support and co-develop with the most promising startups the technologies that will shape the future of aerospace, defense and space.
+
+For its 5th edition, Explore Smart Materials sets its sights on the future of materials and process innovation.
+
+Smart Material Structure
+Why a call dedicated to Smart Materials?
+Safran Explore Smart Materials is built around five ambitious technical challenges in smart materials, defined by Safran's experts to address critical industrial needs. Our goal is to identify deep‑tech gems and build strong industrial partnerships with startups, spin‑offs, and SMEs developing advanced material systems that can sense, adapt, and respond to their environment, pushing the boundaries of efficiency, resilience, functionality, and sustainability. Through this open innovation initiative, Safran aims to launch collaborations with a select group of innovative partners to unlock the full potential of smart materials and accelerate the development of the next generation of high‑performance aviation material systems.
+
+Join our webinar sessions
+Discover the Safran EXPLORE Smart Materials program and its 5 technical challenges through our live webinar sessions. Our experts will present the initiative, answer your questions, and help you prepare a strong application.
+
+To support participants worldwide, we host several sessions across Asia, Europe, and the Americas. All sessions are open to everyone, simply choose the time that works best for you.
+
+Session 1
+Asia-Pacific Friendly Time
+May 21st 2026 • 10:00 am CET
+Register now
+Session 2
+Europe-Friendly Time
+May 26th 2026 • 9:00 am CET
+Register now
+Session 3
+Americas-Friendly Time
+May 26th 2026 • 5:00 pm CET
+Register now
+Session 4
+Additional Session
+June 3rd 2026 • 12:00 pm CET
+Register now
+ Can't attend live? All sessions will be recorded and shared with registered participants.
+
+The 5 Challenges
+Discover the key technology challenges driving innovation at Safran. Startups can apply to multiple challenges and sub-challenges.
+
+Challenge 1© Anthony Guerra / Safran
+Challenge 01
+Smart Materials – multi-functionality, performance & sustainability
+Objective:Explore and develop advanced, multifunctional, and sustainable materials to meet the extreme requirements of aerospace and industrial applications.
+
+1. Multifunctional bulk material properties
+Novel multi‑material systems for high‑temperature capabilities of engine‑grade alloys ; Materials engineered with controlled gradients (eg. physical, mechanical, electrical properties) ; Lab‑scale production capabilities of metallic materials with composition gradients, with microstructural and high‑temperature mechanical characterization capabilities.
+2. Smart materials for surface solutions and functionalities
+Coating and fiber based systems with integrated functionalities (eg. corrosion sensing, chemical‑composition monitoring, self‑healing, tribological control, de‑icing/anti‑icing…) ; Next generation Environmental Barrier Coatings (EBC) and Thermal Barrier Coatings (TBC) ; Tailored ion implantation techniques for interface hybridization in bulk and fiber systems ; Portable or mobile solutions for localized Chemical Vapor Deposition (CVD) ceramic coating depositions.
+3. Advanced processes & additive manufacturing
+Innovative additive manufacturing processes with disruptive or hybrid material/process architectures (eg. multiple feedstocks and/or multiple processing functionalities) ; Contactless machining and cutting technologies for ceramics and ceramic matrix composites ; Breakthrough material‑assembly processes enabling new joining, bonding, or consolidation pathways.
+4. Sustainable material & processes alternatives
+Alternatives solutions to fluorinated materials (PFAS/PFA) without compromising performance.
+Challenge 2© Alex Marc / Safran
+Challenge 02
+Intelligence for materials & processes – towards augmented design and testing
+Objective: Unlocking the potential of AI in the screening, design, testing of tomorrow's material solutions.
+
+1. AI-driven material design for physico-chemical properties
+Hybrid material systems combining metal–ceramic and metal–organic constituents ; Engineered chemical‑gradient architectures for ceramics and metallic alloys, enabling tunable thermo‑mechanical properties.
+2. In-silico testing for material performance screening
+High‑fidelity simulation and modeling environments capable of numerically evaluating newly identified material systems (thermo‑mechanical behavior, durability, microstructural evolution, fatigue life, etc.).
+3. AI-driven material architecturing
+AI‑enabled design of composite architectures for metals, ceramics, and organic composite systems ; AI‑based optimization of organic composite architectures, including short/long fiber hybridization, textile weaving patterns, and fabric architectures.
+4. Lab 4.0 - data management and structuring
+Lab‑connectivity solutions enabling real‑time acquisition, synchronization, and coupling of numerical and experimental datasets (eg. test benches, measurement equipment, manufacturing machines) ; Full leverage of unstructured and legacy data sources (PDF, Word documents, images) combined with structured laboratory and process data for enhanced analytics and model training.
+Challenge 3© Christel Sasso / CAPA Pictures / Safran
+Challenge 03
+Advanced solution for electrical systems in extreme environments
+Objective: Develop innovative material systems and manufacturing approaches to enable high-performance, PFAS-free, multi-functional solutions for high-temperature, high-voltage and magnetic electrical applications.
+
+1. High-temperature and High-voltage materials
+Integration of fully thermoplastic systems for electrical machines (eg. PAEK, PPS, in‑situ heat‑sealing technologies) ; Materials enabling >1 kV operation (eg. DP‑resistant systems, stress‑grading solutions, and ceramic/sol‑gel functional coatings) ; Flexible, thermally conductive encapsulation materials with high interface adhesion properties ; High‑performance insulation for high‑temperature windings (thermal class >220 °C, high thermal conductivity and >1 kV dielectric strength). All-thermoplastic systems, >1kV approaches, and high-performance insulating materials (>220°C).
+2. Alternatives to fluorinated materials (PFAS/PFA)
+PFAS‑free dielectric materials for high‑temperature capacitors (>175 °C, ideally >200 °C) ; Alternative non‑PFA cable insulation technologies (eg. PEEK, PEKK, silicones and associated semiconductor layers…).
+3. Magnetic materials & magnets
+High saturation, low loss magnetic materials with non laminated architectures; Rare earth free permanent magnets with remanence >1–1.2 T, low thermal derating, and high coercivity.
+4. Multi-material additive manufacturing for electrical applications
+Additive manufacturing processes enabling co‑fabrication of conductive and insulating materials ; Multi‑material additive manufacturing solutions (eg. Ferromagnetic materials, electrical conductors, electrical insulator)
+Challenge 4© Adrien Daste / Safran
+Challenge 04
+Circularity & recycling – closing the loop for critical materials
+Objective: Develop economically viable solutions for circularity, recycling and valorization of critical and strategic materials.
+
+1. Recycling and valorization of carbon fibers
+Advanced re‑valorization processes for carbon fiber (eg. dry fibers, uncured prepreg, cured composites) for retaining the mechanical and structural performances suitable for structural applications
+2. Circularity of critical metallic materials
+Circularity solutions for high‑purity critical metals (Ti, Co, Ni, Rare Earths, Al, Cu) at production phase and end‑of‑life ; Recycling pathways for magnetic materials and permanent magnets with minimal degradation of magnetic properties.
+3. Recycling of hybrid and composite materials
+Powder‑recycling technologies for Oxide Dispersion‑Strengthened (ODS) alloys (metal powders with ceramic particles) ; Eco‑efficient recycling processes for organic resins, minimizing performance gaps between recycled and virgin resin ; Recovery and recycling of ceramic constituents (e.g., ytterbium), SiC fibers, and alumina (Al₂O₃) ; Sustainable dismantling technologies for multi‑material structures, avoiding burning or acid‑based methods.
+4. Traceability of materials and risk management
+Software solutions enabling full traceability of materials and products across the supply chain and life-cycle, including recycling loops and circularity tracking ; Digital solutions for anticipating regulatory, toxicological, and sustainability risks (HSE, PFAS, REACH) and forecasting raw‑material obsolescence.
+Challenge 5© Adrien Daste / Safran
+Challenge 05
+Inspection, maintenance & reliability – securing material performance
+Objective: Develop innovative inspection methods to ensure the quality, reliability and maintenance of complex materials and parts.
+
+1. Process monitoring and control
+Real‑time monitoring, reproducibility assessment, and corrective control during manufacturing processes ; In‑process and post‑process inspection of complex Additive Manufacturing (AM) parts with resolution < 100 µm (eg. geometry, internal cavities, surface roughness…) ; Sensor technologies enabling lean control strategies and real‑time data acquisition ; In‑situ monitoring equipment and sensors for extreme‑condition processes (eg. fusion furnaces up to 1600 °C, ceramic AM systems, and high‑temperature mechanical testing coupled with in‑situ X‑ray tomography…).
+2. Dimensional and material health monitoring
+Dimensional inspection and structural health monitoring of parts and tooling throughout their lifecycle ; Advanced data processing and analytics applied to non‑destructive testing (NDT) techniques ; Embedded instrumentation solutions capable of surviving in‑service temperatures above 1100–1200 °C.
+3. Advanced inspection for composites
+Inspection technologies for thick and multi‑material Organic Matrix Composites (OMC) ; High‑speed, high‑productivity inspection solutions for Ceramic Matrix Composites (CMC), compatible with industrial production rates.
+4. Portable and on-wing inspection
+Portable inspection systems enabling reference‑level assessments on partially disassembled equipment or directly on‑wing (eg. endoscopy, fiber‑optic imaging and other compact NDT technologies).
+Challenge Timeline 2026
+April - June 5th 2026
+Open call for applications
+The program kicks off with an open call for applications. Applicants have until June 5th to complete their submission form, providing as much detail as possible about their project. The objective is to ensure that Safran's experts have all the key information they need to thoroughly evaluate each project.
+
+June - July 2026
+Evaluation of applications by experts
+A committee of Safran experts will review all submitted applications. Based on the quality of the submissions and the relevance of the proposed topics, around twenty candidates will be selected to move forward to the pitch session.
+
+September 2026
+Pitch Session
+Selected companies for the pitch sessions will present their collaboration project to Safran's experts. This session will enable an initial exchange with the experts and provide an opportunity to address any remaining questions that may have arisen during the evaluation process. Shortly after the pitch sessions, the companies selected to move forward in the process will be notified.
+
+October - November 2026
+Collaboration Development
+Selected companies will engage directly with Safran's experts to frame their projects and elaborate Proof of Concepts. Through a series of preparation meetings, they will refine, structure and strengthen their collaboration project alongside Safran teams. This phase is key to aligning expectations, clarifying objectives and ensuring the project's feasibility and impact. The goal is to develop a solid and compelling proposal, ready to be presented during the Explore Days.
+
+December 2026
+EXPLORE Days
+Selected startups will be invited to present their collaboration project alongside Safran teams to a wider internal audience. They will showcase their work and answer questions from various stakeholders. These in-person sessions will be a unique opportunity to meet Safran teams in France, engage in meaningful discussions and connect with other participating startups. Beyond presentations, the Explore Days are designed to foster collaboration, spark new opportunities and create strong relationships within the ecosystem.
+
+Ready to innovate with Safran?
+Apply now!
+Contact Us
+
+Rules of the EXPLORE Program
+Key Stakeholders
+Discover the key players behind the program.
+
+Safran
+Safran – Materials & Processes
+Safran's Materials & Processes activities are a key enabler of the Group's innovation strategy, supporting the development of lighter, stronger, more efficient and more sustainable products across aerospace, defense and space.
+
+Through its innovation ecosystem, the Group identifies, develops and deploys advanced materials, special processes and manufacturing technologies that improve product performance, manufacturability and maintainability.
+
+As a transversal capability across the Group, Materials & Processes contributes directly to Safran's competitiveness, technological leadership and long-term transformation toward more efficient and responsible aviation.
+
+Alcimed
+Explore and develop uncharted territories.
+
+This year again, Alcimed is delighted to support Safran in driving the EXPLORE program, contributing its expertise in innovation and project structuring to help identify, shape and accelerate high-potential collaborations
+
+For over 30 years, our team of 200 explorers has been supporting clients worldwide in their innovation and new market development projects.
+
+By uncharted territories, we mean 5 areas: new technologies, new offers, new geographies, possible futures and new ways to innovate.
+
+With 5 offices in Europe and 1 in the US as of today, our dream is to reach 1,000 explorers, while learning and having fun every day.
+
+Alcimed
+Frequently Asked Questions
+
+How to apply / what does the application process look like?
+
+What's at stake / what is the prize for the winners?
+
+What does the collaboration look like? How long will it last?
+
+How much time does the program require to invest and does it imply coming to France?
+
+My company's only location is in XY country, is this an issue and does the program imply opening an office in France?
+
+What about intellectual property?
+
+I am subjected to ITAR, can I still apply?
+Still have questions?
+
+Contact our team
+Previous Edition Highlights
+Discover the impact and success stories from the 2025 edition of SAFRAN EXPLORE program dedicated to NEW SPACE.
+
+170
+Startups Applied
+22
+Pitchs
+8
+Laureates
+An opportunity to meet key industry leaders
+It is at Safran's Vernon site, the epicenter of space propulsion, wrapped in snow, that laureates startups, Safran experts and top executives came together for two intense and energizing days. The event was powered by strong ecosystem support, with CNES and ESA on hand to reaffirm their commitment to innovation and collaboration. But beyond the spotlight, it was the depth of the technical discussions that stood out, diving straight into how these partnerships will take shape and scale.
+
+Carbon Fiber Recycling Process
+"With this program, we aim to identify and accelerate breakthroughs that will reshape the space equation."
+— Jean-Marie Bétermier, EVP Space at Safran Electronics & Defense (2025 - New Space Edition)
+Ready to write the next success story?
+Apply now!
+Contact Us
+
+Rules of the EXPLORE Program
+© 2025 Safran. All rights reserved.
+
+Rules of the EXPLORE Program
+
+Rules for the Safran EXPLORE Smart Materials Program
+1
+Organizer
+SAFRAN CORPORATE VENTURES (hereinafter referred to as "the Organizer" or "SAFRAN"), a company incorporated and existing under the laws of France (Société par Actions Simplifiée), whose registered office is at 2, Boulevard du Général Martial Valin – 75015 Paris – France, registered with the Paris Trade and Companies Register under the number 501 500 300, is organizing a Program entitled "Safran Explore Smart Materials" (hereinafter "the Program").
+
+SAFRAN Sponsors are companies within the SAFRAN Group that, alongside SAFRAN, participate in the management of the Program. They play a key decision-making role, are responsible for evaluating Applicant proposals and selecting the solutions that best meet SAFRAN's needs, as well as deciding the cooperations they will launch and finance.
+
+2
+Conditions of Participation – Program Procedure
+2.1 Conditions of Participation
+The Program is free to enter and no purchase is necessary.
+The Program is open to spin-offs, startups and SMEs (staff under 250) that are already registered legal entities and that offer innovative technological solutions related to the Program's challenge (hereinafter referred to as "the Applicants") (as detailed in Article 6).
+The following entities and individuals are not eligible:
+Mid-size or large companies, academic/research labs, public or private research institutes,
+Resellers or distributors of existing technologies,
+Entry in the Program implies irrevocable and unconditional acceptance of these rules (hereinafter referred to as "the Rules"), available at: www.alcimed.com/safran-explore-smart-materials.
+Each Applicant (including all subsidiaries, affiliates and group companies) may enter a single application.
+Violation of the participation requirements will result in disqualification.
+2.2 Program Procedure and Qualification Stages
+Applicants will be informed of the Program launch through the dedicated website and various communication channels (social networks, partner incubators, dedicated outreach, etc.). The qualification process for the Program is organized in several stages:
+
+Application Submission: Applicants apply from March 2026 to June 2026 via the official Program website (link: https://baserow.io/form/PkXkrPhIqry7dAlwI2uCdYl9NCgen_b3yi41zXsalsk). Each Applicant must submit a complete application form and required supporting documents. All applications received are first screened for compliance with eligibility criteria and relevance to the challenge.
+Evaluation Phase: All applications are evaluated by a panel of SAFRAN experts based on relevance, innovation and compatibility with the defined challenge from July 2026 to August 2026.
+Pitch Phase: The top applicants (up to 30) will be invited to present remotely their solution ("pitch") orally to the jury composed of SAFRAN experts and SAFRAN Sponsors (hereinafter referred to as the "Jury") in September 2026. Companies not selected for the Pitch Phase will be informed by email.
+Laureate Selection: After the pitch session, 5 to 10 laureates (hereinafter referred to as "Laureate") will be selected by the Jury for a Proof of Concept (POC) scoping phase. The Jury may select additional Laureates. Companies not selected as Laureates, as well as the Laureates will be informed by email.
+POC Scoping Phase: Laureates sign a mutual Non-Disclosure Agreement (NDA) with SAFRAN before this phase. During this phase from October to November 2026, technical specifications of the POC and financial terms will be defined collaboratively.
+Explore Days: Laureates are required to attend the "Explore Days" in person at SAFRAN Tech on December 2nd and 3rd, 2026. During this event, they will present their collaborative projects including their finalized POC proposal (specifications and budget), together with their assigned experts, to the SAFRAN Sponsors. Following the presentations, SAFRAN Sponsors will evaluate each cooperation proposal and make a definitive decision—approval ("Go"), conditional approval ("Go If"), or rejection ("No Go")—regarding the launch of the Proof of Concept.
+Decision & POC Launch: Following the Explore Days, SAFRAN Sponsors will select certain Laureates for cooperation based on their presentations and proposals. For Laureates whose POC is validated at this stage, SAFRAN may initiate a collaboration in the form of a Purchase Order (PO) based on the POC defined and agreed upon during the POC scoping phase. The contractual terms of the Purchase Order will be subject to mutual agreement between the parties.
+All decisions of the Jury are final and not subject to appeal. Only solutions fully meeting SAFRAN's requirements, as defined through the scoping and validated at Explore Days, will be considered for final selection and POC launch.
+All dates indicated in these Rules are for reference only. The official timeline will be published on the official Program website (link: www.alcimed.com/safran-explore-smart-materials). The Organizer reserves the right to modify these dates if necessary; any changes will be updated on the Program website and directly communicated by email to affected Applicants.
+
+3
+Challenge and Eligibility
+The subject of the Program is as follows:
+
+Theme: Disruptive innovations in smart materials and intelligent manufacturing for extreme performance in aerospace and related sectors.
+
+Challenges include (but are not limited to):
+
+Multi-functional, high-performance and sustainable materials,
+"Smart" coatings and surface solutions,
+Advanced processes and additive manufacturing,
+Sustainable alternatives to critical materials,
+Artificial intelligence for materials and processes,
+Circularity, recycling and traceability of strategic materials,
+Inspection, monitoring and reliability of complex parts.
+Eligibility:
+
+Only innovative startups, spin-offs, or SMEs (≤250 employees) with solutions in at least one of these domains may participate.
+Entrants must demonstrate at least a prototype (TRL 3+) or higher that can be tested and assessed by SAFRAN.
+For further explanation of the challenge and criteria, consult the call for applications at the official Program website.
+
+4
+Expenses
+All costs and expenses incurred by Applicants in connection with their participation in the Program (including but not limited to the preparation and submission of applications, travel and accommodation for pitches, attendance at Explore Days and participation in the Proof of Concept scoping phase) shall be fully borne by the Applicants. SAFRAN shall not be required to reimburse or indemnify any costs or expenses, regardless of their nature, incurred by Applicants at any stage of the Program. By entering the Program, Applicants expressly waive any claim to financial compensation or reimbursement from SAFRAN for such costs and expenses.
+
+Notwithstanding the foregoing, for Applicants invited to participate in the Explore Days, SAFRAN will reimburse travel, accommodation and meal expenses, subject to a maximum of 1 500 euros per person and for up to two persons per Applicant. Any costs exceeding these limits, or not explicitly covered, will remain the sole responsibility of the Applicant.
+
+5
+Protection of Personal Data
+By participating in the "SAFRAN EXPLORE SMART MATERIALS" Program, Applicants consent to the Organizer (www.safran-group.com) processing their first and last names, company, professional email address, phone number and job title log for the purposes of administrative management of the Program and compliance with applicable legal obligations. This data is necessary in order to participate in the Program.
+
+This personal data is kept for up to 2 years after the end of the Program and is only accessible to authorized persons of Safran Corporate Venture, the panel Members and by the service provider(s) in charge, if applicable. Personal data will not be sold to third parties.
+Winners authorize SAFRAN to use, for informational purposes, their first and last names and company, as they appear on the documents, profiles and/or media submitted during registration, for communication purposes only, without such use conferring any remuneration, right, or advantage other than the awarding of the prize won.
+Applicants may withdraw their consent at any time without prejudice to the lawfulness of the processing carried out prior to such withdrawal. Such withdrawal will result in the cancellation of participation in the Program and the potential awarding of prizes.
+Applicants have the right to access, rectify, erase, restrict and transfer their data, as well as the right to object, which they may exercise by contacting Safran Data Protection Officer: safran.dpo@safrangroup.com
+SAFRAN CORPORATE VENTURES
+SAFRAN EXPLORE SMART MATERIALS PROGRAM
+2, boulevard du Général Martial Valin
+75724 Paris Cedex 15
+
+Applicants may also give instructions regarding the fate of their data after their death and/or file a complaint with the French data protection authority (www.cnil.fr).
+Exercising these rights will not result in any form of discrimination on the part of SAFRAN.
+
+6
+Liability
+SAFRAN reserves the right, without incurring any liability, to shorten, extend, modify, interrupt, postpone and/or cancel this Program if circumstances so require or if it appears that fraud of any kind has occurred in connection with participation in the Program or the determination of the selected Applicants at the Explore Days. In this case, SAFRAN reserves the right not to enter into a cooperation to fraudsters and/or to prosecute the perpetrators of such fraud in the competent courts.
+
+However, any changes will be communicated to Applicants.
+
+The Organizer shall not be held liable in the following cases:
+
+(i) in the event of a malfunction preventing access to and/or the proper running of the Program, in particular due to malicious acts;
+(ii) if the Organizer is unable to contact each winner;
+(iii) in the event of delays, losses, theft, or damage during the delivery of prizes, or in the event of illegible postmarks due to the postal services;
+(iv) in the event of any errors in the contact details provided by the winners.
+In the cases described in (ii), (iii) and (iv) above, winners will automatically forfeit all rights of any kind, without being entitled to any compensation.
+
+7
+Acceptance of the Rules
+The full Program Rules are available at: www.alcimed.com/safran-explore-smart-materials.
+
+Any modification of the Rules by SAFRAN will be published at the same address.
+
+By participating, Applicants fully and unreservedly accept the Rules and any amendments.
+
+8
+Applicable Law
+These Rules are subject to French law.
+
+All disputes must be addressed, with supporting documentation, to the Organizer at the address above by the deadline stated in the call for applications.
+
+The Organizer is responsible for handling disputes. However, in the event of a dispute that cannot be resolved amicably, the courts of Paris (France) shall have sole jurisdiction.
+
+Last updated: April 2026
+Close

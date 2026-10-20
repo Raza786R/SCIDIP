@@ -1,0 +1,988 @@
+﻿DECK: 20 slides | 10.00" x 5.62"
+
+===========================================================================
+SLIDE 01 | Advanced Materials for Extreme-Environment Applica
+===========================================================================
+  [GROUP] l= 0.52 t= 0.31 w= 8.96 h= 0.89
+  l= 0.52 t= 1.46 w= 5.62 h= 3.12
+    p0r0: sz= 13 #1A365D B  'Advanced Materials for Extreme-Environment Applications'
+  [GROUP] l= 6.59 t= 0.57 w= 3.11 h= 4.53
+
+===========================================================================
+SLIDE 02 | CRYSTAL PARADIGM  ┬╖  SCIDIP APPLICATION
+===========================================================================
+  [SHAPE] l= 0.00 t= 0.00 w=10.00 h= 1.32 bg=#0F203C
+  [SHAPE] l= 0.00 t= 1.32 w=10.00 h= 0.05 bg=#00B4D8
+  l= 0.38 t= 0.10 w= 9.20 h= 0.22
+    p0r0: sz=  8 #00B4D8 B  'CRYSTAL PARADIGM  ┬╖  SCIDIP APPLICATION'
+  l= 0.38 t= 0.30 w= 9.20 h= 0.62
+    p0r0: sz= 22 #FFFFFF B  'STRATEGIC ALIGNMENT: SCIDIP FOCUS AREAS'
+  l= 0.38 t= 0.94 w= 9.20 h= 0.30
+    p0r0: sz= 10 #8BBFD8    'Bridging the gap between AI-driven discovery and physic'
+  [SHAPE] l= 0.28 t= 1.50 w= 4.62 h= 3.40 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 1.50 w= 4.62 h= 0.07 bg=#00B4D8
+  l= 0.48 t= 1.62 w= 4.32 h= 0.22
+    p0r0: sz=  8 #00B4D8 B  'FOCUS AREA 1'
+  l= 0.48 t= 1.80 w= 4.32 h= 0.35
+    p0r0: sz= 14 #0F203C B  'ADVANCED MATERIALS'
+  l= 0.48 t= 2.13 w= 4.32 h= 0.32
+    p0r0: sz= 10 #5580A0    'Multi-Material Systems, Gradients & Additive Processes'
+  [SHAPE] l= 0.48 t= 2.46 w= 4.22 h= 0.00
+  [SHAPE] l= 0.48 t= 2.60 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.64 t= 2.54 w= 4.06 h= 0.62
+    p0r0: sz= 10 #0F203C B  'Multi-Material TBCs: Solved the 1400┬░C CTE mismatch usi'
+  [SHAPE] l= 0.48 t= 3.23 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.64 t= 3.17 w= 4.06 h= 0.60
+    p0r0: sz= 10 #0F203C B  'Physical & Mechanical Gradients: Our 11-layer Functiona'
+  [SHAPE] l= 0.48 t= 3.86 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.64 t= 3.80 w= 4.06 h= 0.56
+    p0r0: sz= 10 #0F203C B  'Hybrid Additive Processes: The entire architecture is f'
+  [SHAPE] l= 5.10 t= 1.50 w= 4.62 h= 3.40 bg=#FFFFFF
+  [SHAPE] l= 5.10 t= 1.50 w= 4.62 h= 0.07 bg=#00B4D8
+  l= 5.30 t= 1.62 w= 4.32 h= 0.22
+    p0r0: sz=  8 #00B4D8 B  'FOCUS AREA 2'
+  l= 5.30 t= 1.80 w= 4.32 h= 0.35
+    p0r0: sz= 12 #0F203C B  'INDUSTRY 4.0 & AI'
+  l= 5.30 t= 2.13 w= 4.32 h= 0.32
+    p0r0: sz= 10 #5580A0    'AI-Driven Design, Simulation & Digital Twins'
+  [SHAPE] l= 5.30 t= 2.46 w= 4.22 h= 0.00
+  [SHAPE] l= 5.30 t= 2.60 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 2.54 w= 4.06 h= 0.62
+    p0r0: sz= 10 #0F203C B  'AI for Composite Architectures: Deployed Constrained Di'
+  [SHAPE] l= 5.30 t= 3.23 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.17 w= 4.06 h= 0.60
+    p0r0: sz= 10 #0F203C B  'Numerical Performance Simulation: Validated candidates '
+  [SHAPE] l= 5.30 t= 3.86 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.80 w= 4.06 h= 0.56
+    p0r0: sz= 10 #0F203C B  'Hybrid Chemical Gradients: Automatically converts conti'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  [SHAPE] l= 0.28 t= 5.16 w= 1.55 h= 0.32 bg=#00B4D8
+  l= 0.28 t= 5.16 w= 1.55 h= 0.32
+    p0r0: sz=  8 #0F203C B  'THE UNIFIED SOLUTION'
+  [SHAPE] l= 2.00 t= 5.15 w= 0.00 h= 0.34
+  l= 2.18 t= 5.13 w= 7.60 h= 0.42
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm does not just provide a material (Focu'
+
+===========================================================================
+SLIDE 03 | THE CHALLENGE WE WERE CALLED TO SOLVE
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'THE CHALLENGE WE WERE CALLED TO SOLVE'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'How Crystal Paradigm Was Born: From an Aerospace Emerge'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  [SHAPE] l= 0.28 t= 1.38 w= 4.58 h= 3.52 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 1.38 w= 4.58 h= 0.07 bg=#00B4D8
+  l= 0.44 t= 1.52 w= 1.80 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'THE ORIGINATING PROBLEM'
+  l= 0.44 t= 1.72 w= 4.20 h= 0.30
+    p0r0: sz= 13 #1A365D B  'The 1,400┬░C Thermal Fire Limit'
+  [SHAPE] l= 0.44 t= 2.05 w= 4.20 h= 0.02 bg=#00B4D8
+  l= 0.44 t= 2.12 w= 4.20 h= 2.70
+    p0r0: sz=  8 #111111    'Modern gas turbine engines breach 1,400┬░C Turbine Entry'
+  [SHAPE] l= 5.14 t= 1.38 w= 4.58 h= 3.52 bg=#FFFFFF
+  [SHAPE] l= 5.14 t= 1.38 w= 4.58 h= 0.07 bg=#1A365D
+  l= 5.30 t= 1.52 w= 4.00 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'THE TERRESTRIAL PIVOT ΓÇö WHY SCIDIP'
+  l= 5.30 t= 1.72 w= 4.20 h= 0.30
+    p0r0: sz= 13 #1A365D B  'Sona Comstar Faces the Same Physics'
+  [SHAPE] l= 5.30 t= 2.05 w= 4.20 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.30 t= 2.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 2.15 w= 3.80 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'FORGING DIES'
+  l= 5.46 t= 2.35 w= 3.80 h= 0.55
+    p0r0: sz=  8 #111111    'H13 tool steel dies hit yield-strength collapse at 1,20'
+  [SHAPE] l= 5.30 t= 2.93 w= 3.80 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.30 t= 3.08 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.05 w= 3.80 h= 0.18
+    p0r0: sz=  8 #1A365D B  'EV TRACTION MOTORS'
+  l= 5.46 t= 3.25 w= 3.80 h= 0.55
+    p0r0: sz=  8 #111111    'Sona Comstar's SRM (Switched Reluctance Motor) program '
+  [SHAPE] l= 5.30 t= 3.83 w= 3.80 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.30 t= 3.98 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.95 w= 3.80 h= 0.18
+    p0r0: sz=  8 #059669 B  'SUPPLY CHAIN RISK'
+  l= 5.46 t= 4.15 w= 3.80 h= 0.55
+    p0r0: sz=  8 #111111    '80%+ of global Neodymium and Hafnium is Chinese-control'
+  [SHAPE] l= 5.30 t= 4.73 w= 3.80 h= 0.02 bg=#00B4D8
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 04 | THE CRYSTAL PARADIGM AI ENGINE: ONE SOLUTION, TWO 
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'THE CRYSTAL PARADIGM AI ENGINE: ONE SOLUTION, TWO MARKE'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'If our AI can prevent a jet turbine from melting at 1,4'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  [SHAPE] l= 0.28 t= 1.42 w= 2.48 h= 2.05 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 1.42 w= 2.48 h= 0.07 bg=#0F203C
+  [SHAPE] l= 0.28 t= 1.42 w= 2.48 h= 2.05 bg=#0F203C
+  l= 0.40 t= 1.52 w= 2.26 h= 0.38
+    p0r0: sz=  9 #FFFFFF B  'AEROSPACE
+EXTREMES'
+  [SHAPE] l= 0.48 t= 1.93 w= 2.08 h= 0.02 bg=#00B4D8
+  l= 0.40 t= 2.00 w= 2.26 h= 0.45
+    p0r0: sz= 14 #2BDEFD B  '1,400┬░C
+Turbine TET'
+  l= 2.86 t= 2.10 w= 0.40 h= 0.40
+    p0r0: sz= 20 #00B4D8 B  'ΓåÆ'
+  [SHAPE] l= 3.74 t= 1.42 w= 2.48 h= 2.05 bg=#FFFFFF
+  [SHAPE] l= 3.74 t= 1.42 w= 2.48 h= 0.07 bg=#00B4D8
+  [SHAPE] l= 3.74 t= 1.42 w= 2.48 h= 2.05 bg=#00B4D8
+  l= 3.86 t= 1.52 w= 2.26 h= 0.38
+    p0r0: sz=  9 #0F203C B  'CRYSTAL PARADIGM
+AI ENGINE'
+  [SHAPE] l= 3.94 t= 1.93 w= 2.08 h= 0.02 bg=#00B4D8
+  l= 3.86 t= 2.00 w= 2.26 h= 0.45
+    p0r0: sz= 14 #0F203C B  '11-Phase
+Autonomous Pipeline'
+  l= 6.32 t= 2.10 w= 0.40 h= 0.40
+    p0r0: sz= 20 #00B4D8 B  'ΓåÆ'
+  [SHAPE] l= 7.20 t= 1.42 w= 2.48 h= 2.05 bg=#FFFFFF
+  [SHAPE] l= 7.20 t= 1.42 w= 2.48 h= 0.07 bg=#1A365D
+  [SHAPE] l= 7.20 t= 1.42 w= 2.48 h= 2.05 bg=#1A365D
+  l= 7.32 t= 1.52 w= 2.26 h= 0.38
+    p0r0: sz=  9 #FFFFFF B  'SONA COMSTAR
+EPIC ROADMAP'
+  [SHAPE] l= 7.40 t= 1.93 w= 2.08 h= 0.02 bg=#00B4D8
+  l= 7.32 t= 2.00 w= 2.26 h= 0.45
+    p0r0: sz= 14 #2BDEFD B  'H13 Dies + SRM
+Motors + ESG'
+  l= 0.28 t= 3.60 w= 9.40 h= 0.22
+    p0r0: sz=  9 #1A365D B  'WHAT OUR AI PROVED ΓÇö THE THREE VALIDATED OUTPUTS'
+  [SHAPE] l= 0.28 t= 3.85 w= 9.40 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 3.95 w= 3.10 h= 1.35 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 3.95 w= 3.10 h= 0.07 bg=#00B4D8
+  l= 0.40 t= 4.08 w= 2.88 h= 0.28
+    p0r0: sz= 13 #1A365D B  'R┬▓ = 0.977'
+  l= 0.40 t= 4.38 w= 2.88 h= 0.82
+    p0r0: sz=  8 #111111    'Random Forest bulk modulus model. Test MAE of just 8.11'
+  [SHAPE] l= 3.60 t= 3.95 w= 3.10 h= 1.35 bg=#FFFFFF
+  [SHAPE] l= 3.60 t= 3.95 w= 3.10 h= 0.07 bg=#00B4D8
+  l= 3.72 t= 4.08 w= 2.88 h= 0.28
+    p0r0: sz= 13 #1A365D B  '1.5981 Safety Factor'
+  l= 3.72 t= 4.38 w= 2.88 h= 0.82
+    p0r0: sz=  8 #111111    'Differential Evolution optimizer. Globally optimal allo'
+  [SHAPE] l= 6.92 t= 3.95 w= 3.10 h= 1.35 bg=#FFFFFF !! OVERFLOWS RIGHT
+  [SHAPE] l= 6.92 t= 3.95 w= 3.10 h= 0.07 bg=#00B4D8 !! OVERFLOWS RIGHT
+  l= 7.04 t= 4.08 w= 2.88 h= 0.28
+    p0r0: sz= 13 #1A365D B  '15.95 MPa Interface Stress'
+  l= 7.04 t= 4.38 w= 2.88 h= 0.82
+    p0r0: sz=  8 #111111    '11-layer FGM power-law gradient (n=1.1). CTE gap droppe'
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 05 | WHY THIS MATTERS NOW
+===========================================================================
+  [PICTURE] l= 0.00 t= 0.00 w=10.00 h= 5.62
+  l= 0.47 t= 0.47 w= 9.53 h= 0.48
+    p0r0: sz= 24 #1A365D B  'WHY THIS MATTERS NOW'
+  l= 0.47 t= 1.03 w= 9.53 h= 0.24
+    p0r0: sz= 12 #2BDEFD    'Addressing Extreme-Environment Industrial Imperatives a'
+  l= 0.66 t= 1.58 w= 8.88 h= 0.20
+    p0r0: sz= 10 #1A365D B  'The Aerothermal Fire Limit'
+  l= 0.66 t= 1.81 w= 8.88 h= 0.38
+    p0r0: sz=  8 #111111    'Next-generation turbine entries run at 1400^C (1673^K).'
+  l= 0.66 t= 2.39 w= 8.88 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Supply Chain Resilience'
+  l= 0.66 t= 2.62 w= 8.88 h= 0.66
+    p0r0: sz=  8 #111111    'Conventional designs rely heavily on rare elements like'
+  l= 0.63 t= 3.71 w= 2.54 h= 0.18
+    p0r0: sz=  9 #2BDEFD    'FUEL BURN'
+  l= 0.63 t= 4.01 w= 2.54 h= 0.49
+    p0r0: sz=  8 #1A365D B  '15% reduction'
+  l= 3.73 t= 3.71 w= 2.54 h= 0.18
+    p0r0: sz=  9 #2BDEFD    'MRO MAINTENANCE'
+  l= 3.73 t= 4.01 w= 2.54 h= 0.49
+    p0r0: sz=  8 #111111    'Lowering thermal degradation to extend engine shop visi'
+  l= 6.83 t= 3.71 w= 2.54 h= 0.18
+    p0r0: sz=  9 #2BDEFD    'MANUFACTURABILITY'
+  l= 6.83 t= 4.01 w= 2.54 h= 0.93
+    p0r0: sz=  8 #111111    'Direct export of a universal,'
+
+===========================================================================
+SLIDE 06 | THE TECHNICAL PROBLEM IN ONE PICTURE
+===========================================================================
+  [PICTURE] l= 0.00 t= 0.20 w=10.00 h= 5.62 !! OVERFLOWS BOTTOM
+  l= 0.47 t= 0.89 w= 4.06 h= 0.72
+    p0r0: sz= 21 #1A365D B  'THE TECHNICAL PROBLEM IN ONE PICTURE'
+  l= 0.66 t= 1.85 w= 3.88 h= 0.18
+    p0r0: sz=  9 #1A365D B  'Thermal Expansion Discontinuity'
+  l= 0.66 t= 2.03 w= 3.88 h= 0.49
+    p0r0: sz=  8 #111111    'Metallic base (╬▒ Γëê 6.44-14.0 ╬╝m/m┬╖K) vs LZO coating (╬▒ '
+  l= 0.66 t= 2.57 w= 3.88 h= 0.18
+    p0r0: sz=  9 #1A365D B  'Microstructural Phase Decay'
+  l= 0.66 t= 2.79 w= 3.88 h= 0.31
+    p0r0: sz=  8 #111111    'Oxygen diffusion precipitates brittle sigma phases , ca'
+  l= 0.66 t= 3.29 w= 3.88 h= 0.18
+    p0r0: sz=  9 #1A365D B  'The Cooling Hole Threat'
+  l= 0.66 t= 3.51 w= 3.88 h= 0.31
+    p0r0: sz=  8 #111111    'Laser-drilled holes create stress concentration , accel'
+  l= 0.66 t= 4.01 w= 3.88 h= 0.18
+    p0r0: sz=  9 #1A365D B  'The Unified Imperative'
+  l= 0.66 t= 4.23 w= 3.88 h= 0.31
+    p0r0: sz=  8 #111111    'Substrate, cooling channels, and insulating layers must'
+  [SHAPE] l= 5.00 t= 0.00 w= 5.00 h= 5.62 bg=#F8FAFC
+  l= 5.47 t= 0.96 w= 4.06 h= 0.16
+    p0r0: sz=  8 #1A365D    'THERMOMECHANICAL FAILURE-MODE ANALYSIS'
+  [PICTURE] l= 5.47 t= 1.27 w= 3.91 h= 3.12
+  [SHAPE] l= 8.12 t= 3.07 w= 1.00 h= 0.21 bg=#FF0000
+  l= 8.12 t= 3.07 w= 1.00 h= 0.21
+    p0r0: sz=  6 #FF0000    'SHEAR > 850 MPa' << TINY
+  [SHAPE] l= 6.09 t= 2.52 w= 1.12 h= 0.21 bg=#FF0000
+  l= 6.09 t= 2.52 w= 1.12 h= 0.21
+    p0r0: sz=  6 #FF0000    'DELAMINATION RISK' << TINY
+  l= 5.47 t= 4.55 w= 4.06 h= 0.12
+    p0r0: sz=  6 #64748B    'Schematic cross-section showing interfacial stress sing' << TINY
+
+===========================================================================
+SLIDE 07 | OUR ADVANCED ARCHITECTURE & RECIPIENT LAYOUT
+===========================================================================
+  l= 0.09 t= 0.16 w= 5.21 h= 0.83
+    p0r0: sz= 22 #1A365D B  'OUR ADVANCED ARCHITECTURE & RECIPIENT LAYOUT'
+  [GROUP] l= 0.47 t= 1.35 w= 3.65 h= 3.54
+  [GROUP] l= 4.49 t= 0.78 w= 5.31 h= 3.91
+  [GROUP] l= 0.47 t= 4.90 w= 9.15 h= 0.55
+  l= 5.09 t= 0.23 w= 5.07 h= 0.83 !! OVERFLOWS RIGHT
+    p0r0: sz=?   #1A365D B  '11-Layer Graded FGM Design Profile'
+
+===========================================================================
+SLIDE 08 | WHY WE WIN TECHNICALLY
+===========================================================================
+  [PICTURE] l= 0.00 t=-0.03 w=10.00 h= 5.62 !! ABOVE TOP
+  l= 0.47 t= 0.47 w= 9.53 h= 0.48
+    p0r0: sz= 24 #1A365D B  'WHY WE WIN TECHNICALLY'
+  l= 0.47 t= 1.03 w= 9.53 h= 0.24
+    p0r0: sz= 12 #2BDEFD    'System-Level Innovation and Active Environmental Armor'
+  l= 0.66 t= 1.50 w= 8.88 h= 0.45
+    p0r0: sz= 10 #111111    'Our platform executes a unified optimization run that s'
+  [PICTURE] l= 0.67 t= 2.51 w= 0.19 h= 0.19
+  l= 0.98 t= 2.50 w= 1.37 h= 0.20
+    p0r0: sz= 10 #1A365D B  'PHASE STABILITY'
+  l= 0.67 t= 2.82 w= 4.01 h= 0.35
+    p0r0: sz=  8 #111111    'Audited VEC of'
+  [PICTURE] l= 5.32 t= 2.51 w= 0.19 h= 0.19
+  l= 5.62 t= 2.50 w= 1.86 h= 0.20
+    p0r0: sz= 10 #1A365D B  'OXIDATION RESISTANCE'
+  l= 5.32 t= 2.82 w= 4.01 h= 0.35
+    p0r0: sz=  8 #111111    'Self-healing Alumina armor limits high-temperature scal'
+  [PICTURE] l= 0.67 t= 4.15 w= 0.19 h= 0.19
+  l= 0.98 t= 4.14 w= 2.03 h= 0.20
+    p0r0: sz= 10 #1A365D B  'ADHESION PERFORMANCE'
+  l= 0.67 t= 4.46 w= 4.01 h= 0.35
+    p0r0: sz=  8 #111111    'Power-law gradient curves ('
+  [PICTURE] l= 5.32 t= 4.15 w= 0.21 h= 0.19
+  l= 5.65 t= 4.14 w= 1.71 h= 0.20
+    p0r0: sz= 10 #1A365D B  'MANUFACTURABILITY'
+  l= 5.32 t= 4.46 w= 4.01 h= 0.35
+    p0r0: sz=  8 #111111    'The universal'
+
+===========================================================================
+SLIDE 09 | WHAT IS PROVEN TODAY AND WHAT IS NOT
+===========================================================================
+  l= 0.47 t= 0.39 w= 9.53 h= 0.48
+    p0r0: sz= 24 #1A365D B  'WHAT IS PROVEN TODAY AND WHAT IS NOT'
+  l= 0.47 t= 0.95 w= 9.53 h= 0.24
+    p0r0: sz= 12 #2BDEFD    'High-Fidelity Verification Metrics and TRL Maturity Sta'
+  l= 0.66 t= 1.42 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'High-Fidelity Models'
+  l= 0.66 t= 1.66 w= 4.19 h= 0.52
+    p0r0: sz=  8 #111111    'In-memory properties surrogate model audited at'
+  l= 5.34 t= 1.42 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Ab Initio Phase Consistency'
+  l= 5.34 t= 1.66 w= 4.19 h= 0.52
+    p0r0: sz=  8 #111111    'CALPHAD sweeps and Gradient Boosting regressors (R^2 = '
+  [SHAPE] l= 0.47 t= 2.50 w= 2.04 h= 0.33 bg=#1A365D
+  l= 0.47 t= 2.50 w= 2.04 h= 0.33
+    p0r0: sz=  7 #FFFFFF    'Evaluation Vector'
+  [SHAPE] l= 2.50 t= 2.50 w= 1.83 h= 0.33 bg=#1A365D
+  l= 2.50 t= 2.50 w= 1.83 h= 0.33
+    p0r0: sz=  7 #FFFFFF    'Model / In Silico Status'
+  [SHAPE] l= 4.34 t= 2.50 w= 1.94 h= 0.33 bg=#1A365D
+  l= 4.34 t= 2.50 w= 1.94 h= 0.33
+    p0r0: sz=  7 #FFFFFF    'Experimental Lab Status'
+  [SHAPE] l= 6.28 t= 2.50 w= 2.02 h= 0.33 bg=#1A365D
+  l= 6.28 t= 2.50 w= 2.02 h= 0.33
+    p0r0: sz=  7 #FFFFFF    'Validation Target'
+  [SHAPE] l= 8.30 t= 2.50 w= 1.23 h= 0.33 bg=#1A365D
+  l= 8.30 t= 2.50 w= 1.23 h= 0.33
+    p0r0: sz=  7 #FFFFFF    'Status'
+  l= 0.47 t= 2.82 w= 2.04 h= 0.38
+    p0r0: sz=  8 #111111    'BCC Phase Security'
+  l= 2.50 t= 2.82 w= 1.83 h= 0.38
+    p0r0: sz=  8 #111111    'Verified (CALPHAD)'
+  l= 4.34 t= 2.82 w= 1.94 h= 0.38
+    p0r0: sz=  8 #111111    'Pending Lab Sweep'
+  l= 6.28 t= 2.82 w= 2.02 h= 0.38
+    p0r0: sz=  8 #111111    '0% Brittle Sigma Phase'
+  [SHAPE] l= 8.42 t= 2.92 w= 0.85 h= 0.19
+  l= 8.65 t= 2.95 w= 0.31 h= 0.12
+    p0r1: sz=  6 #059669 B  'GREEN' << TINY
+  l= 0.47 t= 3.19 w= 2.04 h= 0.39
+    p0r0: sz=  8 #111111    'Elastic Modulus Surface'
+  l= 2.50 t= 3.19 w= 1.83 h= 0.39
+    p0r0: sz=  8 #111111    'Audited (R^2=0.977$)'
+  l= 4.34 t= 3.19 w= 1.94 h= 0.39
+    p0r0: sz=  8 #111111    'Pending Coupon Tensile'
+  l= 6.28 t= 3.19 w= 2.02 h= 0.39
+    p0r0: sz=  8 #111111    'MAE Γëñ 8.11 GPa'
+  [SHAPE] l= 8.42 t= 3.29 w= 0.85 h= 0.19
+  l= 8.65 t= 3.32 w= 0.42 h= 0.12
+    p0r1: sz=  6 #059669 B  'GREEN' << TINY
+  l= 0.47 t= 3.56 w= 2.04 h= 0.39
+    p0r0: sz=  8 #111111    'Oxidation Scale Kinetics'
+  l= 2.50 t= 3.56 w= 1.83 h= 0.39
+    p0r0: sz=  8 #111111    'Verified (MACE MD)'
+  l= 4.34 t= 3.56 w= 1.94 h= 0.39
+    p0r0: sz=  8 #111111    'Pending TGA Weight'
+  l= 6.28 t= 3.56 w= 2.02 h= 0.39
+    p0r0: sz=  8 #111111    'Mass Gain < 10 mg/cm┬▓'
+  [SHAPE] l= 8.42 t= 3.66 w= 0.85 h= 0.19
+  l= 8.65 t= 3.69 w= 0.31 h= 0.12
+    p0r1: sz=  6 #059669 B  'GREEN' << TINY
+  l= 0.47 t= 3.94 w= 2.04 h= 0.39
+    p0r0: sz=  8 #111111    'Interfacial Bond Safety'
+  l= 2.50 t= 3.94 w= 1.83 h= 0.39
+    p0r0: sz=  8 #111111    'Verified (1D/3D FEA)'
+  l= 4.34 t= 3.94 w= 1.94 h= 0.39
+    p0r0: sz=  8 #111111    'Pending Adhesion Test'
+  l= 6.28 t= 3.94 w= 2.02 h= 0.39
+    p0r0: sz=  8 #111111    'Safety Factor ΓëÑ 1.50'
+  [SHAPE] l= 8.42 t= 4.03 w= 0.85 h= 0.19
+  l= 8.65 t= 4.07 w= 0.31 h= 0.12
+    p0r1: sz=  6 #059669 B  'GREEN' << TINY
+  l= 0.47 t= 4.31 w= 2.04 h= 0.39
+    p0r0: sz=  8 #111111    'Transpiration Film Stability'
+  l= 2.50 t= 4.31 w= 1.83 h= 0.39
+    p0r0: sz=  8 #111111    'Modeled (CFD Jet Lift)'
+  l= 4.34 t= 4.31 w= 1.94 h= 0.39
+    p0r0: sz=  8 #111111    'Pending Thermal Cycling Test'
+  l= 6.28 t= 4.31 w= 2.02 h= 0.39
+    p0r0: sz=  8 #111111    'Zero Boundary Separation'
+  l= 0.47 t= 4.68 w= 2.04 h= 0.39
+    p0r0: sz=  8 #111111    'Physical Prototyping'
+  l= 2.51 t= 4.68 w= 1.84 h= 0.39
+    p0r0: sz=  8 #111111    'Fully Formulated'
+  l= 4.35 t= 4.68 w= 1.95 h= 0.39
+    p0r0: sz=  8 #111111    'Not Yet Tested'
+  l= 6.29 t= 4.68 w= 2.03 h= 0.39
+    p0r0: sz=  8 #111111    'TRL 4 Coupon Assembly'
+  [TEXT_BOX (17)] l= 6.88 t= 5.33 w= 0.85 h= 0.19
+  [TEXT_BOX (17)] l= 8.61 t= 4.51 w= 0.66 h= 0.24
+  l= 8.40 t= 4.40 w= 0.88 h= 0.20
+    p0r1: sz=  6 #F1C232 B  'YELLOW' << TINY
+  l= 8.40 t= 4.77 w= 0.88 h= 0.19
+    p0r1: sz=  6 inherit B  'NEXT PHASE' << TINY << INHERIT_COLOR
+
+===========================================================================
+SLIDE 10 | VALIDATION PLAN TO TRL 4+
+===========================================================================
+  [PICTURE] l= 0.00 t= 0.01 w=10.00 h= 5.62 !! OVERFLOWS BOTTOM
+  l= 0.47 t= 0.11 w= 9.53 h= 0.48
+    p0r0: sz= 24 #1A365D B  'VALIDATION PLAN TO TRL 4+'
+  l= 0.47 t= 0.61 w= 9.53 h= 0.24
+    p0r0: sz= 10 #2BDEFD B  'Validation Plan to TRL 4+ - Incubation Milestone Framew'
+  [SHAPE] l= 0.63 t= 1.47 w= 0.64 h= 0.22 bg=#2BDEFD
+  l= 0.63 t= 1.47 w= 0.64 h= 0.22
+    p0r0: sz=  7 #1A365D    'PHASE 1'
+  l= 0.63 t= 1.97 w= 2.59 h= 0.17
+    p0r0: sz=  9 #1A365D B  'Multi-Physics Structural Audits'
+  l= 0.63 t= 2.26 w= 2.59 h= 1.70
+    p0r0: sz= 10 #111111    'Final certification of ALREADY ACHIEVED structural aero'
+  [SHAPE] l= 3.71 t= 1.47 w= 0.66 h= 0.22 bg=#2BDEFD
+  l= 3.71 t= 1.47 w= 0.66 h= 0.22
+    p0r0: sz=  7 #1A365D    'PHASE 2'
+  l= 3.71 t= 1.97 w= 2.59 h= 0.34
+    p0r0: sz=  9 #1A365D B  'Additive Prototyping & Porosity Programming'
+  l= 3.71 t= 2.43 w= 2.59 h= 1.44
+    p0r0: sz= 10 #111111    'Feeding the universal reference matrix into a dual-line'
+  [SHAPE] l= 6.78 t= 1.47 w= 0.66 h= 0.22 bg=#2BDEFD
+  l= 6.78 t= 1.47 w= 0.66 h= 0.22
+    p0r0: sz=  7 #1A365D    'PHASE 3'
+  l= 6.78 t= 1.97 w= 2.59 h= 0.17
+    p0r0: sz=  9 #1A365D B  'High-Temperature Characterization'
+  l= 6.78 t= 2.26 w= 2.59 h= 1.44
+    p0r0: sz= 10 #111111    'Exposure of fabricated coupons to 1,000 continuous ther'
+  [SHAPE] l= 0.47 t= 4.39 w= 9.06 h= 0.61 bg=#000000
+  [SHAPE] l= 0.47 t= 4.39 w= 0.03 h= 0.61 bg=#2BDEFD
+  l= 0.62 t= 4.39 w= 8.91 h= 0.20
+    p0r0: sz= 10 #1A365D    'Go/No-Go Gatekeeping Criteria'
+  l= 0.62 t= 4.67 w= 8.91 h= 0.33
+    p0r0: sz=  8 #111111    'Microstructural characterization via'
+  l= 0.58 t= 1.04 w= 5.39 h= 0.33
+    p0r0: sz= 12 inherit    'Note: Timeline to be mutually agreed .' << INHERIT_COLOR
+
+===========================================================================
+SLIDE 11 | TECHNOLOGY VALIDATION & DEPLOYMENT ROADMAP
+===========================================================================
+  [PICTURE] l= 0.00 t= 0.00 w=10.00 h= 5.62
+  l= 0.47 t= 0.47 w= 9.53 h= 0.48
+    p0r0: sz= 24 #1A365D B  'TECHNOLOGY VALIDATION & DEPLOYMENT ROADMAP'
+  l= 0.47 t= 1.03 w= 9.53 h= 0.24
+    p0r0: sz= 12 #2BDEFD    'From In Silico Design to Physical Validation & Deployme'
+  [SHAPE] l= 0.47 t= 1.58 w= 1.72 h= 0.62 bg=#1A365D
+  l= 0.60 t= 1.82 w= 1.46 h= 0.14
+    p0r0: sz=  7 #FFFFFF    'IN SILICO DESIGN SCREENING'
+  [SHAPE] l= 2.30 t= 1.58 w= 1.72 h= 0.62 bg=#1A365D
+  l= 2.40 t= 1.82 w= 1.52 h= 0.14
+    p0r0: sz=  7 #FFFFFF    'LENS FGM WITNESS COUPONS'
+  [SHAPE] l= 4.14 t= 1.58 w= 1.72 h= 0.62 bg=#1A365D
+  l= 4.22 t= 1.75 w= 1.56 h= 0.28
+    p0r0: sz=  7 #FFFFFF    'THERMAL CYCLING VALIDATION'
+  [SHAPE] l= 5.98 t= 1.58 w= 1.72 h= 0.62 bg=#1A365D
+  l= 6.05 t= 1.75 w= 1.56 h= 0.28
+    p0r0: sz=  7 #FFFFFF    'SUBSCALE COMPONENT VALIDATION'
+  [SHAPE] l= 7.81 t= 1.58 w= 1.72 h= 0.62 bg=#2BDEFD
+  l= 7.81 t= 1.58 w= 1.72 h= 0.62
+    p0r0: sz=  7 #1A365D    'INDUSTRY DEPLOYMENT & CERTIFICATION'
+  l= 0.66 t= 2.59 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Witness Coupon Baseline'
+  l= 0.66 t= 2.85 w= 4.19 h= 0.56
+    p0r0: sz=  8 #111111    'Fabricate flat, graded FGM witness coupons using our ha'
+  l= 5.34 t= 2.59 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Comparative Performance'
+  l= 5.34 t= 2.85 w= 4.19 h= 0.56
+    p0r0: sz=  8 #111111    'Subject our transpiration-cooled HEA coupons to concurr'
+  l= 0.66 t= 3.73 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Adaptive Learning Loops'
+  l= 0.66 t= 3.99 w= 4.19 h= 0.56
+    p0r0: sz=  8 #111111    'Real-world discrepancies provide data to retrain surrog'
+  l= 5.34 t= 3.73 w= 4.19 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Flight-Readiness Funnel'
+  l= 5.34 t= 3.99 w= 4.19 h= 0.56
+    p0r0: sz=  8 #111111    'Upon successful TRL 4 validation, move to manufacturing'
+
+===========================================================================
+SLIDE 12 | ECONOMIC VALUE & OPERATING SAVINGS LEDGER
+===========================================================================
+  [SHAPE] l= 0.00 t= 0.00 w=10.00 h= 1.25 bg=#F8FAFC
+  l= 0.47 t= 0.42 w= 9.06 h= 0.42 bg=#000000
+    p0r0: sz= 24 #1A365D B  'ECONOMIC VALUE & OPERATING SAVINGS LEDGER'
+  l= 0.47 t= 0.83 w= 9.06 h= 0.26 bg=#000000
+    p0r0: sz= 12 #2BDEFD    'Fleet Scalability and Direct Operating Cost Reductions '
+  [GROUP] l= 0.47 t= 1.41 w= 9.06 h= 0.78
+  [SHAPE] l= 0.47 t= 2.34 w= 9.06 h= 0.42 bg=#1A365D
+  l= 0.47 t= 2.34 w= 2.08 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    'Assessment Parameter'
+  l= 2.55 t= 2.34 w= 2.92 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    'Governing Aerospace Formula'
+  l= 5.47 t= 2.34 w= 1.98 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    'Baseline Input Variable'
+  l= 7.45 t= 2.34 w= 2.08 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    'Net Annual Savings Yield'
+  l= 0.47 t= 2.76 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #1A365D    'Parasitic Bleed Air Cut'
+  l= 2.55 t= 2.76 w= 2.92 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '╬ö m_bleed = m_baseline ├ù 0.15'
+  l= 5.47 t= 2.76 w= 1.98 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '15% Reduction'
+  l= 7.45 t= 2.76 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #059669 B  'Frees Core Mass Flow'
+  [SHAPE] l= 0.47 t= 3.12 w= 9.06 h= 0.36 bg=#F8FAFC
+  l= 0.47 t= 3.12 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #1A365D    'Net SFC Efficiency Gain'
+  l= 2.55 t= 3.12 w= 2.92 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '╬╖_cycle = ╬ö SFC ├ù 1.0'
+  l= 5.47 t= 3.12 w= 1.98 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '1.5% Net Reduction'
+  l= 7.45 t= 3.12 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #059669 B  'Maximizes Core Thrust'
+  l= 0.47 t= 3.49 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #1A365D    'Volumetric Fuel Savings'
+  l= 2.55 t= 3.49 w= 2.92 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    'V_saved = 3,000 hr ├ù 2,400 kg/hr ├ù 0.015'
+  l= 5.47 t= 3.49 w= 1.98 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '7,200 Metric Tons Baseline'
+  l= 7.45 t= 3.49 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #059669 B  '135,000 Liters / Aircraft'
+  [SHAPE] l= 0.47 t= 3.85 w= 9.06 h= 0.36 bg=#F8FAFC
+  l= 0.47 t= 3.85 w= 2.08 h= 0.36 bg=#000000
+    p0r0: sz=  8 #1A365D    'Direct Operating Cost Cut'
+  l= 2.55 t= 3.85 w= 2.92 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    'Cash Savings = V_saved ├ù $0.85 /L'
+  l= 5.47 t= 3.85 w= 1.98 h= 0.36 bg=#000000
+    p0r0: sz=  8 #475569    '$0.85/L Jet A-1 Price'
+  l= 7.65 t= 3.85 w= 1.88 h= 0.36 bg=#000000
+    p0r0: sz=  8 #059669 B  '$114,750 / Aircraft'
+  [SHAPE] l= 0.47 t= 4.22 w= 9.06 h= 0.42 bg=#1A365D
+  l= 0.47 t= 4.22 w= 2.08 h= 0.42 bg=#000000
+    p0r0: sz=  9 #2BDEFD B  'Fleet Scalability Revenue'
+  l= 2.55 t= 4.22 w= 2.92 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    'Total Yield = Cash Savings ├ù 100 Jets'
+  l= 5.47 t= 4.22 w= 1.98 h= 0.42 bg=#000000
+    p0r0: sz=  8 #FFFFFF    '100 Narrowbody Fleet'
+  l= 7.45 t= 4.22 w= 2.08 h= 0.42 bg=#000000
+    p0r0: sz= 11 #FFFFFF B  '$11,475,000 / Year'
+  l= 0.47 t= 4.79 w= 9.06 h= 0.21 bg=#000000
+    p0r0: sz=  7 #94A3B8    '*Calculations based on global average aviation fuel pro'
+
+===========================================================================
+SLIDE 13 | (image/empty)
+===========================================================================
+  [GROUP] l= 0.47 t= 0.42 w= 9.06 h= 0.73
+  [GROUP] l= 0.47 t= 1.46 w= 4.27 h= 3.54
+  [GROUP] l= 5.16 t= 1.46 w= 4.38 h= 3.44
+
+===========================================================================
+SLIDE 14 | (image/empty)
+===========================================================================
+  [GROUP] l= 0.47 t= 0.47 w= 9.06 h= 4.69
+
+===========================================================================
+SLIDE 15 | SCIDIP DEPLOYMENT: TWO HIGH-VALUE TARGET PATHWAYS
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'SCIDIP DEPLOYMENT: TWO HIGH-VALUE TARGET PATHWAYS'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'From Aerospace Physics to Sona Comstar's Manufacturing '
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  [SHAPE] l= 0.28 t= 1.38 w= 4.58 h= 3.52 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 1.38 w= 4.58 h= 0.07 bg=#1A365D
+  l= 0.44 t= 1.52 w= 4.20 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'DEPLOYMENT PATHWAY 1  ┬╖  DRIVELINE SYSTEMS'
+  l= 0.44 t= 1.72 w= 4.20 h= 0.30
+    p0r0: sz= 13 #1A365D B  'Next-Gen Precision Forging Dies'
+  [SHAPE] l= 0.44 t= 2.05 w= 4.20 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.44 t= 2.14 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 2.10 w= 3.80 h= 0.18
+    p0r0: sz=  8 #DC2626 B  'LEGACY H13 STEEL FAILURE MODE'
+  l= 0.60 t= 2.30 w= 3.80 h= 0.62
+    p0r0: sz=  8 #111111    'Yield strength collapses from 1,800 MPa at room temp to'
+  [SHAPE] l= 0.44 t= 2.96 w= 4.20 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.44 t= 3.05 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 3.01 w= 3.80 h= 0.18
+    p0r0: sz=  8 #059669 B  'CANDIDATE C UPGRADE ARCHITECTURE'
+  [SHAPE] l= 0.44 t= 3.25 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 3.22 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'The Core (Alloy)'
+  l= 0.60 t= 3.38 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    '>917.7 MPa yield at 1,200┬░C ΓÇö 2.2├ù better than H13. Ta-'
+  [SHAPE] l= 0.44 t= 3.87 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 3.84 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'The Surface (LZO Ceramic)'
+  l= 0.60 t= 4.00 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    'Lanthanum Zirconate outer layer acts as supreme thermal'
+  [SHAPE] l= 0.44 t= 4.49 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 4.46 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'The Manufacturing Recipe'
+  l= 0.60 t= 4.62 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    '11-layer manufacturing_recipe.csv export ΓÇö ready for Mu'
+  [SHAPE] l= 0.44 t= 5.11 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.60 t= 5.08 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'Commercial Result'
+  l= 0.60 t= 5.24 w= 3.80 h= 0.44 !! OVERFLOWS BOTTOM
+    p0r0: sz=  7 #111111    '15ΓÇô20% raw material cost reduction vs. incumbent. Drast'
+  [SHAPE] l= 5.14 t= 1.38 w= 4.58 h= 3.52 bg=#FFFFFF
+  [SHAPE] l= 5.14 t= 1.38 w= 4.58 h= 0.07 bg=#00B4D8
+  l= 5.30 t= 1.52 w= 4.20 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'DEPLOYMENT PATHWAY 2  ┬╖  ELECTRIC MOBILITY'
+  l= 5.30 t= 1.72 w= 4.20 h= 0.30
+    p0r0: sz= 13 #1A365D B  'Rare-Earth-Free EV Traction Motors'
+  [SHAPE] l= 5.30 t= 2.05 w= 4.20 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.30 t= 2.14 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 2.10 w= 3.80 h= 0.18
+    p0r0: sz=  8 #DC2626 B  'THE SRM THERMAL BOTTLENECK'
+  l= 5.46 t= 2.30 w= 3.80 h= 0.56
+    p0r0: sz=  8 #111111    'Switched Reluctance Motors (SRMs) eliminate Neodymium b'
+  [SHAPE] l= 5.30 t= 2.90 w= 4.20 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.30 t= 2.99 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 2.95 w= 3.80 h= 0.18
+    p0r0: sz=  8 #059669 B  'THE CRYSTAL PARADIGM SRM UPGRADE'
+  [SHAPE] l= 5.30 t= 3.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.15 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'Thermal Shielding'
+  l= 5.46 t= 3.31 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    'FGM architecture handles rapid thermal cycling ΓÇö 15.95 '
+  [SHAPE] l= 5.30 t= 3.80 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 3.77 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'Rare-Earth Independence'
+  l= 5.46 t= 3.93 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    'Ti-Zr-Hf matrix eliminates Neodymium and reduces depend'
+  [SHAPE] l= 5.30 t= 4.42 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 4.39 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'ESG & Make-in-India'
+  l= 5.46 t= 4.55 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    'Alloy cost ~$170/kg. Embodied Energy: 1,680 MJ/kg. Qual'
+  [SHAPE] l= 5.30 t= 5.04 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.46 t= 5.01 w= 2.00 h= 0.15
+    p0r0: sz=  8 #1A365D B  'IP Pathway'
+  l= 5.46 t= 5.17 w= 3.80 h= 0.44
+    p0r0: sz=  7 #111111    'Crystal Paradigm can generate bespoke SRM stator materi'
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 16 | INTELLECTUAL PROPERTY & SUPPLY CHAIN DE-RISKING
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'INTELLECTUAL PROPERTY & SUPPLY CHAIN DE-RISKING'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'True Aatmanirbharta ΓÇö Indigenous Deep-Tech IP for the I'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  [SHAPE] l= 0.28 t= 1.38 w= 3.90 h= 0.88 bg=#FFF1F0
+  l= 0.42 t= 1.44 w= 3.60 h= 0.18
+    p0r0: sz=  8 #DC2626 B  'CURRENT GLOBAL DEPENDENCY'
+  l= 0.42 t= 1.64 w= 3.60 h= 0.56
+    p0r0: sz=  8 #111111    '80%+ Neodymium & Hafnium controlled by China
+Any trade '
+  l= 4.28 t= 1.55 w= 0.55 h= 0.50
+    p0r0: sz= 22 #00B4D8 B  'Γƒ╢'
+  [SHAPE] l= 4.90 t= 1.38 w= 4.80 h= 0.88 bg=#ECFDF5
+  l= 5.04 t= 1.44 w= 4.50 h= 0.18
+    p0r0: sz=  8 #059669 B  'CRYSTAL PARADIGM INDIGENOUS SOLUTION'
+  l= 5.04 t= 1.64 w= 4.50 h= 0.56
+    p0r0: sz=  8 #111111    'Titanium + Chromium (globally abundant) | ~$170/kg comm'
+  [SHAPE] l= 0.28 t= 2.34 w= 9.44 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 2.42 w= 3.10 h= 2.48 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 2.42 w= 3.10 h= 0.07 bg=#00B4D8
+  [SHAPE] l= 0.36 t= 2.48 w= 0.40 h= 0.40 bg=#00B4D8
+  l= 0.36 t= 2.46 w= 0.40 h= 0.40
+    p0r0: sz= 10 #FFFFFF B  '1'
+  l= 0.40 t= 2.96 w= 2.88 h= 0.22
+    p0r0: sz=  9 #1A365D B  'The Computational IP Moat'
+  [SHAPE] l= 0.46 t= 3.20 w= 2.74 h= 0.02 bg=#00B4D8
+  l= 0.40 t= 3.28 w= 2.88 h= 1.52
+    p0r0: sz=  8 #111111    'Our proprietary 11-phase AI pipeline is a continuous IP'
+  [SHAPE] l= 3.55 t= 2.42 w= 3.10 h= 2.48 bg=#FFFFFF
+  [SHAPE] l= 3.55 t= 2.42 w= 3.10 h= 0.07 bg=#1A365D
+  [SHAPE] l= 3.63 t= 2.48 w= 0.40 h= 0.40 bg=#1A365D
+  l= 3.63 t= 2.46 w= 0.40 h= 0.40
+    p0r0: sz= 10 #FFFFFF B  '2'
+  l= 3.67 t= 2.96 w= 2.88 h= 0.22
+    p0r0: sz=  9 #1A365D B  'FITT IIT Delhi IP Framework'
+  [SHAPE] l= 3.73 t= 3.20 w= 2.74 h= 0.02 bg=#00B4D8
+  l= 3.67 t= 3.28 w= 2.88 h= 1.52
+    p0r0: sz=  8 #111111    'We are fully prepared to navigate FITT's IP commerciali'
+  [SHAPE] l= 6.82 t= 2.42 w= 3.10 h= 2.48 bg=#FFFFFF
+  [SHAPE] l= 6.82 t= 2.42 w= 3.10 h= 0.07 bg=#059669
+  [SHAPE] l= 6.90 t= 2.48 w= 0.40 h= 0.40 bg=#059669
+  l= 6.90 t= 2.46 w= 0.40 h= 0.40
+    p0r0: sz= 10 #FFFFFF B  '3'
+  l= 6.94 t= 2.96 w= 2.88 h= 0.22
+    p0r0: sz=  9 #1A365D B  'Sona Comstar Strategic Integration'
+  [SHAPE] l= 7.00 t= 3.20 w= 2.74 h= 0.02 bg=#00B4D8
+  l= 6.94 t= 3.28 w= 2.88 h= 1.52
+    p0r0: sz=  8 #111111    'Sona Comstar's 'buy & build' acquisition playbook (DENS'
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 17 | THE CRYSTAL PARADIGM CORPORATE ASK
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'THE CRYSTAL PARADIGM CORPORATE ASK'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'Bridging TRL 3+ Computational Validation to TRL 6 Facto'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  l= 0.28 t= 1.38 w= 9.44 h= 0.20
+    p0r0: sz=  8 #1A365D B  'CURRENT POSITION ON THE TECHNOLOGY READINESS SCALE'
+  [SHAPE] l= 0.32 t= 1.65 w= 1.81 h= 0.65 bg=#5580A0
+  l= 0.32 t= 1.65 w= 1.81 h= 0.65
+    p0r0: sz=  7 #FFFFFF B  'TRL 1ΓÇô2
+Physics
+Concept'
+  [SHAPE] l= 2.21 t= 1.65 w= 1.81 h= 0.65 bg=#059669
+  l= 2.21 t= 1.65 w= 1.81 h= 0.65
+    p0r0: sz=  7 #FFFFFF B  'TRL 3+
+Γ£ô NOW
+In Silico Valid.'
+  [SHAPE] l= 4.10 t= 1.65 w= 1.81 h= 0.65
+  l= 4.10 t= 1.65 w= 1.81 h= 0.65
+    p0r0: sz=  7 #00B4D8    'TRL 4
+SCIDIP
+Physical PoC'
+  [SHAPE] l= 5.98 t= 1.65 w= 1.81 h= 0.65
+  l= 5.98 t= 1.65 w= 1.81 h= 0.65
+    p0r0: sz=  7 #F59E0B    'TRL 5
+Prototype
+Integration'
+  [SHAPE] l= 7.87 t= 1.65 w= 1.81 h= 0.65
+  l= 7.87 t= 1.65 w= 1.81 h= 0.65
+    p0r0: sz=  7 #1A365D    'TRL 6
+Sona Comstar
+Commercial'
+  l= 0.28 t= 2.35 w= 9.44 h= 0.20
+    p0r0: sz=  8 #00B4D8    'Γû╢ SCIDIP enables the jump from TRL 3+ to TRL 6 in 24 mo'
+  [SHAPE] l= 0.28 t= 2.60 w= 9.44 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 2.72 w= 2.28 h= 2.18 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 2.72 w= 2.28 h= 0.07 bg=#00B4D8
+  l= 0.40 t= 2.82 w= 2.06 h= 0.16
+    p0r0: sz=  7 #00B4D8 B  'PILLAR 1'
+  l= 0.40 t= 2.98 w= 2.06 h= 0.35
+    p0r0: sz= 10 #1A365D B  'Technology &
+Lab Support'
+  l= 0.40 t= 3.35 w= 2.06 h= 0.18
+    p0r0: sz=  8 #00B4D8    'IIT Delhi CRF'
+  [SHAPE] l= 0.44 t= 3.55 w= 1.96 h= 0.02 bg=#00B4D8
+  l= 0.38 t= 3.62 w= 2.10 h= 1.20
+    p0r0: sz=  7 #111111    'ΓÇó High-Temperature XRD at IIT Delhi CRF to confirm BCC '
+  [SHAPE] l= 2.68 t= 2.72 w= 2.28 h= 2.18 bg=#FFFFFF
+  [SHAPE] l= 2.68 t= 2.72 w= 2.28 h= 0.07 bg=#1A365D
+  l= 2.80 t= 2.82 w= 2.06 h= 0.16
+    p0r0: sz=  7 #1A365D B  'PILLAR 2'
+  l= 2.80 t= 2.98 w= 2.06 h= 0.35
+    p0r0: sz= 10 #1A365D B  'Sona Comstar
+Mentorship'
+  l= 2.80 t= 3.35 w= 2.06 h= 0.18
+    p0r0: sz=  8 #1A365D    'Engineering Alignment'
+  [SHAPE] l= 2.84 t= 3.55 w= 1.96 h= 0.02 bg=#00B4D8
+  l= 2.78 t= 3.62 w= 2.10 h= 1.20
+    p0r0: sz=  7 #111111    'ΓÇó Direct access to Sona Comstar precision forging divis'
+  [SHAPE] l= 5.08 t= 2.72 w= 2.28 h= 2.18 bg=#FFFFFF
+  [SHAPE] l= 5.08 t= 2.72 w= 2.28 h= 0.07 bg=#059669
+  l= 5.20 t= 2.82 w= 2.06 h= 0.16
+    p0r0: sz=  7 #059669 B  'PILLAR 3'
+  l= 5.20 t= 2.98 w= 2.06 h= 0.35
+    p0r0: sz= 10 #1A365D B  'Γé╣80L Grant
+Seed Ecosystem'
+  l= 5.20 t= 3.35 w= 2.06 h= 0.18
+    p0r0: sz=  8 #059669    'Equity-Free Funding'
+  [SHAPE] l= 5.24 t= 3.55 w= 1.96 h= 0.02 bg=#00B4D8
+  l= 5.18 t= 3.62 w= 2.10 h= 1.20
+    p0r0: sz=  7 #111111    'ΓÇó Milestone-tranche funding for raw powder procurement
+'
+  [SHAPE] l= 7.48 t= 2.72 w= 2.28 h= 2.18 bg=#FFFFFF
+  [SHAPE] l= 7.48 t= 2.72 w= 2.28 h= 0.07 bg=#F59E0B
+  l= 7.60 t= 2.82 w= 2.06 h= 0.16
+    p0r0: sz=  7 #F59E0B B  'PILLAR 4'
+  l= 7.60 t= 2.98 w= 2.06 h= 0.35
+    p0r0: sz= 10 #1A365D B  'Corporate
+Market Connect'
+  l= 7.60 t= 3.35 w= 2.06 h= 0.18
+    p0r0: sz=  8 #F59E0B    'Supply Chain Access'
+  [SHAPE] l= 7.64 t= 3.55 w= 1.96 h= 0.02 bg=#00B4D8
+  l= 7.58 t= 3.62 w= 2.10 h= 1.20
+    p0r0: sz=  7 #111111    'ΓÇó Integration into Sona Comstar downstream EV supply ch'
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 18 | THE 24-MONTH INCUBATION ROADMAP
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'THE 24-MONTH INCUBATION ROADMAP'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'From Computational Validation to Sona Comstar Factory I'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  l= 0.28 t= 1.38 w= 9.44 h= 0.22
+    p0r0: sz=  8 #5580A0    'Execution mapped to SCIDIP 24-month incubation cycle. M'
+  [SHAPE] l= 0.50 t= 1.78 w= 9.00 h= 0.04 bg=#D6E4EF
+  [SHAPE] l= 1.46 t= 1.68 w= 0.28 h= 0.28 bg=#00B4D8
+  l= 1.46 t= 1.69 w= 0.28 h= 0.25
+    p0r0: sz=  8 #FFFFFF B  'M1'
+  [SHAPE] l= 0.50 t= 1.95 w= 2.20 h= 3.00 bg=#FFFFFF
+  [SHAPE] l= 0.50 t= 1.95 w= 2.20 h= 0.07 bg=#00B4D8
+  l= 0.60 t= 2.06 w= 2.02 h= 0.16
+    p0r0: sz=  7 #00B4D8 B  'MONTHS 1ΓÇô6'
+  l= 0.60 t= 2.24 w= 2.02 h= 0.35
+    p0r0: sz=  9 #1A365D B  'Powder Synthesis &
+Composition Verification'
+  [SHAPE] l= 0.60 t= 2.62 w= 2.02 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.60 t= 2.74 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.76 t= 2.70 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Procure raw metal powders: Ta, W, Cr, V, Ti, Zr, Hf, Al'
+  [SHAPE] l= 0.60 t= 3.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.76 t= 3.14 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'IIT Delhi CRF: XRD baseline scan to verify powder phase'
+  [SHAPE] l= 0.60 t= 3.62 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.76 t= 3.58 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'NIDHI-CoE: Establish tensile test protocol and specimen'
+  [SHAPE] l= 0.60 t= 4.06 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.76 t= 4.02 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Sona Comstar: Receive forging die dimensional specs for'
+  [SHAPE] l= 0.60 t= 4.50 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 0.76 t= 4.46 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Funding Gate: M1 tranche release upon powder procuremen'
+  [SHAPE] l= 3.86 t= 1.68 w= 0.28 h= 0.28 bg=#1A365D
+  l= 3.86 t= 1.69 w= 0.28 h= 0.25
+    p0r0: sz=  8 #FFFFFF B  'M2'
+  [SHAPE] l= 2.90 t= 1.95 w= 2.20 h= 3.00 bg=#FFFFFF
+  [SHAPE] l= 2.90 t= 1.95 w= 2.20 h= 0.07 bg=#1A365D
+  l= 3.00 t= 2.06 w= 2.02 h= 0.16
+    p0r0: sz=  7 #1A365D B  'MONTHS 6ΓÇô12'
+  l= 3.00 t= 2.24 w= 2.02 h= 0.35
+    p0r0: sz=  9 #1A365D B  'Additive Manufacturing
+Witness Coupons'
+  [SHAPE] l= 3.00 t= 2.62 w= 2.02 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 3.00 t= 2.74 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 3.16 t= 2.70 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Execute 11-layer manufacturing_recipe.csv via DED 3D pr'
+  [SHAPE] l= 3.00 t= 3.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 3.16 t= 3.14 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Multi-hopper DED: Layer 1 (100% Alloy) ΓåÆ Layer 11 (100%'
+  [SHAPE] l= 3.00 t= 3.62 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 3.16 t= 3.58 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'NIDHI-CoE Mechanical Lab: Tensile coupon machining and '
+  [SHAPE] l= 3.00 t= 4.06 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 3.16 t= 4.02 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'SEM/EDS scan: Verify chemical composition layer-by-laye'
+  [SHAPE] l= 3.00 t= 4.50 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 3.16 t= 4.46 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Funding Gate: M2 tranche upon coupon dimensional inspec'
+  [SHAPE] l= 6.26 t= 1.68 w= 0.28 h= 0.28 bg=#059669
+  l= 6.26 t= 1.69 w= 0.28 h= 0.25
+    p0r0: sz=  8 #FFFFFF B  'M3'
+  [SHAPE] l= 5.30 t= 1.95 w= 2.20 h= 3.00 bg=#FFFFFF
+  [SHAPE] l= 5.30 t= 1.95 w= 2.20 h= 0.07 bg=#059669
+  l= 5.40 t= 2.06 w= 2.02 h= 0.16
+    p0r0: sz=  7 #059669 B  'MONTHS 12ΓÇô18'
+  l= 5.40 t= 2.24 w= 2.02 h= 0.35
+    p0r0: sz=  9 #1A365D B  'IIT Delhi CRF &
+NIDHI-CoE Validation'
+  [SHAPE] l= 5.40 t= 2.62 w= 2.02 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 5.40 t= 2.74 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.56 t= 2.70 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'High-Temp XRD: Confirm 0% brittle sigma phase at 1,200┬░'
+  [SHAPE] l= 5.40 t= 3.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.56 t= 3.14 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'STA/TGA: Mass gain oxidation kinetics ΓÇö target <10 mg/c'
+  [SHAPE] l= 5.40 t= 3.62 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.56 t= 3.58 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Burner rig adhesion test: Validate interfacial bond Saf'
+  [SHAPE] l= 5.40 t= 4.06 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.56 t= 4.02 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'NIDHI-CoE tensile: Confirm >917.7 MPa yield strength re'
+  [SHAPE] l= 5.40 t= 4.50 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 5.56 t= 4.46 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Funding Gate: M3 upon full TRL 4 physical validation re'
+  [SHAPE] l= 8.66 t= 1.68 w= 0.28 h= 0.28 bg=#F59E0B
+  l= 8.66 t= 1.69 w= 0.28 h= 0.25
+    p0r0: sz=  8 #FFFFFF B  'M4'
+  [SHAPE] l= 7.70 t= 1.95 w= 2.20 h= 3.00 bg=#FFFFFF
+  [SHAPE] l= 7.70 t= 1.95 w= 2.20 h= 0.07 bg=#F59E0B
+  l= 7.80 t= 2.06 w= 2.02 h= 0.16
+    p0r0: sz=  7 #F59E0B B  'MONTHS 18ΓÇô24'
+  l= 7.80 t= 2.24 w= 2.02 h= 0.35
+    p0r0: sz=  9 #1A365D B  'Corporate Handover
+TRL 5/6 Integration'
+  [SHAPE] l= 7.80 t= 2.62 w= 2.02 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 7.80 t= 2.74 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 7.96 t= 2.70 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Present validated TRL 5 hardware to Sona Comstar forgin'
+  [SHAPE] l= 7.80 t= 3.18 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 7.96 t= 3.14 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Begin integration trial: Candidate C die vs. legacy H13'
+  [SHAPE] l= 7.80 t= 3.62 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 7.96 t= 3.58 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'SRM stator prototype assembly ΓÇö thermal shock cycling t'
+  [SHAPE] l= 7.80 t= 4.06 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 7.96 t= 4.02 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'File joint patents via FITT IIT Delhi for commercialize'
+  [SHAPE] l= 7.80 t= 4.50 w= 0.09 h= 0.09 bg=#00B4D8
+  l= 7.96 t= 4.46 w= 1.86 h= 0.40
+    p0r0: sz=  7 #111111    'Funding Gate: M4 ΓÇö Series A readiness pitch to IIT Delh'
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Crystal Paradigm  ┬╖  SCIDIP Program Application  ┬╖  Adv'
+
+===========================================================================
+SLIDE 19 | THE CRYSTAL PARADIGM TEAM
+===========================================================================
+  l= 0.47 t= 0.47 w= 9.20 h= 0.52
+    p0r0: sz= 22 #1A365D B  'THE CRYSTAL PARADIGM TEAM'
+  l= 0.47 t= 1.02 w= 9.20 h= 0.28
+    p0r0: sz= 11 #2BDEFD    'Elite Academic Leadership ┬╖ Prodigious AI Engineering ┬╖'
+  [SHAPE] l= 0.00 t= 5.03 w=10.00 h= 0.05 bg=#00B4D8
+  [SHAPE] l= 0.00 t= 5.08 w=10.00 h= 0.59 bg=#0F203C !! OVERFLOWS BOTTOM
+  l= 0.28 t= 1.38 w= 9.44 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'RESEARCH LEADS ΓÇö SCIENTIFIC OVERSIGHT & VALIDATION'
+  [SHAPE] l= 0.28 t= 1.58 w= 9.44 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 1.65 w= 4.58 h= 1.62 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 1.65 w= 4.58 h= 0.07 bg=#00B4D8
+  [SHAPE] l= 0.38 t= 1.78 w= 0.58 h= 0.58 bg=#0F203C
+  l= 0.38 t= 1.82 w= 0.58 h= 0.48
+    p0r0: sz= 13 #2BDEFD B  'SC'
+  l= 1.04 t= 1.72 w= 3.62 h= 0.22
+    p0r0: sz= 10 #1A365D B  'Dr. Shilpa Choudhary'
+  l= 1.04 t= 1.94 w= 3.62 h= 0.18
+    p0r0: sz=  8 #00B4D8    'AI / ML Lead  ┬╖  Top 2% Scientists Worldwide ΓÇö Stanford'
+  [SHAPE] l= 1.04 t= 2.14 w= 3.62 h= 0.02 bg=#00B4D8
+  l= 1.04 t= 2.20 w= 3.62 h= 1.00
+    p0r0: sz=  7 #111111    'Dr. Choudhary brings over 16 years of research expertis'
+  [SHAPE] l= 5.14 t= 1.65 w= 4.58 h= 1.62 bg=#FFFFFF
+  [SHAPE] l= 5.14 t= 1.65 w= 4.58 h= 0.07 bg=#1A365D
+  [SHAPE] l= 5.24 t= 1.78 w= 0.58 h= 0.58 bg=#0F203C
+  l= 5.24 t= 1.82 w= 0.58 h= 0.48
+    p0r0: sz= 13 #2BDEFD B  'KV'
+  l= 5.90 t= 1.72 w= 3.62 h= 0.22
+    p0r0: sz= 10 #1A365D B  'Dr. Kasarapu Venkataramana'
+  l= 5.90 t= 1.94 w= 3.62 h= 0.18
+    p0r0: sz=  8 #00B4D8    'Materials Science & Experimental Validation Lead  ┬╖  CS'
+  [SHAPE] l= 5.90 t= 2.14 w= 3.62 h= 0.02 bg=#00B4D8
+  l= 5.90 t= 2.20 w= 3.62 h= 1.00
+    p0r0: sz=  7 #111111    'Research Associate at CSIR-IICT (DRDO-sponsored pyrotec'
+  l= 0.28 t= 3.35 w= 9.44 h= 0.18
+    p0r0: sz=  8 #00B4D8 B  'CORE AI ARCHITECTS ΓÇö DAY-TO-DAY INNOVATION ENGINE'
+  [SHAPE] l= 0.28 t= 3.55 w= 9.44 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 3.62 w= 4.58 h= 1.42 bg=#FFFFFF
+  [SHAPE] l= 0.28 t= 3.62 w= 4.58 h= 0.07 bg=#00B4D8
+  [SHAPE] l= 0.38 t= 3.72 w= 0.52 h= 0.52 bg=#0F203C
+  l= 0.38 t= 3.78 w= 0.52 h= 0.38
+    p0r0: sz=  8 #2BDEFD B  'MAR'
+  l= 0.98 t= 3.68 w= 3.68 h= 0.20
+    p0r0: sz= 10 #1A365D B  'Mohammed Ahmed Raza'
+  l= 0.98 t= 3.88 w= 3.68 h= 0.18
+    p0r0: sz=  7 #00B4D8    'AI Research Intern  ┬╖  Crystal Paradigm  ┬╖  Certified A'
+  [SHAPE] l= 0.98 t= 4.08 w= 3.68 h= 0.02 bg=#00B4D8
+  l= 0.98 t= 4.14 w= 3.68 h= 0.84
+    p0r0: sz=  7 #111111    'CSE student at Neil Gogte Institute of Technology (NGIT'
+  [SHAPE] l= 5.14 t= 3.62 w= 4.58 h= 1.42 bg=#FFFFFF
+  [SHAPE] l= 5.14 t= 3.62 w= 4.58 h= 0.07 bg=#1A365D
+  [SHAPE] l= 5.24 t= 3.72 w= 0.52 h= 0.52 bg=#0F203C
+  l= 5.24 t= 3.78 w= 0.52 h= 0.38
+    p0r0: sz=  8 #2BDEFD B  'KIR'
+  l= 5.84 t= 3.68 w= 3.68 h= 0.20
+    p0r0: sz= 10 #1A365D B  'K. Indrasena Reddy (Indra)'
+  l= 5.84 t= 3.88 w= 3.68 h= 0.18
+    p0r0: sz=  7 #00B4D8    'AI Research Intern  ┬╖  Crystal Paradigm  ┬╖  Ex-AI Devel'
+  [SHAPE] l= 5.84 t= 4.08 w= 3.68 h= 0.02 bg=#00B4D8
+  l= 5.84 t= 4.14 w= 3.68 h= 0.84
+    p0r0: sz=  7 #111111    'CSE student at Neil Gogte Institute of Technology (NGIT'
+  [SHAPE] l= 0.28 t= 5.08 w= 9.44 h= 0.02 bg=#00B4D8
+  [SHAPE] l= 0.28 t= 4.98 w= 9.44 h= 0.10 bg=#0F203C
+  l= 2.00 t= 5.13 w= 7.80 h= 0.38
+    p0r0: sz= 11 #D0E8F5    'Extended Team: 18 specialized AI Research Interns ┬╖ Mas'
+
+===========================================================================
+SLIDE 20 | CLOSING & COLLABORATION ROADMAP
+===========================================================================
+  [PICTURE] l=-0.06 t= 0.00 w=10.00 h= 5.92 !! LEFT OF SLIDE
+  l= 0.57 t= 0.20 w= 8.75 h= 0.48
+    p0r0: sz= 24 #1A365D B  'CLOSING &'
+  l= 0.71 t= 0.90 w= 4.03 h= 0.24
+    p0r0: sz=?   #1A365D B  'Why Us, Why Now'
+  l= 0.71 t= 1.21 w= 4.03 h= 0.68
+    p0r0: sz= 10 inherit    'We have successfully engineered a constrained 9-element' << INHERIT_COLOR
+  l= 5.27 t= 0.90 w= 4.03 h= 0.24
+    p0r0: sz=?   #1A365D B  'The Crystal Paradigm Team'
+  l= 5.33 t= 1.05 w= 4.44 h= 2.13
+    p0r0: sz= 10 inherit B  'Our scientific foundation is anchored by top-tier mento' << INHERIT_COLOR
+  l= 0.54 t= 2.71 w= 8.75 h= 0.24
+    p0r0: sz=?   #2BDEFD B  'SCIDIP Collaboration Ask:'
+  [SHAPE] l= 0.62 t= 3.07 w= 8.75 h= 0.02 bg=#E2E8F0
+  l= 0.62 t= 3.23 w= 2.92 h= 0.18
+    p0r0: sz=  9 #1A365D    '1. IIT Delhi CRF Access'
+  l= 0.62 t= 3.48 w= 2.92 h= 0.46
+    p0r0: sz=  8 inherit    'Specifically STA (1500┬░C), Tube Furnaces, XRD, and SEM/' << INHERIT_COLOR
+  l= 3.54 t= 3.23 w= 2.92 h= 0.18
+    p0r0: sz=  9 #1A365D    '2. Sona Comstar Technology Mentorship & Market Connect'
+  l= 3.54 t= 3.48 w= 2.92 h= 0.46
+    p0r0: sz= 10 inherit    'Industry mentorship and access to corporate market conn' << INHERIT_COLOR
+  l= 6.46 t= 3.23 w= 2.92 h= 0.18
+    p0r0: sz=  9 #1A365D    '3. SCIDIP Grant Support'
+  l= 6.46 t= 3.48 w= 2.92 h= 0.31
+    p0r0: sz= 10 inherit    'To fabricate initial FGM witness coupons and execute TR' << INHERIT_COLOR
+  [SHAPE] l= 0.00 t= 4.41 w=10.00 h= 1.51 bg=#1A365D !! OVERFLOWS BOTTOM
+  l=-0.06 t= 4.63 w= 9.51 h= 0.46 !! LEFT OF SLIDE
+    p0r0: sz= 12 #FFFFFF    'From computational design to physical validation ΓÇö in a'
+  l= 0.62 t= 5.21 w= 8.94 h= 0.32
+    p0r0: sz= 16 #2BDEFD    'crystalparadigm.in'

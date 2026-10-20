@@ -1,0 +1,99 @@
+
+
+Safran Explore Smart Materials Challenge
+Powered by Alcimed
+
+Company Name *
+Primary point of contact - Full Name *
+Primary point of contact - Email address *
+Primary point of contact - Phone number *
+Including your country code.
+Primary point of contact - Position in the company *
+Add a secondary point of contact *
+
+Yes
+
+No need
+Company headquarter country *
+Compagny date of creation *
+(Year)
+Number of employees *
+Composition of the team
+Please specify key roles, the number of people in each function (e.g., production, business, manufacturing ...), and the team’s profile typology (e.g., PhD, Master’s, etc.).
+Company Website *
+Social Network of the company
+If possible: 2024 or 2025 revenue
+Funds raised so far
+Who are your shareholders?
+Who are your major partners and customers? *
+Short description of your activity *
+Which challenge(s) is your technology addressing? *
+You can select multiple challenges.
+
+Challenge #1: Smart Materials – Multi-functionality, Performance & Sustainability
+
+Challenge #2: Intelligence for Materials & Processes – Towards an augmented design and testing
+
+Challenge #3: Advanced Solution for Electrical Systems in Extreme Environments
+
+Challenge #4: Circularity & Recycling – Closing the Loop for Critical Materials
+
+Challenge #5: Inspection, Maintenance & Reliability – Securing Material Performance
+Challenge #1. Which topic(s) of the challenge is your technology addressing? *
+You can select multiple sub-challenges if relevant.
+1.3.1. Additive processes of tomorrow
+Challenge #2. Which topic(s) of the challenge is your technology addressing? *
+You can select multiple sub-challenges if relevant.
+Describe your technology and its added value compared to the state of the art regarding the challenge and topic selected *
+Why is it a breakthrough?
+What are your key differentiators of your company / technology compared to your competitors?
+Please mention the name(s) of the competitor(s).
+How did you come up with this technology?
+What is the maturity of the technology ?
+What is the technology readiness level of your technology and what is the market readiness level of your product – PoC, Prototype, MVP, commercialized?
+Is your technology patented? *
+
+Yes
+
+No
+Have you received private or public funding on this technology specifically? *
+Please specify : By whom? How much? When?
+Has your startup received any awards or recognition for its technology?
+If yes, please specify.
+Is your technology subject to export control? *
+Have you already worked with any of Safran's entities? *
+If yes, please specify the entity or contact person.
+Have you already worked for the Aerospace sector?
+If yes, please specify the use cases and/or player if possible.
+What are your next steps / key future milestones?
+What motivates you to participate in this Explore Program?
+What type of collaboration would you like to implement with Safran? *
+The more detailed is your answer the easier it will be for Safran experts to project themself doing a collaboration with your company.
+How did you first hear about the EXPLORE Program? *
+
+Alcimed direct contact
+
+Centech
+
+European Innovation Council Network
+
+Enterprise Europe Network
+
+Events / Trade shows
+
+LinkedIn
+
+Safran direct contact
+
+Safran Explore Website
+
+Other (please specify)
+Please add at least a technical deck or documentation explaining your technology to your application. *
+Please feel free to share any additional relevant document (max 12 Mo)
+Add a file
+In case of any issues, please do not hesitate to contact :
+safran.explore@alcimed.com
+I have read and I accept the conditions and rules of application. *
+Please find the conditions and rules of applications at www.alcimed.com/safran-explore-smart-materials
+Powered by
+Baserow - open source no-code database tool and Airtable alternative

@@ -1,0 +1,13 @@
+﻿# Office temp lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db

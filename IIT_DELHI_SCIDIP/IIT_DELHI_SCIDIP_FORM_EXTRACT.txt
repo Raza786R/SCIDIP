@@ -1,0 +1,55 @@
+Last Date to apply: 01 Aug 2026 10:59:59 pm
+Already Applied?
+
+Check your status
+
+Check
+1
+Email * 
+This email will be used for further communications.
+2
+
+Applicant Name * 
+
+50 character(s) remaining
+3
+Primary Contact Number * 
+4
+What is your base loaction? * 
+Country
+Select
+State
+Select
+5
+Category * 
+Entrepreneur
+Academician
+Individual/Student
+6
+Your Solution falls under which Industry and industry-related sector? * 
+Industry
+Select
+Sector
+Select
+7
+What stage is your idea currently in? * 
+Ideation
+POC
+MVP
+Traction
+Revenue
+8
+Please describe your problem-solution fit in one sentence.  * 
+250 character(s) remaining
+9
+Upload your Pitch Deck (PDF Format) * 
+Upload your file
+
+I agree to the Terms and Conditions and Privacy Policy.
+
+Please accept the terms and conditions to proceed.
+
+Submit
+Save as Draft
+This form was created inside of accubate.fitt-iitd.in
+Powered by Cunomial
