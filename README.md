@@ -1,48 +1,79 @@
-# 🧭 START HERE: The Ultimate Project Guidebook
-**Welcome to the Antigravity AI & Safran Aerospace Challenge 2026 Repository.**
+# SAFRAN CHALLENGE 2026 — Project Repository
 
-If you have just stepped into this project, this document is your compass. It will guide you exactly on what to read, in what order, to fully understand the technology, the physics, and the business application.
-
----
-
-## 📖 Reading Order: How to Navigate This Project
-
-Please follow this sequence to understand the project from end to end without getting overwhelmed.
-
-### STEP 1: The High-Level Overview
-**Goal:** Understand what we built and why it matters.
-*   👉 **Read:** `Saffron-Aero/README.md`
-*   *Why?* This is the executive summary. It explains the core challenge (turbine blade delamination), our AI inverse-design pipeline, and reveals the ultimate winner: **Candidate C** (SF = 1.71).
-
-### STEP 2: The Core Physics & Architecture
-**Goal:** Understand the deep science behind the alloy and the gradient.
-*   👉 **Read:** `Saffron-Aero/docs/ARCHITECTURE_FINAL.md`
-*   *Why?* This explains the 11-phase workflow, why we used Constrained Differential Evolution, and why we replaced Hafnium with Titanium and Aluminum. It explains the math behind the `n=1.1` power-law gradient that prevents cracking.
-
-### STEP 3: The Validation Evidence
-**Goal:** See the hardcore supercomputing proof.
-*   👉 **Read/View:** `INFO FILES/Literature_and_References/Phase1_Computational_Validation_Report.pdf`
-*   *Why?* This is the independent Bohrium/SciMaster validation report. Look at the 3D FEniCS FEA stress heatmaps and the MACE Molecular Dynamics oxidation graphs. This proves our AI's predictions are physically sound.
-
-### STEP 4: The Manufacturing Handoff
-**Goal:** Understand how to physically build this in the real world.
-*   👉 **Read:** `Saffron-Aero/docs/PROJECT_HANDOFF_FINAL.md`
-*   *Why?* This document transitions from digital to physical (TRL 4). It explains how Safran can use Laser Engineered Net Shaping (LENS) to 3D print the graded alloy-ceramic powder.
-
-### STEP 5: The Business & Application Pitch (For the Safran Submission)
-**Goal:** Understand how we are pitching this technology to Safran's Explore Smart Materials Challenge.
-*   👉 **Read:** `INFO FILES/Project_Onboarding/SAFRAN_APPLICATION_AND_PITCH_GUIDE.md`
-*   *Why?* This contains the exact copy-paste answers for the application portal, our startup's key differentiators, and a slide-by-slide blueprint for the technical Pitch Deck.
+This repository contains all working files, documents, scripts, and references for the Crystal Paradigm project — covering both the original Safran Explore challenge and the subsequent IIT Delhi SCIDIP (Sona Comstar — IIT Delhi Innovation Program) application.
 
 ---
 
-## 📂 Directory Structure Cheat Sheet
+## Repository Structure
 
-If you get lost, here is a quick map of the parent folder (`SAFRAN_CHALLENGE_2026/`):
+### 📁 `IIT_DELHI_SCIDIP/`
+All files related to the IIT Delhi SCIDIP 2026 program application.
 
-*   📁 **`Saffron-Aero/`** — **The Active Codebase.** This is the main Git repository. It contains our AI Python scripts, the `README.md`, and the `runs/` folder with the actual execution logs for Candidate C.
-*   📁 **`INFO FILES/`** — **The Reference Library.** This is where all massive PDFs, scientific papers, meeting transcripts, and onboarding guides live, keeping the main codebase lightweight.
-*   📁 **`bin/`** — **The Archive Vault.** Nothing is ever permanently deleted. If a script crashed, an old candidate failed, or a markdown file became obsolete, it was moved here for historical reference. Ignore this folder unless you are doing forensics.
+Contains:
+- Final pitch deck versions (`.pptx`) prepared for the SCIDIP presentation
+- Technical appendix documents (`.docx`) submitted as part of the application
+- Official application PDFs submitted to FITT IIT Delhi
+- Founder briefing documents, formal proposal, and mentor briefing (`.docx`) generated during prep
+- Python scripts used to generate, modify, and audit the pitch deck and technical appendix files
+- Research and review markdown files about the SCIDIP program, project structure, and slide content
+- Extracted text dumps and analysis files from PPTX/DOCX processing
+- `logo.png` — Crystal Paradigm logo used in deck generation
 
 ---
-*Maintained by the Antigravity AI Engineering Team*
+
+### 📁 `Saffron-Aero/`
+The main working codebase for the Safran Explore challenge.
+
+Contains:
+- `data/` — datasets used during the project
+- `docs/` — documentation files
+- `models/` — model-related files
+- `phase_wise_analysis/` — analysis organized by project phases
+- `runs/` — output files from pipeline runs
+- `scripts/` — Python scripts for the computational pipeline
+- `README.md` — detailed readme for this sub-project
+
+---
+
+### 📁 `archive/`
+Historical working files, previous runs, and reference material no longer in active use.
+
+Sub-folders:
+- `Saffron-Aero_Archive/` — older pipeline runs, raw database files, previous candidate reports, markdown status files, and experimental data (includes the large HEA database CSV, Bohrium run logs, and project handoff notes)
+- `ANTIGRAVITY_WORK_ARCHIVE/` — working files from AI-assisted sessions
+- `Previous_Flaws_and_Fixes/` — notes and fixes from earlier iterations of the project
+- `SAFRAN_VERFICATION_AND_GUIDE/` — verification guides and review notes
+
+---
+
+### 📁 `references_and_guides/`
+Reference material, submission files, and onboarding documents.
+
+Sub-folders:
+- `FINAL_SUBMISSION_FILES/` — the actual files submitted for the Safran Explore challenge (pitch deck, technical appendix, and supporting documents)
+- `Bohrium_Submissions/` — files related to Bohrium cloud compute submissions
+- `Literature_and_References/` — research literature and reference documents
+- `Project_Onboarding/` — onboarding material for new team members
+
+---
+
+### 📄 Root-level files
+- `generate_final_docx.py` — script used to generate the final Safran Explore submission document
+- `extract_slides.py`, `extract_text.py`, `read_pptx.py` — utility scripts for reading and extracting content from PPTX files
+- `verify_docx.py` — script to verify docx output
+- `pptx_extracted_new.txt`, `pptx_slides_detailed.txt`, `safran_pptx_content.md` — extracted text content from PPTX files for reference
+- `README.md` — this file
+- `.gitignore` — excludes Office temp lock files (`~$*.pptx`, `~$*.docx`), Python cache, and OS junk files
+
+---
+
+## Notes for New Team Members / Collaborators
+
+- The **most relevant final files** for the IIT Delhi SCIDIP program are in `IIT_DELHI_SCIDIP/`
+- The **original Safran Explore submission files** are in `references_and_guides/FINAL_SUBMISSION_FILES/`
+- The **active Saffron-Aero codebase** is in `Saffron-Aero/` — this is also separately tracked at `github.com/indra2215/Saffron-Aero`
+- Large files (>50MB) exist in `archive/` — GitHub may warn about these but they are pushed successfully
+
+---
+
+*Crystal Paradigm Private Limited | crystalparadigm.in | khub.crystalparadigm@gmail.com*
