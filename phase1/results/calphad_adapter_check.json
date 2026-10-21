@@ -1,0 +1,35 @@
+{
+  "database_sha256": "ce3e7d23986ae08d2a526743facdbbdeb93c0ccdaa6a57fad3abe27e8a9b7595",
+  "database_provenance": "pycalphad distributed alni_dupin_2001.tdb (Dupin et al. assessment); used only as a software integration fixture",
+  "pycalphad_version": "0.11.2",
+  "components": [
+    "AL",
+    "NI",
+    "VA"
+  ],
+  "dependent_component": "NI",
+  "entered_phases": [
+    "AL3NI1",
+    "AL3NI2",
+    "AL3NI5",
+    "BCC_B2",
+    "FCC_L12",
+    "LIQUID"
+  ],
+  "results": [
+    {
+      "temperature_K": 1000.0,
+      "phase_mole_fractions": {
+        "FCC_L12": 1.0
+      }
+    },
+    {
+      "temperature_K": 1600.0,
+      "phase_mole_fractions": {
+        "FCC_L12": 1.0000000000000002
+      }
+    }
+  ],
+  "limit": "Equilibrium within supplied database/phase descriptions, not kinetic or experimental validation.",
+  "purpose": "Adapter integration check ONLY. Al-Ni is outside HE-MCGA search; no target-alloy phase claim."
+}

@@ -1,0 +1,182 @@
+{
+  "bulk": {
+    "target": "bulk",
+    "units": "GPa",
+    "model": "ExtraTreesRegressor(96 trees, min_samples_leaf=2)",
+    "split_policy": "SHA256(seed:composition_id) mod 10: test 0-1, calibration 2-3, train 4-9",
+    "rows_by_partition": {
+      "train": 22,
+      "test": 18,
+      "calibration": 3
+    },
+    "groups_by_partition": {
+      "train": 16,
+      "calibration": 3,
+      "test": 8
+    },
+    "composition_overlap": 0,
+    "locked_test": {
+      "n": 18,
+      "MAE": 20.409174189814788,
+      "R2": 0.8673804983137803
+    },
+    "median_baseline_test": {
+      "n": 18,
+      "MAE": 63.55027777777778,
+      "R2": -0.001978015920621523
+    },
+    "training_only_group_cv": [
+      {
+        "fold": 0,
+        "n": 5,
+        "MAE": 5.094152083333233,
+        "R2": 0.7825832828744279,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 1,
+        "n": 5,
+        "MAE": 55.85089791666651,
+        "R2": 0.3981272191273153,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 2,
+        "n": 4,
+        "MAE": 34.550292968749886,
+        "R2": -1.444293383705848,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 3,
+        "n": 4,
+        "MAE": 32.67787109374998,
+        "R2": -3.1509984670162936,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 4,
+        "n": 4,
+        "MAE": 27.024901909722253,
+        "R2": 0.33281514215493335,
+        "composition_overlap": 0
+      }
+    ],
+    "calibration_groups": 3,
+    "group_max_residual_nominal_90pct_radius": null,
+    "test_row_interval_coverage": null,
+    "interval_limit": "Exchangeability assumed; composition distance and processing/temperature shifts invalidate coverage claims.",
+    "domain_cutoff_L1": 1.0833333333333333,
+    "training_temperature_K": [
+      null,
+      null
+    ]
+  },
+  "yield": {
+    "target": "yield",
+    "units": "MPa",
+    "model": "ExtraTreesRegressor(96 trees, min_samples_leaf=2)",
+    "split_policy": "SHA256(seed:composition_id) mod 10: test 0-1, calibration 2-3, train 4-9",
+    "rows_by_partition": {
+      "train": 185,
+      "test": 84,
+      "calibration": 48
+    },
+    "groups_by_partition": {
+      "train": 54,
+      "calibration": 13,
+      "test": 18
+    },
+    "composition_overlap": 0,
+    "locked_test": {
+      "n": 84,
+      "MAE": 229.52017313869996,
+      "R2": 0.45654334469854996
+    },
+    "median_baseline_test": {
+      "n": 84,
+      "MAE": 416.5833333333333,
+      "R2": -0.21201286183882884
+    },
+    "training_only_group_cv": [
+      {
+        "fold": 0,
+        "n": 37,
+        "MAE": 461.8495823948949,
+        "R2": -0.31072943936115793,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 1,
+        "n": 37,
+        "MAE": 148.9469829204204,
+        "R2": 0.913744469956199,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 2,
+        "n": 37,
+        "MAE": 118.56462087087093,
+        "R2": 0.9031209596995493,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 3,
+        "n": 37,
+        "MAE": 120.13018916237672,
+        "R2": 0.8993676763700791,
+        "composition_overlap": 0
+      },
+      {
+        "fold": 4,
+        "n": 37,
+        "MAE": 220.01722034534538,
+        "R2": 0.7902631606914758,
+        "composition_overlap": 0
+      }
+    ],
+    "calibration_groups": 13,
+    "group_max_residual_nominal_90pct_radius": 1648.7048611111109,
+    "test_row_interval_coverage": 1.0,
+    "interval_limit": "Exchangeability assumed; composition distance and processing/temperature shifts invalidate coverage claims.",
+    "domain_cutoff_L1": 0.4787784997219538,
+    "training_temperature_K": [
+      4.349999999999966,
+      1873.15
+    ],
+    "composition_publication_connected_blocks": 15,
+    "training_only_composition_and_publication_cv": [
+      {
+        "fold": 0,
+        "n": 115,
+        "MAE": 240.52936141304355,
+        "R2": 0.6914666810761604
+      },
+      {
+        "fold": 1,
+        "n": 21,
+        "MAE": 490.79488260582036,
+        "R2": -0.911480043993451
+      },
+      {
+        "fold": 2,
+        "n": 17,
+        "MAE": 306.71165236928107,
+        "R2": 0.7694974493835839
+      },
+      {
+        "fold": 3,
+        "n": 16,
+        "MAE": 440.80078125000006,
+        "R2": -0.4310125050459188
+      },
+      {
+        "fold": 4,
+        "n": 16,
+        "MAE": 574.8411349826389,
+        "R2": -0.04213961357956819
+      }
+    ],
+    "qualification_limit": "Compression yield only; no tensile, creep, fatigue or coating bond allowables."
+  }
+}

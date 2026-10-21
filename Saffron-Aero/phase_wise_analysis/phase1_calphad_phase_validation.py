@@ -1,3 +1,7 @@
+# Historical calculations/reports are not Phase 1 validation evidence.
+if __name__ == "__main__":
+    raise SystemExit("Historical report generator disabled: use phase1/README.md for reproducible calculations. Fixed narrative outputs are not validation evidence.")
+
 import numpy as np
 import matplotlib.pyplot as plt
 

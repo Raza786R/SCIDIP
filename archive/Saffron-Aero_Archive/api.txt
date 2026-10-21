@@ -198,7 +198,7 @@ http://oqmd.org:8080/optimade/structures?filter=_oqmd_band_gap=0 OR (_oqmd_band_
 
 ©2019, The OQMD development team. | Powered by Sphinx 4.4.0 & Alabaster 0.7.12 | Page source
 
-mp_api key ="nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii"
+mp_api key ="REVOKED_KEY_REMOVED_USE_MP_API_KEY"
 
 
 links for jarvis dataset

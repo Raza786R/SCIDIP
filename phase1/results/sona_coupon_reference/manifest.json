@@ -1,0 +1,69 @@
+{
+  "package_version": "0.1.0",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0"
+  },
+  "seed": 42,
+  "base_commit": "9d47562ee59bf9c14f8873170bac662f9bc1ceff",
+  "working_tree_dirty": true,
+  "code_sha256": {
+    "phase1/he_mcga/__init__.py": "2dfd6e48dd1df5b66acbb87d740293b8eb22ee6a339a9bd86b664cfb62e8e58d",
+    "phase1/he_mcga/__main__.py": "bc3cdacb0609603d43674ba007a42d936a12450477598500929757ea236faf63",
+    "phase1/he_mcga/applications.py": "2fed0a552f12b6bf5bd4f23003563be6d07b6418999a4730cb3bbe4f31b698af",
+    "phase1/he_mcga/calphad.py": "0fec221da8cc938125bbab96be4865bb43472a9e9f642e47071c1304b5d67f06",
+    "phase1/he_mcga/composition.py": "a79f96b27db976e178c028dc804a71f92047debb5bd9a335d8275888512ceaa0",
+    "phase1/he_mcga/data.py": "6b5b4c4af8ba4a0ae15b61d07b03b1e886f1b815383522f87971ff330e3a93dd",
+    "phase1/he_mcga/feedback.py": "ba10039bce2e36edb8b85d8709ae255849649849c3bd5c44263ab8ac5a7714a7",
+    "phase1/he_mcga/models.py": "fa01c4b941afea3a83c4de3611535bfb837ec12ccb7dd8e10a361335acf6b290",
+    "phase1/he_mcga/search.py": "fba3e3c8dcb427e2417722ddf373139b509f03cf1570677b806d01d24b691f68",
+    "phase1/he_mcga/thermal.py": "78a02b028c08df80da74befc73588165070ad10a50750c6f068368138fbdeef5",
+    "pyproject.toml": "f5a759c4592c4058cc4c5e66744df42fcba321486ce9820046df4db16c6f5739"
+  },
+  "input_sources": {
+    "bulk": {
+      "path": "Saffron-Aero/data/raw_materials_project.csv",
+      "sha256": "6292ded5fe834c82a3d5a93e74072e6840989d31ef82759c3d1a2872064943a2",
+      "source_rows": 262,
+      "accepted_rows": 43,
+      "rejected_rows": 219
+    },
+    "yield": {
+      "path": "Saffron-Aero/data/EXP-MPEA_dataset.csv",
+      "sha256": "c5504d93fd324d1be26cf814d0694ee9ee95578d68a0b38aba6813b939fa2c5d",
+      "source_rows": 1545,
+      "accepted_rows": 317,
+      "rejected_rows": 1228
+    }
+  },
+  "config_sha256": "a79795580da9484aa4fd2997b5d3f9d9a0cdb55e9cbac6e791dd8cbf5e24105b",
+  "feedback_sha256": null,
+  "feedback_records": 0,
+  "closed_loop_status": "measurement ingestion/retraining implemented; no new physical measurement demonstrated in reference runs",
+  "artifact_sha256": {
+    "all_evaluations.csv": "14fe83b01ffcecd0b724cca6958b9824a0be7a57cc05fb1342076aa60c517c35",
+    "assumption_sensitivity.csv": "25f3b91224056b2cf2b4cec5cf0b60d8f88deb6b6282d264ab9c58305d2ce235",
+    "best_candidate.json": "b38683ecd71d4798d77be0b2f55af25ca5817e9340f5d324fe075e2020d576d9",
+    "bulk_curated.csv": "ec81edddeefb0684d00c1a4f7db5c33fabf65835f13a34481dffc10237f4de67",
+    "bulk_holdout_predictions.csv": "e9f764bc0e3c7a6ca9252db87e3fa805b6ec5bb1ff5fbbb11b49772074dbd273",
+    "bulk_rejected.csv": "5d19ab14c45e463629b513afaa4f8c5cdded5ab3776ed70afc9def2fe4ec3b1d",
+    "config.json": "a79795580da9484aa4fd2997b5d3f9d9a0cdb55e9cbac6e791dd8cbf5e24105b",
+    "coupon_recipe_11_layers.csv": "cb30cfd705c2501ea5bffd267125dd8ae12ca4e3eeb8bced7ce85c1e15a831af",
+    "coupon_recipe_screening.json": "89e3a46de03a742ea7c27e21f2af8e132fab133d11d1f7352152221c48414f8b",
+    "feasible_candidates.csv": "ef010c65e96df323509f8b97272676beded77c4313917d9277c673a0e7616bf1",
+    "mesh_convergence.csv": "929bd992c92978f94ead123d88adc38f5ec8f81d02f706bfdeb9a9ea38becc4c",
+    "metrics.json": "99d27ad75cfceaf7bbe51f1572f26d29712a4fa1020b05da80baf4eb78ccc65b",
+    "proposed_measurement_batch.csv": "54344604885d2ac1e7297f8a71fc3715ff96a2dc7324018e51a5c3833ca99329",
+    "readiness_gates.csv": "37f01aff0a055a188bf6fd1f5819e57fd83fc1e3c094ead55316a153a76ed8a8",
+    "search_summary.json": "fe972abc5af3396c8675842230457b31de84895d2bcebcff7adc85354ee611f7",
+    "shortlist.csv": "19a00ecdd8db9690f1046eca65f9868f11b3e409cd1a802d2e177d2c84c77ce1",
+    "temperature_and_constraint_comparison.csv": "5ef773967af407bfda88094e6c34b16eb169973bcb394a76e322d58331a583d0",
+    "tooling_economics_assumptions.json": "a12066c0c9e4a6e92e6d54a02e4679a709cfd7fa5e6450d7e1f97e5c76fafe72",
+    "yield_curated.csv": "5c3b02e433f45afc909075f5386cfd6e020068f5aaee24bbb69902957402d2fa",
+    "yield_holdout_predictions.csv": "8a4fdc49e5a86d611d482c9ab1722cb694e9dbce069fba44abd73507fd2a933a",
+    "yield_rejected.csv": "429ef1b2e3ec40b023965ab32246ace3df851629d57dd8095d84617a6f01688f"
+  }
+}

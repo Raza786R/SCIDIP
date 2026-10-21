@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crystal-paradigm-hemcga"
+version = "0.1.0"
+description = "Evidence-tracked HE-MCGA inverse screening and measurement feedback"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scipy>=1.13,<2", "scikit-learn>=1.5,<1.9"]
+
+[project.optional-dependencies]
+calphad = ["pycalphad>=0.11,<0.12"]
+
+[tool.setuptools.packages.find]
+where = ["phase1"]

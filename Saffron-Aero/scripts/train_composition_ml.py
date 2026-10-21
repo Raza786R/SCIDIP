@@ -1,3 +1,8 @@
+# Phase 1 supersedes this historical entry point; see phase1/README.md.
+if __name__ == "__main__":
+    from _legacy_guard import stop_legacy_entrypoint
+    stop_legacy_entrypoint(__file__)
+
 """
 Train composition-based ML model for property prediction.
 Uses elemental descriptors + Miedema parameters as features.
@@ -38,32 +43,15 @@ MODEL_OUTPUT = Path(__file__).parent.parent / 'models' / 'composition_model.pkl'
 PREDICTIONS_OUTPUT = Path(__file__).parent.parent / 'models' / 'ml_predictions.csv'
 
 def parse_formula_to_fractions(formula, allowed_elements=ALL_ELEMENTS):
-    """Parse formula string to element fractions."""
-    import re
-    fracs = {el: 0.0 for el in allowed_elements}
-    
-    # Handle pure elements
-    if formula in allowed_elements:
-        fracs[formula] = 1.0
-        return fracs
-    
-    # Parse formula like "Mo0.20Nb0.20Ta0.20W0.20Cr0.20"
-    pattern = r'([A-Z][a-z]?)(\d*\.?\d*)'
-    matches = re.findall(pattern, formula)
-    
-    total = 0
-    for el, val in matches:
-        if el in allowed_elements:
-            frac = float(val) if val else 1.0
-            fracs[el] = frac
-            total += frac
-    
-    # Normalize if needed
-    if total > 0 and abs(total - 1.0) > 0.01:
-        for el in allowed_elements:
-            fracs[el] /= total
-    
-    return fracs
+    """Strict stoichiometry parser; legacy model training is superseded."""
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'phase1'))
+    from he_mcga.composition import parse_stoichiometry
+    comp = parse_stoichiometry(formula)
+    if any(v > 0 and el not in allowed_elements for el, v in comp.items()):
+        raise ValueError("Formula contains an element outside allowed_elements")
+    return {el: comp.get(el, 0.0) for el in allowed_elements}
+
 
 def calculate_features(fracs_dict, test_temp_c=25):
     """Calculate composition-based features from fractions."""
@@ -106,7 +94,7 @@ def load_and_prepare_base_data():
     """Load base compound data and prepare training set."""
     if not BASE_DATA_FILE.exists():
         print(f"Warning: {BASE_DATA_FILE} not found. Using synthetic training data.")
-        return create_synthetic_training_data()
+        raise ValueError("Real training data required; synthetic fallback disabled. Use phase1/README.md")
     
     df = pd.read_csv(BASE_DATA_FILE)
     print(f"Loaded {len(df)} base compounds from {BASE_DATA_FILE}")
@@ -119,7 +107,7 @@ def load_and_prepare_base_data():
             return df_with_K
     
     print("Insufficient bulk_modulus data. Using synthetic training data.")
-    return create_synthetic_training_data()
+    raise ValueError("Real training data required; synthetic fallback disabled. Use phase1/README.md")
 
 def create_synthetic_training_data():
     """Create synthetic training data based on Rule of Mixtures + literature."""

@@ -1,3 +1,8 @@
+# Phase 1 supersedes this historical entry point; see phase1/README.md.
+if __name__ == "__main__":
+    from _legacy_guard import stop_legacy_entrypoint
+    stop_legacy_entrypoint(__file__)
+
 import pandas as pd
 import numpy as np
 import sys

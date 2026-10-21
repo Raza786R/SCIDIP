@@ -1,4 +1,4 @@
-﻿# Office temp lock files
+# Office temp lock files
 ~$*.pptx
 ~$*.docx
 ~$*.xlsx
@@ -11,3 +11,7 @@ __pycache__/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Local development environments and editable-package metadata
+.venv/
+*.egg-info/
