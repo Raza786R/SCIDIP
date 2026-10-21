@@ -1,0 +1,187 @@
+{
+  "composition_id": "f3c7e3947af2b379",
+  "atomic_fractions": {
+    "Cr": 0.23188557823702344,
+    "Hf": 0.007231291728162966,
+    "Mo": 0.024299216576257696,
+    "Nb": 0.1830266824257579,
+    "Ta": 0.051214446066385,
+    "Ti": 0.2164822994558376,
+    "V": 0.026542865145665923,
+    "W": 0.05021956345210494,
+    "Zr": 0.20909805691280448
+  },
+  "design": {
+    "exponent": 0.5684228367757562,
+    "thickness_m": 0.0038389010057078505,
+    "ceramic": "LZO"
+  },
+  "screening": {
+    "evaluation": 585,
+    "method": "differential_evolution",
+    "composition_id": "f3c7e3947af2b379",
+    "atomic_fractions": "{\"Cr\": 0.23188557823702344, \"Hf\": 0.007231291728162966, \"Mo\": 0.024299216576257696, \"Nb\": 0.1830266824257579, \"Ta\": 0.051214446066385, \"Ti\": 0.2164822994558376, \"V\": 0.026542865145665923, \"W\": 0.05021956345210494, \"Zr\": 0.20909805691280448}",
+    "exponent": 0.5684228367757562,
+    "thickness_m": 0.0038389010057078505,
+    "density_g_cm3": 7.826676623792413,
+    "feasible": true,
+    "rejections": "",
+    "score": 0.771784458946049,
+    "peak_inplane_stress_MPa": 544.521099004401,
+    "heat_flux_W_m2": 254559.21183010616,
+    "bulk_GPa_prediction": 173.2765138888888,
+    "bulk_domain_flags": "composition_distance_exceeds_training_95pct",
+    "compression_YS_MPa_prediction": 890.5321180555553,
+    "compression_YS_MPa_lower": 0.0,
+    "compression_YS_MPa_upper": 2539.236979166666,
+    "yield_tree_spread_MPa": 180.89468979965363,
+    "yield_nearest_training_L1": 0.28291930986319874,
+    "yield_domain_flags": "",
+    "yield_interval_applicable": true,
+    "phase_status": "unverified",
+    "oxidation_status": "unverified",
+    "qualification_status": "screening_only",
+    "pareto": true
+  },
+  "mixture_estimates": {
+    "density_g_cm3": 7.826676623792413,
+    "delta_percent": 7.654448878605296,
+    "vec": 4.87359271016858,
+    "ideal_entropy_J_molK": 15.239762264797761,
+    "hmix_kJ_mol": null,
+    "missing_binary_pairs": [
+      [
+        "Mo",
+        "V"
+      ],
+      [
+        "Mo",
+        "Ti"
+      ],
+      [
+        "Mo",
+        "Zr"
+      ],
+      [
+        "Mo",
+        "Hf"
+      ],
+      [
+        "Nb",
+        "V"
+      ],
+      [
+        "Nb",
+        "Ti"
+      ],
+      [
+        "Nb",
+        "Zr"
+      ],
+      [
+        "Nb",
+        "Hf"
+      ],
+      [
+        "Ta",
+        "V"
+      ],
+      [
+        "Ta",
+        "Ti"
+      ],
+      [
+        "Ta",
+        "Zr"
+      ],
+      [
+        "Ta",
+        "Hf"
+      ],
+      [
+        "W",
+        "V"
+      ],
+      [
+        "W",
+        "Ti"
+      ],
+      [
+        "W",
+        "Zr"
+      ],
+      [
+        "W",
+        "Hf"
+      ],
+      [
+        "Cr",
+        "V"
+      ],
+      [
+        "Cr",
+        "Ti"
+      ],
+      [
+        "Cr",
+        "Zr"
+      ],
+      [
+        "Cr",
+        "Hf"
+      ],
+      [
+        "V",
+        "Ti"
+      ],
+      [
+        "V",
+        "Zr"
+      ],
+      [
+        "V",
+        "Hf"
+      ],
+      [
+        "Ti",
+        "Zr"
+      ],
+      [
+        "Ti",
+        "Hf"
+      ],
+      [
+        "Zr",
+        "Hf"
+      ]
+    ],
+    "mass_fractions": {
+      "Mo": 0.02844209034025398,
+      "Nb": 0.20744411956355235,
+      "Ta": 0.11305123936164563,
+      "W": 0.1126256226801493,
+      "Cr": 0.14709616270339773,
+      "V": 0.016494190335134464,
+      "Ti": 0.12641833915215006,
+      "Zr": 0.23268282373630544,
+      "Hf": 0.015745412127411124
+    },
+    "volume_fractions": {
+      "Mo": 0.0218242199605743,
+      "Nb": 0.1887904699222388,
+      "Ta": 0.05298296361691932,
+      "W": 0.04567276312283882,
+      "Cr": 0.15989918028892336,
+      "V": 0.021515782320729943,
+      "Ti": 0.21987454663573203,
+      "Zr": 0.28017434112230033,
+      "Hf": 0.009265733009743324
+    },
+    "alpha_1_K": 6.557085450326445e-06,
+    "k_W_mK": 33.45877902254308,
+    "E_Pa": 121957340011.47833,
+    "phase_status": "unverified: empirical descriptors are not phase identification",
+    "oxidation_status": "unverified: no oxidation kinetics or protective-scale measurement"
+  },
+  "qualification": "UNMEASURED, NOT QUALIFIED"
+}

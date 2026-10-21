@@ -1,0 +1,15 @@
+{
+  "peak_inplane_stress_MPa": 235.9255689592039,
+  "peak_tensile_MPa": 120.05953164216592,
+  "peak_compressive_MPa": 235.9255689592039,
+  "heat_flux_W_m2": 614888.4386628573,
+  "curvature_1_m": 2.4335302471139033,
+  "membrane_strain": 0.0038610898732750988,
+  "force_residual_N_m": 6.912159733474255e-10,
+  "moment_residual_N": 1.8474111129762605e-13,
+  "flat_reaction_moment_N": null,
+  "metal_face_K": 300.0,
+  "ceramic_face_K": 1400.0000000000002,
+  "constraint": "free_curvature",
+  "model": "steady_conduction_equibiaxial_laminate"
+}

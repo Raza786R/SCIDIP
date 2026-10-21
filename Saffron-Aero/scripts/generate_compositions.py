@@ -1,3 +1,8 @@
+# Phase 1 supersedes this historical entry point; see phase1/README.md.
+if __name__ == "__main__":
+    from _legacy_guard import stop_legacy_entrypoint
+    stop_legacy_entrypoint(__file__)
+
 """
 Generate all fractional HEA compositions for Mo-Nb-Ta-W-Cr system.
 Uses 5% increments with constraint: sum(fractions) = 1.0

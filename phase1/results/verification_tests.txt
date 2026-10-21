@@ -1,0 +1,35 @@
+test_missing_database_fails_closed (test_feedback_calphad.CalphadTests.test_missing_database_fails_closed) ... ok
+test_real_binary_equilibrium_integration (test_feedback_calphad.CalphadTests.test_real_binary_equilibrium_integration) ... ok
+test_all_or_nothing_batch (test_feedback_calphad.FeedbackTests.test_all_or_nothing_batch) ... ok
+test_bad_unit_and_nonfinite_and_missing_evidence (test_feedback_calphad.FeedbackTests.test_bad_unit_and_nonfinite_and_missing_evidence) ... ok
+test_changed_evidence_rejected_on_retraining (test_feedback_calphad.FeedbackTests.test_changed_evidence_rejected_on_retraining) ... ok
+test_protected_composition_rejected (test_feedback_calphad.FeedbackTests.test_protected_composition_rejected) ... ok
+test_synthetic_rejected (test_feedback_calphad.FeedbackTests.test_synthetic_rejected) ... ok
+test_valid_fixture_then_duplicate_rejected (test_feedback_calphad.FeedbackTests.test_valid_fixture_then_duplicate_rejected) ... ok
+test_atomic_density_uses_molar_volume (test_science.CompositionTests.test_atomic_density_uses_molar_volume) ... ok
+test_missing_binary_pair_is_unknown (test_science.CompositionTests.test_missing_binary_pair_is_unknown) ... ok
+test_rounded_recipe_never_silently_repaired (test_science.CompositionTests.test_rounded_recipe_never_silently_repaired) ... ok
+test_stoichiometry_and_reordering (test_science.CompositionTests.test_stoichiometry_and_reordering) ... ok
+test_unknown_element_never_dropped (test_science.CompositionTests.test_unknown_element_never_dropped) ... ok
+test_partition_stable_as_new_data_arrives (test_science.ModelTests.test_partition_stable_as_new_data_arrives) ... ok
+test_small_calibration_is_unbounded_not_fake_interval (test_science.ModelTests.test_small_calibration_is_unbounded_not_fake_interval) ... ok
+test_source_not_corrupted_processed_properties (test_science.ModelTests.test_source_not_corrupted_processed_properties) ... ok
+test_train_calibration_test_have_zero_composition_overlap (test_science.ModelTests.test_train_calibration_test_have_zero_composition_overlap) ... ok
+test_economics_no_savings_no_payback (test_science.OptimizationApplicationTests.test_economics_no_savings_no_payback) ... ok
+test_hard_constraints_reject_single_element (test_science.OptimizationApplicationTests.test_hard_constraints_reject_single_element) ... ok
+test_pareto (test_science.OptimizationApplicationTests.test_pareto) ... ok
+test_rotating_load_has_correct_units (test_science.OptimizationApplicationTests.test_rotating_load_has_correct_units) ... ok
+test_flat_constraint_has_reaction_not_free_curvature (test_science.ThermalTests.test_flat_constraint_has_reaction_not_free_curvature) ... ok
+test_force_and_moment_equilibrium (test_science.ThermalTests.test_force_and_moment_equilibrium) ... ok
+test_identical_material_linear_gradient_free_plate_zero_stress (test_science.ThermalTests.test_identical_material_linear_gradient_free_plate_zero_stress) ... ok
+test_invalid_inputs (test_science.ThermalTests.test_invalid_inputs) ... ok
+test_mesh_and_recipe_dimensions (test_science.ThermalTests.test_mesh_and_recipe_dimensions) ... ok
+test_no_temperature_change_no_stress (test_science.ThermalTests.test_no_temperature_change_no_stress) ... ok
+test_augmentation_retrains_without_changing_protected_rows (test_workflow.WorkflowTests.test_augmentation_retrains_without_changing_protected_rows) ... ok
+test_old_optimizer_cannot_emit_legacy_safety_claims (test_workflow.WorkflowTests.test_old_optimizer_cannot_emit_legacy_safety_claims) ... ok
+test_small_run_is_reproducible_and_outputs_are_complete (test_workflow.WorkflowTests.test_small_run_is_reproducible_and_outputs_are_complete) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 5.388s
+
+OK

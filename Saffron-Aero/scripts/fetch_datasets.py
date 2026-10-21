@@ -15,13 +15,14 @@ COMMA_ELEMENTS = ','.join(ELEMENTS)
 HYPHEN_ELEMENTS = '-'.join(ELEMENTS)
 
 def get_mp_key():
-    return "nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii"
+    """Read credentials only from the environment; never commit API keys."""
+    return os.environ.get("MP_API_KEY", "").strip()
 
 def fetch_materials_project():
     print("Fetching from Materials Project...")
     key = get_mp_key()
     if not key:
-        print("Skipping MP: No valid API key found in api.txt or apikeys.txt")
+        print("Skipping MP: MP_API_KEY environment variable is not set")
         return pd.DataFrame()
     
     try:

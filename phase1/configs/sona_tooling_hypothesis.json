@@ -1,0 +1,31 @@
+{
+  "profile": "Sona_forging_tool_coupon_hypothesis",
+  "seed": 42,
+  "hot_face_K": 873.15,
+  "cold_face_K": 473.15,
+  "stress_free_K": 300.0,
+  "yield_screen_temperature_K": 873.15,
+  "processing": "CAST",
+  "mechanical_constraint": "flat_force_free",
+  "ceramic": "LZO",
+  "thermal_cells": 80,
+  "exponent_bounds": [
+    0.5,
+    3.0
+  ],
+  "thickness_bounds_m": [
+    0.0005,
+    0.005
+  ],
+  "population_multiplier": 6,
+  "iterations": 8,
+  "shortlist_size": 10,
+  "constraints": {
+    "max_atomic_fraction": 0.35,
+    "min_Cr_atomic_fraction": 0.05,
+    "max_V_atomic_fraction": 0.15,
+    "max_density_g_cm3": 11.0,
+    "max_heat_flux_W_m2": 2000000.0
+  },
+  "application_note": "Illustrative coupon screening only: Sona tool substrate, contact pressure, wear and measured thermal cycle are unknown. LZO and a 0.5-5 mm gradient are not a recommended die coating."
+}

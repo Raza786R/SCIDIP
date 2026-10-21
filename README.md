@@ -1,98 +1,30 @@
-# SAFRAN CHALLENGE 2026 — Project Repository
+# Crystal Paradigm — HE-MCGA / SCIDIP
 
-This repository contains all working files, documents, scripts, and references for the Crystal Paradigm project — covering both the original Safran Explore challenge and the subsequent IIT Delhi SCIDIP (Sona Comstar — IIT Delhi Innovation Program) application.
+**Current computational work:** [Phase 1 implementation, results and documentation](phase1/README.md).
 
----
+**Start with:** [Phase 1 report](phase1/docs/PHASE1_REPORT.md), [workflow and models](phase1/docs/WORKFLOW_AND_MODELS.md), and [fix register](phase1/docs/FIX_REGISTER.csv).
 
-## ⭐ START HERE — Latest Files
+The maintained package performs reproducible material/gradient screening and supports real measurement ingestion and retraining. Thirty scientific/software checks pass. Current candidates are unmeasured hypotheses; aerospace qualification, target-alloy CALPHAD, oxidation protection, physical closed-loop improvement and customer ROI are not established.
 
-### 📁 `IIT DELHI LATEST/`
-**This is the only folder you need to look at for the current SCIDIP work.**
+`IIT DELHI LATEST/` preserves the submitted/current Office document versions. Their historical claims must be reconciled with the Phase 1 evidence before final pitching. Patent/document refinement and pitch preparation remain later phases.
 
-Contains exactly 5 files — the latest, verified versions:
+## Repository map
 
-| File | What it is |
+| Path | Authority and purpose |
 |---|---|
-| `CrystalParadigm_SCIDIP_PitchDeck_Final_latest.pptx` | Final pitch deck for SCIDIP presentation |
-| `CrystalParadigm_SCIDIP_TechnicalAppendix_latest.docx` | Final technical appendix (submitted document) |
-| `CrystalParadigm_SCIDIP_Formal_Proposal.docx` | Formal project proposal with budget and phases |
-| `CrystalParadigm_SCIDIP_Founder_Briefing_Script.docx` | Founder briefing Q&A script |
-| `CrystalParadigm_Mentor_Briefing.docx` | Mentor briefing document (materials science view) |
+| `phase1/` | Maintained computational implementation, tests, configs, checked results and evidence/validation documents |
+| `IIT DELHI LATEST/` | Preserved submission documents; not executable proof of their claims |
+| `Saffron-Aero/data/` | Existing source exports; curated reads/hashes recorded by Phase 1 |
+| `Saffron-Aero/scripts/` | Historical entry points; most stop with migration instructions; thermal adapter retained |
+| `Saffron-Aero/runs/`, `models/`, `phase_wise_analysis/` | Historical artifacts; not Phase 1 validation evidence |
+| `IIT_DELHI_SCIDIP/`, `references_and_guides/`, `archive/` | Earlier submissions, references and audit history |
 
-> All other folders contain previous versions, working scripts, and reference material. **Do not treat any file outside this folder as the latest version.**
+## Reproduce Phase 1
 
----
+```bash
+python -m pip install -e . -c phase1/constraints-tested.txt
+python -m unittest discover -s phase1/tests -v
+python -m he_mcga run --config phase1/configs/aerospace_legacy_K.json --output phase1/results/my_run
+```
 
-## Full Repository Structure
-
-### 📁 `IIT_DELHI_SCIDIP/`
-All files related to the IIT Delhi SCIDIP 2026 program application.
-
-Contains:
-- Final pitch deck versions (`.pptx`) prepared for the SCIDIP presentation
-- Technical appendix documents (`.docx`) submitted as part of the application
-- Official application PDFs submitted to FITT IIT Delhi
-- Founder briefing documents, formal proposal, and mentor briefing (`.docx`) generated during prep
-- Python scripts used to generate, modify, and audit the pitch deck and technical appendix files
-- Research and review markdown files about the SCIDIP program, project structure, and slide content
-- Extracted text dumps and analysis files from PPTX/DOCX processing
-- `logo.png` — Crystal Paradigm logo used in deck generation
-
----
-
-### 📁 `Saffron-Aero/`
-The main working codebase for the Safran Explore challenge.
-
-Contains:
-- `data/` — datasets used during the project
-- `docs/` — documentation files
-- `models/` — model-related files
-- `phase_wise_analysis/` — analysis organized by project phases
-- `runs/` — output files from pipeline runs
-- `scripts/` — Python scripts for the computational pipeline
-- `README.md` — detailed readme for this sub-project
-
----
-
-### 📁 `archive/`
-Historical working files, previous runs, and reference material no longer in active use.
-
-Sub-folders:
-- `Saffron-Aero_Archive/` — older pipeline runs, raw database files, previous candidate reports, markdown status files, and experimental data (includes the large HEA database CSV, Bohrium run logs, and project handoff notes)
-- `ANTIGRAVITY_WORK_ARCHIVE/` — working files from AI-assisted sessions
-- `Previous_Flaws_and_Fixes/` — notes and fixes from earlier iterations of the project
-- `SAFRAN_VERFICATION_AND_GUIDE/` — verification guides and review notes
-
----
-
-### 📁 `references_and_guides/`
-Reference material, submission files, and onboarding documents.
-
-Sub-folders:
-- `FINAL_SUBMISSION_FILES/` — the actual files submitted for the Safran Explore challenge (pitch deck, technical appendix, and supporting documents)
-- `Bohrium_Submissions/` — files related to Bohrium cloud compute submissions
-- `Literature_and_References/` — research literature and reference documents
-- `Project_Onboarding/` — onboarding material for new team members
-
----
-
-### 📄 Root-level files
-- `generate_final_docx.py` — script used to generate the final Safran Explore submission document
-- `extract_slides.py`, `extract_text.py`, `read_pptx.py` — utility scripts for reading and extracting content from PPTX files
-- `verify_docx.py` — script to verify docx output
-- `pptx_extracted_new.txt`, `pptx_slides_detailed.txt`, `safran_pptx_content.md` — extracted text content from PPTX files for reference
-- `README.md` — this file
-- `.gitignore` — excludes Office temp lock files (`~$*.pptx`, `~$*.docx`), Python cache, and OS junk files
-
----
-
-## Notes for New Team Members / Collaborators
-
-- The **most relevant final files** for the IIT Delhi SCIDIP program are in `IIT_DELHI_SCIDIP/`
-- The **original Safran Explore submission files** are in `references_and_guides/FINAL_SUBMISSION_FILES/`
-- The **active Saffron-Aero codebase** is in `Saffron-Aero/` — this is also separately tracked at `github.com/indra2215/Saffron-Aero`
-- Large files (>50MB) exist in `archive/` — GitHub may warn about these but they are pushed successfully
-
----
-
-*Crystal Paradigm Private Limited | crystalparadigm.in | khub.crystalparadigm@gmail.com*
+See [phase1/README.md](phase1/README.md) for a virtual environment, Sona coupon profile, optional CALPHAD, measured feedback, exact results and limits. Use a new output directory for each run. Existing submitted Office files and source CSVs were not overwritten.

@@ -124,7 +124,7 @@ python scripts/fetch_datasets.py
 
 Writes: `data/raw_materials_project.csv`, `data/raw_oqmd.csv`, `data/raw_jarvis.csv`, `data/combined_raw_data.csv`
 
-Needs the Materials Project API key in `bin/api.txt` (key already present: `nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii`).
+Needs the Materials Project API key in `bin/api.txt` (key already present: `REVOKED_KEY_REMOVED_USE_MP_API_KEY`).
 
 ---
 

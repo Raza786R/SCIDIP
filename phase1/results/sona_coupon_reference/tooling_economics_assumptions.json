@@ -1,0 +1,9 @@
+{
+  "assumptions_only": true,
+  "baseline_annual_tooling_INR": 2000000.0,
+  "proposed_annual_tooling_INR": 1769230.7692307692,
+  "annual_tooling_difference_INR": 230769.23076923075,
+  "break_even_life_ratio": 1.15,
+  "simple_pilot_payback_years": 2.166666666666667,
+  "customer_evidence": "none; require measured life and supplier quotations"
+}

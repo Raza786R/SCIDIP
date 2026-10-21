@@ -1,0 +1,17 @@
+{
+  "evaluations_per_method": 594,
+  "seed": 42,
+  "optimizer_success": false,
+  "optimizer_message": "Maximum number of iterations has been exceeded.",
+  "termination_note": "Fixed-budget screen; no global optimality claim.",
+  "feasible_per_method": {
+    "differential_evolution": 241,
+    "random_baseline": 81
+  },
+  "best_score_by_method": {
+    "differential_evolution": 0.771784458946049,
+    "random_baseline": 0.9107814738581539
+  },
+  "pareto_candidates": 9,
+  "candidate_status": "Unmeasured computational hypotheses; no validated winner or safety factor."
+}

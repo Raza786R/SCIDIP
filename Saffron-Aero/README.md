@@ -1,3 +1,5 @@
+> **Phase 1 migration notice:** The maintained workflow is now [../phase1/README.md](../phase1/README.md). Historical optimizer/training/report entry points below are disabled to prevent stale or unsupported outputs. The original text below is an audit record, not the current execution guide or a validation claim. Submitted Office documents remain unchanged.
+
 # Safran Aerospace: HE-MCGA Challenge 2026
 **AI-Driven Inverse Design of High-Entropy Metal-Ceramic Gradient Architectures**
 

@@ -1,0 +1,18 @@
+[
+  {
+    "measurement_id": "REPLACE_WITH_LAB_MEASUREMENT_ID",
+    "atomic_fractions": {"Nb": 0.2, "Mo": 0.2, "Ta": 0.2, "W": 0.2, "Cr": 0.2},
+    "property": "compression_yield",
+    "value": null,
+    "unit": "MPa",
+    "temperature_K": null,
+    "test_mode": "compression",
+    "processing": "CAST",
+    "source": "REPLACE_WITH_LAB_REPORT_OR_DOI",
+    "specimen_id": "REPLACE_WITH_SPECIMEN_ID",
+    "evidence_path": "REPLACE_WITH_REPOSITORY_RELATIVE_REPORT_PATH",
+    "evidence_sha256": "REPLACE_WITH_SHA256",
+    "measurement_uncertainty": null,
+    "is_synthetic": true
+  }
+]

@@ -14,7 +14,7 @@
 
 **Purpose:** Queries four public materials databases (Materials Project, OQMD, AFLOW, JARVIS-DFT) and writes merged raw CSV data for the Mo–Nb–Ta–W–Cr–V–Ti–Zr–Hf element set.
 
-**Inputs:** None at runtime. Uses hardcoded MP API key `nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii` via `get_mp_key()`. Requires `mp-api`, `requests`, `urllib3` packages.
+**Inputs:** None at runtime. Uses hardcoded MP API key `REVOKED_KEY_REMOVED_USE_MP_API_KEY` via `get_mp_key()`. Requires `mp-api`, `requests`, `urllib3` packages.
 
 **Outputs (all written to the current working directory — must be run from repo root):**
 - `raw_materials_project.csv` — MP entries after strict element filter
@@ -444,7 +444,7 @@
 
 | File | Description |
 |---|---|
-| `api.txt` | OQMD API documentation + JARVIS database index + MP API key (`nREzcJl7KZF5PZl1FIXCMbCSTbxQ55Ii`) |
+| `api.txt` | OQMD API documentation + JARVIS database index + MP API key (`REVOKED_KEY_REMOVED_USE_MP_API_KEY`) |
 | `combined_raw_data.csv` | Earlier MP-only combined fetch — 262 rows before strict element filtering |
 | `combined_raw_data-MP.csv` | MP-only 91-row copy (post-filter) |
 | `raw_materials_project.csv` | MP raw 262-row version (pre-strict-filter) |
