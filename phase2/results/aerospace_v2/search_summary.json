@@ -1,0 +1,20 @@
+{
+  "evaluations_per_method": 594,
+  "seed": 42,
+  "objective_version": "phase2_v2_applicability_gated_strength_and_areal_mass",
+  "areal_mass_weight": 0.1,
+  "ceramic_density_assumption_g_cm3": 6.0,
+  "optimizer_success": false,
+  "optimizer_message": "Maximum number of iterations has been exceeded.",
+  "termination_note": "Fixed-budget screen; no global optimality claim.",
+  "feasible_per_method": {
+    "differential_evolution": 196,
+    "random_baseline": 43
+  },
+  "best_score_by_method": {
+    "differential_evolution": 0.55393123062609,
+    "random_baseline": 0.9969091888283433
+  },
+  "pareto_candidates": 3,
+  "candidate_status": "Unmeasured computational hypotheses; no validated winner or safety factor."
+}

@@ -1,5 +1,7 @@
 # Crystal Paradigm — HE-MCGA Phase 1
 
+> Historical Phase 1 results and report: commit `2bd2885`. The maintained package in this directory is now version 0.2.0; use [Phase 2](../phase2/README.md) for current results, 37 checks and documentation. Checkout the historical commit in a separate worktree to reproduce the original objective exactly. The commands below now execute current code and do not recreate the frozen Phase 1 scores.
+
 This is the maintained, reproducible computational workflow. It replaces the historical executable pipeline in `Saffron-Aero/scripts/`. The submitted Office files in `IIT DELHI LATEST/` are preserved as submission records; their scientific claims have **not** all been reconciled with this implementation.
 
 **Current result:** a tested inverse-screening and measurement-feedback implementation, with new unmeasured candidates. It is not a qualified aerospace material, a validated coating, a completed experimental closed loop, or demonstrated customer ROI.

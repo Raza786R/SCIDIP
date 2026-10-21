@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crystal-paradigm-hemcga"
-version = "0.1.0"
+version = "0.2.0"
 description = "Evidence-tracked HE-MCGA inverse screening and measurement feedback"
 requires-python = ">=3.11"
 dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scipy>=1.13,<2", "scikit-learn>=1.5,<1.9"]

@@ -1,0 +1,44 @@
+row_id,composition_id,formula_source,atomic_fractions,target,temperature_K,processing,source,source_row_1based,partition
+raw_materials_project.csv:26,4fac53cc51f0ace4,Cr,"{""Cr"": 1.0}",252.155,,not_applicable,materials_project_local_export_static_DFT,26,test
+raw_materials_project.csv:29,4fac53cc51f0ace4,Cr,"{""Cr"": 1.0}",233.652,,not_applicable,materials_project_local_export_static_DFT,29,test
+raw_materials_project.csv:37,f28c6228c094e4da,Hf,"{""Hf"": 1.0}",108.287,,not_applicable,materials_project_local_export_static_DFT,37,train
+raw_materials_project.csv:38,f28c6228c094e4da,Hf,"{""Hf"": 1.0}",102.549,,not_applicable,materials_project_local_export_static_DFT,38,train
+raw_materials_project.csv:44,b19b495e5b938ecf,HfCr2,"{""Cr"": 0.6666666666666666, ""Hf"": 0.3333333333333333}",186.81,,not_applicable,materials_project_local_export_static_DFT,44,train
+raw_materials_project.csv:45,b19b495e5b938ecf,HfCr2,"{""Cr"": 0.6666666666666666, ""Hf"": 0.3333333333333333}",188.948,,not_applicable,materials_project_local_export_static_DFT,45,train
+raw_materials_project.csv:50,cba541475ce33752,HfMo2,"{""Hf"": 0.3333333333333333, ""Mo"": 0.6666666666666666}",304.609,,not_applicable,materials_project_local_export_static_DFT,50,train
+raw_materials_project.csv:62,0a6d764249068fae,HfW2,"{""Hf"": 0.3333333333333333, ""W"": 0.6666666666666666}",222.256,,not_applicable,materials_project_local_export_static_DFT,62,train
+raw_materials_project.csv:63,c89b083fc97934b5,HfZr,"{""Hf"": 0.5, ""Zr"": 0.5}",101.368,,not_applicable,materials_project_local_export_static_DFT,63,train
+raw_materials_project.csv:72,231e25a71acf81d2,Mo,"{""Mo"": 1.0}",262.529,,not_applicable,materials_project_local_export_static_DFT,72,calibration
+raw_materials_project.csv:81,a9a2586aa8903abd,Nb,"{""Nb"": 1.0}",172.05,,not_applicable,materials_project_local_export_static_DFT,81,train
+raw_materials_project.csv:89,072eb32d88a854cb,Nb3Cr,"{""Cr"": 0.25, ""Nb"": 0.75}",183.542,,not_applicable,materials_project_local_export_static_DFT,89,train
+raw_materials_project.csv:90,072eb32d88a854cb,Nb3Cr,"{""Cr"": 0.25, ""Nb"": 0.75}",181.79,,not_applicable,materials_project_local_export_static_DFT,90,train
+raw_materials_project.csv:97,fff74fa7b8efc1ef,NbCr2,"{""Cr"": 0.6666666666666666, ""Nb"": 0.3333333333333333}",228.632,,not_applicable,materials_project_local_export_static_DFT,97,train
+raw_materials_project.csv:99,0e34198ccb2ea70b,NbCr3,"{""Cr"": 0.75, ""Nb"": 0.25}",226.813,,not_applicable,materials_project_local_export_static_DFT,99,test
+raw_materials_project.csv:118,f84674a54447f920,Ta,"{""Ta"": 1.0}",195.555,,not_applicable,materials_project_local_export_static_DFT,118,test
+raw_materials_project.csv:119,f84674a54447f920,Ta,"{""Ta"": 1.0}",194.527,,not_applicable,materials_project_local_export_static_DFT,119,test
+raw_materials_project.csv:122,f84674a54447f920,Ta,"{""Ta"": 1.0}",191.164,,not_applicable,materials_project_local_export_static_DFT,122,test
+raw_materials_project.csv:134,73ef27ef1d332795,TaCr2,"{""Cr"": 0.6666666666666666, ""Ta"": 0.3333333333333333}",242.207,,not_applicable,materials_project_local_export_static_DFT,134,test
+raw_materials_project.csv:135,73ef27ef1d332795,TaCr2,"{""Cr"": 0.6666666666666666, ""Ta"": 0.3333333333333333}",239.813,,not_applicable,materials_project_local_export_static_DFT,135,test
+raw_materials_project.csv:155,70b2bc217b9be681,TaV2,"{""Ta"": 0.3333333333333333, ""V"": 0.6666666666666666}",194.158,,not_applicable,materials_project_local_export_static_DFT,155,train
+raw_materials_project.csv:158,9b5a625416104936,TaW3,"{""Ta"": 0.25, ""W"": 0.75}",275.924,,not_applicable,materials_project_local_export_static_DFT,158,train
+raw_materials_project.csv:165,7ba51927bf172501,Ti,"{""Ti"": 1.0}",112.944,,not_applicable,materials_project_local_export_static_DFT,165,test
+raw_materials_project.csv:166,7ba51927bf172501,Ti,"{""Ti"": 1.0}",108.54,,not_applicable,materials_project_local_export_static_DFT,166,test
+raw_materials_project.csv:167,7ba51927bf172501,Ti,"{""Ti"": 1.0}",112.881,,not_applicable,materials_project_local_export_static_DFT,167,test
+raw_materials_project.csv:174,23570dca31053027,Ti3Nb,"{""Nb"": 0.25, ""Ti"": 0.75}",123.599,,not_applicable,materials_project_local_export_static_DFT,174,train
+raw_materials_project.csv:175,23570dca31053027,Ti3Nb,"{""Nb"": 0.25, ""Ti"": 0.75}",122.685,,not_applicable,materials_project_local_export_static_DFT,175,train
+raw_materials_project.csv:180,865896f57f469b70,TiCr2,"{""Cr"": 0.6666666666666666, ""Ti"": 0.3333333333333333}",198.812,,not_applicable,materials_project_local_export_static_DFT,180,train
+raw_materials_project.csv:181,865896f57f469b70,TiCr2,"{""Cr"": 0.6666666666666666, ""Ti"": 0.3333333333333333}",199.407,,not_applicable,materials_project_local_export_static_DFT,181,train
+raw_materials_project.csv:182,865896f57f469b70,TiCr2,"{""Cr"": 0.6666666666666666, ""Ti"": 0.3333333333333333}",198.395,,not_applicable,materials_project_local_export_static_DFT,182,train
+raw_materials_project.csv:200,23ea9ba6e3dd5acc,V,"{""V"": 1.0}",181.232,,not_applicable,materials_project_local_export_static_DFT,200,train
+raw_materials_project.csv:206,c288e3c7c609c378,V3Mo,"{""Mo"": 0.25, ""V"": 0.75}",203.583,,not_applicable,materials_project_local_export_static_DFT,206,test
+raw_materials_project.csv:218,36b2fb8a94254735,W,"{""W"": 1.0}",298.22,,not_applicable,materials_project_local_export_static_DFT,218,test
+raw_materials_project.csv:224,36b2fb8a94254735,W,"{""W"": 1.0}",302.264,,not_applicable,materials_project_local_export_static_DFT,224,test
+raw_materials_project.csv:226,b4c2aaf6d2ca02b2,Zr,"{""Zr"": 1.0}",88.774,,not_applicable,materials_project_local_export_static_DFT,226,test
+raw_materials_project.csv:228,b4c2aaf6d2ca02b2,Zr,"{""Zr"": 1.0}",93.831,,not_applicable,materials_project_local_export_static_DFT,228,test
+raw_materials_project.csv:229,b4c2aaf6d2ca02b2,Zr,"{""Zr"": 1.0}",88.4,,not_applicable,materials_project_local_export_static_DFT,229,test
+raw_materials_project.csv:230,b4c2aaf6d2ca02b2,Zr,"{""Zr"": 1.0}",89.974,,not_applicable,materials_project_local_export_static_DFT,230,test
+raw_materials_project.csv:242,e3bbc272f9f6d6bb,ZrCr2,"{""Cr"": 0.6666666666666666, ""Zr"": 0.3333333333333333}",180.27,,not_applicable,materials_project_local_export_static_DFT,242,train
+raw_materials_project.csv:247,4afde409cbe1f689,ZrMo3,"{""Mo"": 0.75, ""Zr"": 0.25}",193.868,,not_applicable,materials_project_local_export_static_DFT,247,train
+raw_materials_project.csv:254,0c616bf58c7ef026,ZrTi2,"{""Ti"": 0.6666666666666666, ""Zr"": 0.3333333333333333}",106.1,,not_applicable,materials_project_local_export_static_DFT,254,calibration
+raw_materials_project.csv:260,89f36cb17564a515,ZrV2,"{""V"": 0.6666666666666666, ""Zr"": 0.3333333333333333}",138.858,,not_applicable,materials_project_local_export_static_DFT,260,train
+raw_materials_project.csv:263,2c37a1a1456ec33a,ZrW2,"{""W"": 0.6666666666666666, ""Zr"": 0.3333333333333333}",213.964,,not_applicable,materials_project_local_export_static_DFT,263,calibration

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "00_Project_Handbook.docx",
+    "source": "phase2/sources/00_Project_Handbook.md",
+    "word_count": 900
+  },
+  {
+    "file": "01_Materials_Science_Deep_Dive.docx",
+    "source": "phase2/sources/01_Materials_Science_Deep_Dive.md",
+    "word_count": 2074
+  },
+  {
+    "file": "02_Data_and_AI_Models.docx",
+    "source": "phase2/sources/02_Data_and_AI_Models.md",
+    "word_count": 1200
+  },
+  {
+    "file": "03_Inverse_Design_and_Closed_Loop.docx",
+    "source": "phase2/sources/03_Inverse_Design_and_Closed_Loop.md",
+    "word_count": 1053
+  },
+  {
+    "file": "04_Simulation_and_Evidence.docx",
+    "source": "phase2/sources/04_Simulation_and_Evidence.md",
+    "word_count": 946
+  },
+  {
+    "file": "05_Manufacturing_and_Recipe.docx",
+    "source": "phase2/sources/05_Manufacturing_and_Recipe.md",
+    "word_count": 872
+  },
+  {
+    "file": "06_Validation_and_IIT_Delhi_Collaboration.docx",
+    "source": "phase2/sources/06_Validation_and_IIT_Delhi_Collaboration.md",
+    "word_count": 1086
+  },
+  {
+    "file": "07_Business_Budget_and_Milestones.docx",
+    "source": "phase2/sources/07_Business_Budget_and_Milestones.md",
+    "word_count": 1145
+  },
+  {
+    "file": "08_Founder_Preparation_and_Program_Call.docx",
+    "source": "phase2/sources/08_Founder_Preparation_and_Program_Call.md",
+    "word_count": 1196
+  },
+  {
+    "file": "09_Strict_Audit_and_IP_Handover.docx",
+    "source": "phase2/sources/09_Strict_Audit_and_IP_Handover.md",
+    "word_count": 1066
+  }
+]

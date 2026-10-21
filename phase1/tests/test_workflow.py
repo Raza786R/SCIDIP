@@ -32,6 +32,8 @@ class WorkflowTests(unittest.TestCase):
             manifest=json.loads((folder/'a/manifest.json').read_text())
             for name,digest in manifest['artifact_sha256'].items():
                 self.assertEqual(hashlib.sha256((folder/'a'/name).read_bytes()).hexdigest(),digest)
+            batch=pd.read_csv(folder/'a/proposed_measurement_batch.csv')
+            self.assertTrue((batch.ledger_ingest_allowed==(batch.benchmark_partition=='train')).all())
             feasible=pd.read_csv(folder/'a/feasible_candidates.csv')
             self.assertTrue((feasible.heat_flux_W_m2<=cfg['constraints']['max_heat_flux_W_m2']).all())
             for raw in feasible.atomic_fractions:
@@ -48,7 +50,10 @@ class WorkflowTests(unittest.TestCase):
         selected=before.data[before.data.partition=='train'].iloc[0]
         row={'measurement_id':'temporary-unit-fixture','atomic_fractions':json.loads(selected.atomic_fractions),
              'target_name':'yield','value':selected.target+500,'temperature_K':selected.temperature_K,
-             'processing':selected.processing,'source':'TEMPORARY TEST FIXTURE','is_synthetic':False}
+             'processing':selected.processing,'source':'TEMPORARY TEST FIXTURE','is_synthetic':False,
+             'property':'compression_yield','unit':'MPa','test_mode':'compression',
+             'specimen_id':'temporary-specimen','evidence_path':'temporary-test-only',
+             'evidence_sha256':'test-helper-without-root','measurement_uncertainty':10}
         with tempfile.TemporaryDirectory() as temp:
             path=Path(temp)/'fixture.json';path.write_text(json.dumps([row]))
             after=PropertyModel(augment(data,path,'yield'),'yield')

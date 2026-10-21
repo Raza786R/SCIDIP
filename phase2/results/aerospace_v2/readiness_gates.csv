@@ -1,0 +1,10 @@
+area,gate,status,evidence_needed
+materials,phase stability,unverified,composition-specific assessed CALPHAD + XRD/SEM/EDS after exposure
+materials,oxidation and ceramic compatibility,unverified,"cyclic oxidation mass change, scale chemistry, diffusion couple and bond tests"
+AI_ML,unseen composition benchmark,computed,metrics.json; independent prospective external test still required
+closed_loop,measured feedback iteration,not_yet_demonstrated,real lab report + validated ingest + next-generation run comparison
+aerospace,component qualification,not_qualified,temperature-dependent tensile/creep/fatigue/bond allowables + transient 3-D thermo-mechanics + component validation
+Sona_Comstar,forging-tool coupon pilot,hypothesis,"confirm thermal cycle, substrate, pressure, friction/wear and failure mode with sponsor; benchmark current tool"
+business,paying customer and advantage,unverified,"signed pilot scope, competing baseline, measured cost/part and repeatable delivery"
+IP,protectable scope,not_assessed_in_phase1,"Phase 2 prior art, disclosure timeline, inventorship and professional claim assessment"
+team,execution capability,requires_confirmation,"named metallurgy, coatings/manufacturing, ML and customer pilot owners with facility access"

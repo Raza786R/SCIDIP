@@ -5,6 +5,7 @@ import pandas as pd
 from scipy.optimize import differential_evolution
 from .composition import ELEMENTS, fractions, composition_id, encode, descriptors
 from .thermal import laminate
+from .data import partition
 
 
 def chemical_constraints(comp, cfg):
@@ -23,6 +24,22 @@ def pareto_mask(values):
     for i in range(len(a)):
         keep[i] = not np.any(np.all(a<=a[i],axis=1)&np.any(a<a[i],axis=1))
     return keep
+
+
+def eligible_strength_lower(prediction):
+    """No optimization reward from an interval flagged outside applicability."""
+    lower=prediction.get('lower')
+    if not prediction.get('interval_applicable') or lower is None or not np.isfinite(lower):
+        return 0.0
+    return max(0.0,float(lower))
+
+
+def areal_mass_kg_m2(density_g_cm3,ceramic_density_g_cm3,thickness_m,exponent):
+    """Integrate rho(z) for additive-volume grading with f_c=(z/L)^n."""
+    values=[density_g_cm3,ceramic_density_g_cm3,thickness_m,exponent]
+    if not np.isfinite(values).all() or min(values)<=0:
+        raise ValueError('positive finite density and gradient geometry required')
+    return thickness_m*1000*(density_g_cm3+(ceramic_density_g_cm3-density_g_cm3)/(exponent+1))
 
 
 def search(bulk, strength, cfg):
@@ -46,10 +63,12 @@ def search(bulk, strength, cfg):
             errors.append('heat_flux_above_design_limit')
         # Scalarized heuristic for search only. No safety-factor or life claim.
         # Penalize surrogate extrapolation rather than rewarding high predictions alone.
-        lower = y['lower'] if y['lower'] is not None else 0.
+        lower = eligible_strength_lower(y)
+        areal_mass=areal_mass_kg_m2(d['density_g_cm3'],cfg.get('ceramic_density_g_cm3',6.),thickness,exponent)
         score = (physical['peak_inplane_stress_MPa']/1000
                  +.2*d['density_g_cm3']/10-.2*lower/1000
-                 +.25*y['nearest_training_L1']+.5*len(y['domain_flags']))
+                 +.25*y['nearest_training_L1']+.5*len(y['domain_flags'])
+                 +cfg.get('areal_mass_weight',.1)*areal_mass/20)
         row.update({'feasible':not errors,'rejections':';'.join(errors),
                     'score':score if not errors else 1e6+len(errors),
                     'peak_inplane_stress_MPa':physical['peak_inplane_stress_MPa'],
@@ -57,6 +76,7 @@ def search(bulk, strength, cfg):
                     'bulk_GPa_prediction':b['prediction'], 'bulk_domain_flags':';'.join(b['domain_flags']),
                     'compression_YS_MPa_prediction':y['prediction'],
                     'compression_YS_MPa_lower':y['lower'],'compression_YS_MPa_upper':y['upper'],
+                    'ranking_YS_lower_MPa':lower,'areal_mass_kg_m2':areal_mass,
                     'yield_tree_spread_MPa':y['tree_spread'],
                     'yield_nearest_training_L1':y['nearest_training_L1'],
                     'yield_domain_flags':';'.join(y['domain_flags']),
@@ -80,7 +100,7 @@ def search(bulk, strength, cfg):
         raise ValueError('no feasible screening candidates; no recipe may be exported')
     feasible['pareto'] = pareto_mask(np.column_stack([
        feasible.peak_inplane_stress_MPa,feasible.density_g_cm3,
-       -feasible.compression_YS_MPa_lower.fillna(0)]))
+       -feasible.ranking_YS_lower_MPa,feasible.areal_mass_kg_m2]))
     feasible = feasible.sort_values(['score','evaluation'])
     shortlist = feasible.head(cfg['shortlist_size']).copy()
     # Separate batches: near-term exploitation, then high disagreement exploration,
@@ -98,9 +118,16 @@ def search(bulk, strength, cfg):
             row['requested_temperature_K']=cfg['yield_screen_temperature_K']
             row['requested_unit']='MPa'; row['processing']=cfg['processing']
             row['specimen_status']='not_manufactured'; row['test_mode']='compression'
+            group_role=partition([r.composition_id],seed)[0]
+            row['benchmark_partition']=group_role
+            row['ledger_ingest_allowed']=bool(group_role=='train')
+            row['feedback_role']='training_feedback' if group_role=='train' else 'protected_validation_only'
             selected.append(row); n+=1
             if n==3: break
     summary = {'evaluations_per_method':budget,'seed':seed,
+       'objective_version':'phase2_v2_applicability_gated_strength_and_areal_mass',
+       'areal_mass_weight':cfg.get('areal_mass_weight',.1),
+       'ceramic_density_assumption_g_cm3':cfg.get('ceramic_density_g_cm3',6.),
        'optimizer_success':bool(result.success),'optimizer_message':str(result.message),
        'termination_note':'Fixed-budget screen; no global optimality claim.',
        'feasible_per_method':feasible.groupby('method').size().to_dict(),

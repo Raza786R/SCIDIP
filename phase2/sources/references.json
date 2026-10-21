@@ -1,0 +1,17 @@
+{
+ "S0":{"title":"Program manager call transcript supplied by Crystal Paradigm","url":"User supplied Pasted text 20261021 054847","use":"Verbal preparation guidance; not a formal funding or access agreement"},
+ "S1":{"title":"FITT SCIDIP program page","url":"https://fitt-iitd.in/web/sona-comstar-iit-delhi-innovation-program-scidip","use":"Program criteria and budget limits; retrieved 21 October 2026"},
+ "S2":{"title":"Sona Comstar Precision Forged Gears","url":"https://sonacomstar.com/precision-forged-bevel-gears","use":"Public manufacturing activities; proposed tooling application is our inference"},
+ "S3":{"title":"Li and colleagues 2023 Materials ML robustness and generalizability","url":"https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=935648","use":"Distribution shift and limits of benchmark scores; DOI 10.1038/s41524-023-01012-9"},
+ "S4":{"title":"Borg and colleagues 2020 Expanded MPEA mechanical property dataset","url":"https://www.nature.com/articles/s41597-020-00768-9","use":"Experimental dataset provenance; authors repository https://github.com/CitrineInformatics/MPEA_dataset"},
+ "S5":{"title":"Hillery and colleagues NASA coating life prediction report 1988","url":"https://ntrs.nasa.gov/citations/19890004250","use":"Coating spallation oxidation and creep need empirical life validation"},
+ "S6":{"title":"Osei Agyemang and Balasubramanian 2019 Surface oxidation mechanism of a refractory HEA","url":"https://www.nature.com/articles/s41529-019-0082-5","use":"Composition dependent oxygen response; no numerical result transferred to HE MCGA"},
+ "S7":{"title":"pycalphad official equilibrium documentation","url":"https://pycalphad.org/docs/latest/examples/EquilibriumWithOrdering.html","use":"Assessed database equilibrium adapter; Al Ni fixture is not target validation"},
+ "S8":{"title":"IIT Delhi Central Research Facility","url":"https://crf.iitd.ac.in/","use":"Facility discovery and external user route; access not secured"},
+ "S9":{"title":"IIT Delhi CRF X Ray Diffraction listing","url":"https://crf.iitd.ac.in/All-Facilities-/X-Ray-Diffraction.html","use":"Official indexed listing; live detail retrieval returned 502 during this review"},
+ "S10":{"title":"IIT Delhi CRF SEM EDS DMSE listing","url":"https://crf.iitd.ac.in/All-Facilities-/SEM_DMSE.html","use":"Official indexed listing; availability and booking require confirmation"},
+ "S11":{"title":"IIT Delhi CRF Thermal Series listing","url":"https://crf.iitd.ac.in/All-Facilities-/Thermal-Series.html","use":"Indexed SDT650 DSC TGA listing; atmosphere temperature range and eligibility must be confirmed"},
+ "S12":{"title":"IIT Delhi Additive Manufacturing and Characterization Shared Facility listing","url":"https://crf.iitd.ac.in/All-Facilities-/AMCF_Shared_Facility.html","use":"Preparation and characterization discovery; does not prove target compatible multi hopper LENS"},
+ "S13":{"title":"IIT Delhi Department of Materials Science and Engineering","url":"https://mse.iitd.ac.in/","use":"Relevant metals ceramics and computational materials research areas; no faculty collaboration is agreed"},
+ "S14":{"title":"IIT Delhi CRF charge list","url":"https://crf.iitd.ac.in/files/CRF_Charges_List.pdf","use":"Published cost discovery only; current specimen specific quotes including tax needed"}
+}
