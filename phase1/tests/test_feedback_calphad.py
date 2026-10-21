@@ -67,6 +67,26 @@ class FeedbackTests(unittest.TestCase):
         self.call(); self.evidence.write_text('changed')
         with self.assertRaisesRegex(ValueError,'changed'): augment(pd.DataFrame(),self.ledger,'yield',42,ROOT)
 
+    def test_bulk_feedback_handles_static_export_missing_temperatures(self):
+        self.record.update(property='bulk_modulus',unit='GPa',value=200,temperature_K=298.15,test_mode='elasticity')
+        self.assertEqual(self.call(),1)
+
+    def test_modified_ledger_unit_rejected_on_read(self):
+        import pandas as pd
+        self.call(); records=json.loads(self.ledger.read_text());records[0]['unit']='GPa'
+        self.ledger.write_text(json.dumps(records))
+        with self.assertRaisesRegex(ValueError,'unit'): augment(pd.DataFrame(),self.ledger,'yield',42,ROOT)
+
+    def test_modified_ledger_target_identity_rejected(self):
+        import pandas as pd
+        self.call();records=json.loads(self.ledger.read_text());records[0]['target_name']='bulk'
+        self.ledger.write_text(json.dumps(records))
+        with self.assertRaisesRegex(ValueError,'metadata'): augment(pd.DataFrame(),self.ledger,'yield',42,ROOT)
+
+    def test_null_measurement_fails_with_readable_error(self):
+        self.record['value']=None
+        with self.assertRaisesRegex(ValueError,'numeric'):self.call()
+
 
 class CalphadTests(unittest.TestCase):
     def test_missing_database_fails_closed(self):

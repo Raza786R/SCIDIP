@@ -15,7 +15,7 @@ CERAMICS = {
 def laminate(E_Pa, alpha_1_K, k_W_mK, thickness_m=.005, exponent=1.,
              ceramic='LZO', cells=80, cold_face_K=300., hot_face_K=1400.,
              stress_free_K=300., constraint='free_curvature', metal_nu=.30,
-             membrane_N_m=0., moment_N=0.):
+             membrane_N_m=0., moment_N=0., ceramic_fractions=None, layer_edges_m=None):
     nums = [E_Pa, alpha_1_K, k_W_mK, thickness_m, exponent, cold_face_K,
             hot_face_K, stress_free_K, metal_nu, membrane_N_m, moment_N]
     if not np.isfinite(nums).all() or min(E_Pa,k_W_mK,thickness_m,exponent,cold_face_K,hot_face_K,stress_free_K)<=0:
@@ -27,11 +27,18 @@ def laminate(E_Pa, alpha_1_K, k_W_mK, thickness_m=.005, exponent=1.,
     if constraint == 'flat_force_free' and moment_N != 0:
         raise ValueError('flat constraint has a reaction moment; do not prescribe moment')
     cer = CERAMICS[ceramic]
-    edges = np.linspace(0,thickness_m,cells+1); dz = np.diff(edges)
+    edges = np.linspace(0,thickness_m,cells+1) if layer_edges_m is None else np.asarray(layer_edges_m,dtype=float)
+    if edges.shape!=(cells+1,) or not np.isfinite(edges).all() or np.any(np.diff(edges)<=0) or not np.isclose(edges[0],0,atol=1e-12) or not np.isclose(edges[-1],thickness_m,rtol=0,atol=1e-12):
+        raise ValueError('layer edges must span the positive thickness monotonically')
+    dz = np.diff(edges)
     z = (edges[1:]+edges[:-1])/2
     # Exact layer-average ceramic fraction conserves the continuous gradient's
     # total ceramic volume even for coarse manufacturing layers and n < 1.
     f = ((edges[1:]/thickness_m)**(exponent+1)-(edges[:-1]/thickness_m)**(exponent+1))/((exponent+1)*dz/thickness_m)
+    if ceramic_fractions is not None:
+        f=np.asarray(ceramic_fractions,dtype=float)
+        if f.shape!=(cells,) or not np.isfinite(f).all() or np.any((f<0)|(f>1)):
+            raise ValueError('one ceramic volume fraction in [0,1] required per layer')
     E = 1/((1-f)/E_Pa+f/cer['E_Pa'])
     alpha = (1-f)*alpha_1_K+f*cer['alpha_1_K']
     k = 1/((1-f)/k_W_mK+f/cer['k_W_mK'])

@@ -1,0 +1,189 @@
+{
+  "composition_id": "f7e518dab2c27fee",
+  "atomic_fractions": {
+    "Cr": 0.23061460202780854,
+    "Hf": 0.0681499650335995,
+    "Mo": 0.05578669550355191,
+    "Nb": 0.18402267748874096,
+    "Ta": 0.04859575005668209,
+    "Ti": 0.23802853851529326,
+    "V": 0.015241381393162662,
+    "W": 0.045681769217574636,
+    "Zr": 0.11387862076358655
+  },
+  "design": {
+    "exponent": 0.5243704993401304,
+    "thickness_m": 0.0014939543432982774,
+    "ceramic": "LZO"
+  },
+  "screening": {
+    "evaluation": 408,
+    "method": "differential_evolution",
+    "composition_id": "f7e518dab2c27fee",
+    "atomic_fractions": "{\"Cr\": 0.23061460202780854, \"Hf\": 0.0681499650335995, \"Mo\": 0.05578669550355191, \"Nb\": 0.18402267748874096, \"Ta\": 0.04859575005668209, \"Ti\": 0.23802853851529326, \"V\": 0.015241381393162662, \"W\": 0.045681769217574636, \"Zr\": 0.11387862076358655}",
+    "exponent": 0.5243704993401304,
+    "thickness_m": 0.0014939543432982774,
+    "density_g_cm3": 8.372485208095998,
+    "feasible": true,
+    "rejections": "",
+    "score": 0.55393123062609,
+    "peak_inplane_stress_MPa": 236.70857717361682,
+    "heat_flux_W_m2": 1753150.2654371855,
+    "bulk_GPa_prediction": 178.48561284722211,
+    "bulk_domain_flags": "",
+    "compression_YS_MPa_prediction": 363.35138888888883,
+    "compression_YS_MPa_lower": 0.0,
+    "compression_YS_MPa_upper": 2012.0562499999996,
+    "ranking_YS_lower_MPa": 0.0,
+    "areal_mass_kg_m2": 10.182964239366777,
+    "yield_tree_spread_MPa": 262.54589112379506,
+    "yield_nearest_training_L1": 0.3954325123748771,
+    "yield_domain_flags": "",
+    "yield_interval_applicable": true,
+    "phase_status": "unverified",
+    "oxidation_status": "unverified",
+    "qualification_status": "screening_only",
+    "pareto": true
+  },
+  "mixture_estimates": {
+    "density_g_cm3": 8.372485208095998,
+    "delta_percent": 7.318190266931636,
+    "vec": 4.912025942436456,
+    "ideal_entropy_J_molK": 16.08560836445226,
+    "hmix_kJ_mol": null,
+    "missing_binary_pairs": [
+      [
+        "Mo",
+        "V"
+      ],
+      [
+        "Mo",
+        "Ti"
+      ],
+      [
+        "Mo",
+        "Zr"
+      ],
+      [
+        "Mo",
+        "Hf"
+      ],
+      [
+        "Nb",
+        "V"
+      ],
+      [
+        "Nb",
+        "Ti"
+      ],
+      [
+        "Nb",
+        "Zr"
+      ],
+      [
+        "Nb",
+        "Hf"
+      ],
+      [
+        "Ta",
+        "V"
+      ],
+      [
+        "Ta",
+        "Ti"
+      ],
+      [
+        "Ta",
+        "Zr"
+      ],
+      [
+        "Ta",
+        "Hf"
+      ],
+      [
+        "W",
+        "V"
+      ],
+      [
+        "W",
+        "Ti"
+      ],
+      [
+        "W",
+        "Zr"
+      ],
+      [
+        "W",
+        "Hf"
+      ],
+      [
+        "Cr",
+        "V"
+      ],
+      [
+        "Cr",
+        "Ti"
+      ],
+      [
+        "Cr",
+        "Zr"
+      ],
+      [
+        "Cr",
+        "Hf"
+      ],
+      [
+        "V",
+        "Ti"
+      ],
+      [
+        "V",
+        "Zr"
+      ],
+      [
+        "V",
+        "Hf"
+      ],
+      [
+        "Ti",
+        "Zr"
+      ],
+      [
+        "Ti",
+        "Hf"
+      ],
+      [
+        "Zr",
+        "Hf"
+      ]
+    ],
+    "mass_fractions": {
+      "Mo": 0.06198400110229039,
+      "Nb": 0.1979875110740798,
+      "Ta": 0.10182651207144726,
+      "W": 0.09724939708245818,
+      "Cr": 0.13886542792253748,
+      "V": 0.00899057073250559,
+      "Ti": 0.13194606664212907,
+      "Zr": 0.1202918647178844,
+      "Hf": 0.14085864865466788
+    },
+    "volume_fractions": {
+      "Mo": 0.05087844434975807,
+      "Nb": 0.19274971021575302,
+      "Ta": 0.051050357252107846,
+      "W": 0.042187520133115816,
+      "Cr": 0.16147899183296752,
+      "V": 0.012545570078373978,
+      "Ti": 0.24549255360614988,
+      "Zr": 0.15494490123150342,
+      "Hf": 0.08867195130027053
+    },
+    "alpha_1_K": 6.592461258208223e-06,
+    "k_W_mK": 34.46101598623053,
+    "E_Pa": 124098269266.98279,
+    "phase_status": "unverified: empirical descriptors are not phase identification",
+    "oxidation_status": "unverified: no oxidation kinetics or protective-scale measurement"
+  },
+  "qualification": "UNMEASURED, NOT QUALIFIED"
+}

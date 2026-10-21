@@ -1,0 +1,21 @@
+ID,Historical assertion,Assessment,Current defensible position,Evidence needed
+H01,Externally validated 3D SF 1.71,Not substantiated in maintained evidence,Reduced in plane laminate stress only,Actual component model inputs outputs constitutive data independent verification
+H02,798 MPa von Mises turbine result,Not substantiated,Current stress belongs to different reduced geometry and boundary conditions,Traceable 3D mesh loads boundary conditions and results
+H03,Oxidation mass gain 7.5 mg per cm2,Unverified target result,No new target oxidation test or valid kinetics simulation,Atmosphere time area mass curve scale chemistry and reproducible test report
+H04,10000 to 20000 cycles validated,Unsupported,Steady elastic cases are not fatigue life predictions,Cycle history damage law failure criterion and physical comparison
+H05,VEC 5.02 proves no sigma phase,Invalid inference,VEC is a descriptor; phase unknown,Assessed target thermodynamics and manufactured phase characterization
+H06,917.7 MPa hot yield and narrow uncertainty,Not a defensible new candidate guarantee,Protected group benchmark MAE 229.5 MPa; wide bounds,Prospective measured mechanical properties in relevant state
+H07,Al addition provides self healing,Not modeled or validated,Al excluded from current alphabet; no post optimization addition,New supported data model search and oxidation evidence
+H08,Patent application covers HE MCGA,Status and scope not verified,202641084226 is a supplied assertion,Filing receipt specification claims inventors ownership and mapping
+H09,Q1 paper validates HE MCGA,Not verified,Separate battery research cannot validate the alloy,Correct article identifier manuscript scope and physical supporting evidence
+H10,TRL or airworthiness certification achieved,Not established,Computational research screening only,Application relevant independent evidence and agreed readiness assessment
+H11,LENS recipe is manufacturing ready,Not established,Exact phase and geometry coupon proposal only,Feedstock process window gradient calibration repeatability and bond evidence
+H12,Only IIT Delhi can fabricate in India,Unsupported exclusivity,Facility discovery and feasibility request,Specific capability confirmation and comparative supplier evidence
+H13,Guaranteed Sona or SRM integration,Not established,Forging tooling hypothesis; no magnetic model or pilot,Customer requirements magnetic evidence if relevant and signed scope
+H14,Material cost reduced 15 to 20 percent,Unverified,Scenario tooling economics is distinct from material cost,Quotes mass basis yield process costs and incumbent comparison
+H15,Core cooling reduction 150 to 200 K proven,Not established,Current model imposes face temperatures,Actual convection radiation cooling boundary and measured temperatures
+H16,MACE CHGNet MD and DFT executed here,Not substantiated for new target,Two ExtraTrees models and reduced continuum mechanics executed,Actual atomistic model configuration convergence trajectories and applicability
+H17,Private repo and exact chemistry under NDA,Conflicts with observed public repository,Public disclosure timeline needs professional review,Dated repository and presentation disclosure record
+H18,Zero interface damage assured,Unverified,No cohesive or fracture model and no actual bond test,Route appropriate fracture or adhesion and cycling evidence
+H19,Large Hf supply advantage versus CMSX4,Unverified baseline and metric,No quantified procurement or supply improvement,Correct baseline chemistry mass based Hf amount price and sourcing evidence
+H20,Transpiration cooling network implemented,Not found in maintained code,No flow network or permeability design executed,Actual network geometry flow model pressure boundary manufacture and test

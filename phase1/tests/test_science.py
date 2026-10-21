@@ -8,7 +8,7 @@ from he_mcga.composition import fractions,parse_stoichiometry,composition_id,des
 from he_mcga.data import curate,partition
 from he_mcga.models import PropertyModel
 from he_mcga.thermal import laminate,CERAMICS
-from he_mcga.search import chemical_constraints,pareto_mask
+from he_mcga.search import chemical_constraints,pareto_mask,eligible_strength_lower,areal_mass_kg_m2
 from he_mcga.applications import centrifugal_root_stress_MPa,tooling_economics
 from he_mcga.__main__ import validate_config,ROOT
 
@@ -76,6 +76,12 @@ class ThermalTests(unittest.TestCase):
             self.assertAlmostEqual(l['ceramic_volume_fraction']+l['metal_volume_fraction'],1)
             if i: self.assertEqual(l['z_start_m'],layers[i-1]['z_end_m'])
 
+    def test_sharp_control_uses_same_volume_and_heat_resistance(self):
+        r=laminate(100e9,5e-6,50,exponent=1.)
+        sharp=laminate(100e9,5e-6,50,ceramic_fractions=[0.]*40+[1.]*40)
+        self.assertAlmostEqual(r['heat_flux_W_m2'],sharp['heat_flux_W_m2'],places=6)
+        self.assertNotAlmostEqual(r['peak_inplane_stress_MPa'],sharp['peak_inplane_stress_MPa'],places=1)
+
     def test_invalid_inputs(self):
         for kwargs in [{'E_Pa':-1},{'exponent':0},{'cells':1},{'constraint':'unspecified'},
                        {'constraint':'flat_force_free','moment_N':1}]:
@@ -116,6 +122,16 @@ class OptimizationApplicationTests(unittest.TestCase):
         reasons,_=chemical_constraints({'Nb':1},cfg['constraints'])
         self.assertIn('fewer_than_5_elements_at_5atpct',reasons)
         self.assertIn('element_above_max_atomic_fraction',reasons)
+
+    def test_out_of_domain_bound_cannot_earn_strength_reward(self):
+        self.assertEqual(eligible_strength_lower({'lower':5000,'interval_applicable':False}),0)
+        self.assertEqual(eligible_strength_lower({'lower':500,'interval_applicable':True}),500)
+        self.assertEqual(eligible_strength_lower({'lower':None,'interval_applicable':True}),0)
+
+    def test_areal_mass_scales_with_thickness(self):
+        mass=areal_mass_kg_m2(8,6,.005,1)
+        self.assertAlmostEqual(mass,35)
+        self.assertAlmostEqual(areal_mass_kg_m2(8,6,.0025,1),mass/2)
 
     def test_pareto(self):
         np.testing.assert_equal(pareto_mask([[1,2],[2,1],[2,3],[1,2]]),[True,True,False,True])

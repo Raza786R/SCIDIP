@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-21",
+  "document_count": 10,
+  "total_pages": 32,
+  "renderer": "LibreOffice via documents/render_docx.py at 130 dpi",
+  "layout_checks": [
+    "No blank or nearly empty trailing pages",
+    "Repeated table headers; no split table rows",
+    "Equations and figure labels legible",
+    "No clipped text or overlaps observed",
+    "Original submitted documents preserved"
+  ],
+  "documents": [
+    {
+      "file": "00_Project_Handbook.docx",
+      "sha256": "5e58446a8ab536c5d87a994e0d6dc490d2a10e3ffd2aeae3938eab9be2aafc86",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "1e48aa86491130e30b2f68848f829d71c9d889b12aa17146ccfd54832cef4819",
+        "page-2.png": "81db04bb30b1e5bc702664956ab9779439a206fd6580f539bb18a634cecab578",
+        "page-3.png": "ae4c207b4a0f58c6ca615dc4315ac27bcee3edc7955db3b45244a50f3eadf378"
+      }
+    },
+    {
+      "file": "01_Materials_Science_Deep_Dive.docx",
+      "sha256": "2e6b59e079506f8daf4c9d016903e00cf7fde6961457707240b5ab6d40dd455f",
+      "pages": 5,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "fd08ec149f410b1c089b7b43799501acaa2b642b159057e3708e565c59e24cd5",
+        "page-2.png": "7926a7c8e6e6b6ce8062d6ffefd123207756145b645ccbdfaeb455e4d925fa18",
+        "page-3.png": "96687e4dd207efc6fd2d1fde56044b221b5bd47346657d400b9618b8f1332397",
+        "page-4.png": "161b5e3bfcf21c8173c9cea93b12fa55d46e05a6d97ffb562e80c4364674feda",
+        "page-5.png": "78d054f27c3fe25b0119bdf3ed64737e4a69035bd1e5f61ba8172d685a7e77e7"
+      }
+    },
+    {
+      "file": "02_Data_and_AI_Models.docx",
+      "sha256": "63f7821711c4e2ccfd284cba663743a73f3098a8f5bb919eb0d8dd633d3a0074",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "ec07f8fef266df274452194fcbfd24d1b696d996a64103ec4ded5ec17392c1d8",
+        "page-2.png": "ce1d63c6776c54bd6bb3d422de3b86fb654ac82e2582c361b31fbe73d7b34b03",
+        "page-3.png": "d01cbadbed75c5cff57c7704ec420eb1c5483a2fc4fcd90eaa8c9bc50a0b0c13"
+      }
+    },
+    {
+      "file": "03_Inverse_Design_and_Closed_Loop.docx",
+      "sha256": "dc2e3c6f69cae2f7acfe4633ed283ffa15ece5864bf1ff33aec7d41e7394e318",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "bf35068750a83ca98113074af311241913a3c3d6f47117d23ca9ad981b45abe5",
+        "page-2.png": "870ff40be1fd314891afe46762ac9c375061053c82232a40531d8e75abfd2e9e",
+        "page-3.png": "dc73895a1c1885b94ed02fece1e68e7b72d6b48a0d22752966a7f4e402eda3c9"
+      }
+    },
+    {
+      "file": "04_Simulation_and_Evidence.docx",
+      "sha256": "949f212b7dd568b6a9fb5a4c37023ae2f6b63243dd4fcf34546a4748fcafd574",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "9e485c66cd2939f4f1a5e3015e83308b1255217c7234674b29faac4ee07bcd1f",
+        "page-2.png": "40451e85b3a8e41fc3cb22dc06f38669121b16f0cf00c778f5ccf33a023ed3b2",
+        "page-3.png": "2a2690d42da00e95dbe7a23edc2a507548bb8b1a2da2b06e5358c4162e1c6485"
+      }
+    },
+    {
+      "file": "05_Manufacturing_and_Recipe.docx",
+      "sha256": "3010bf9a266964bec9381f56fcb0743580bc6c2f3085630518d9aa98755a8c21",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "1c49d523097a56fbc560679a2c4d2a90e6d3563ca93187969643177ef93ba0f6",
+        "page-2.png": "0fdc7c97bdb6c595476daa8fde99df06bd23055c8980075ed682f2495200ada0",
+        "page-3.png": "57ef9b0f0b73298352f4dfb00672c52b3b398a078cbe92306c49835b25942b37"
+      }
+    },
+    {
+      "file": "06_Validation_and_IIT_Delhi_Collaboration.docx",
+      "sha256": "af3a577607798c0d35f44f31ae3a4585fdd49c407f4170036e39b200716dc682",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "0f8720560d1eff3573ce6c68dbd4bce1faa9c7b311947265b27669267961e8d3",
+        "page-2.png": "fb83dc174a8e5abacb66d52ca4bc147fa867152922a5c061a230ba3e99f76556",
+        "page-3.png": "c247386754e89a2e83345aed0cc5da5875f2ae7531511a21aaf9444ac628884d"
+      }
+    },
+    {
+      "file": "07_Business_Budget_and_Milestones.docx",
+      "sha256": "8057d16c9e611bc736015e45b0126f38022f1435859b9ab198f16925122aa522",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "c2858c488363ddfcdc807f2f1c1a2d117c8467c44c858c2950959e84ea09c32d",
+        "page-2.png": "fe3e6f82abef49947a434707ada379ac61fedbc5c238ce868883c539d7ddd8ea",
+        "page-3.png": "7fdb033c272c506ab16edd0ada7cf20ece9d51fa5f53fd03a4b306aca82bcda8"
+      }
+    },
+    {
+      "file": "08_Founder_Preparation_and_Program_Call.docx",
+      "sha256": "223d85a6b4b2faf87ce2ece319cd17c048d617a4eb700ca6375edd6ca5a0f588",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "879617d3bab78f5069c9f3caddda9b8762b03371a203fd3dad1d967f4b78ac69",
+        "page-2.png": "674fe3eaa00f533e1f607535dedd7a34d2d8dd971108fa794f88be91474125cf",
+        "page-3.png": "32e4d514158b2da268d947f2be59985c8cd9575b668774c68015d54274b09158"
+      }
+    },
+    {
+      "file": "09_Strict_Audit_and_IP_Handover.docx",
+      "sha256": "d351bb611345ff8aa92face0c03c5ee52697bdf3dd1030c70efa37cb96858286",
+      "pages": 3,
+      "visual_review": "all pages reviewed; final changed pages inspected, unchanged pages matched prior reviewed render",
+      "page_sha256": {
+        "page-1.png": "34b146361dae99746b8adfe3cecf533f644d91d013f04d06e6f29165d72d90f4",
+        "page-2.png": "51d82e0ac3009e17ab137f766cce54ddbb22a1fade24ea963d95b4e3a84c5612",
+        "page-3.png": "ac74838c961ec8ac6caa5044e4ca455bb02847955d950391aba959b758fdbfae"
+      }
+    }
+  ]
+}

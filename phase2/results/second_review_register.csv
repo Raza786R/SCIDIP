@@ -1,0 +1,7 @@
+ID,Finding,Implementation,Verification,Interpretation
+P2-01,Inapplicable strength bound reward,phase1/he_mcga/search.py: eligible_strength_lower,test_out_of_domain_bound_cannot_earn_strength_reward,No reward outside applicability
+P2-02,Thickness weakly identified,phase1/he_mcga/search.py: areal_mass_kg_m2 and objective; __main__.py config validation,test_areal_mass_scales_with_thickness,Explicit declared mass preference; not optimized customer economics
+P2-03,Ledger edits not fully revalidated,phase1/he_mcga/feedback.py: validate_record and read_ledger,test_modified_ledger_unit_rejected_on_read; test_modified_ledger_target_identity_rejected; test_null_measurement_fails_with_readable_error,Checks schema identity units finite values protected partition duplicate ledger records and report integrity
+P2-04,Missing static source temperatures,phase1/he_mcga/feedback.py: ingest source duplicate comparison,test_bulk_feedback_handles_static_export_missing_temperatures,Static bulk export accepts valid new measurements
+P2-05,Measurement role absent from export,phase1/he_mcga/search.py: batch role export,test_small_run_is_reproducible_and_outputs_are_complete,Protected groups are labeled validation only
+P2-06,Architecture comparison lacked matched control,phase1/he_mcga/thermal.py: explicit fractions and edges; phase2/tools/build_control_study.py,test_sharp_control_uses_same_volume_and_heat_resistance,Eight matched cases; no physical validation claim

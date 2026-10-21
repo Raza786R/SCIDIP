@@ -37,6 +37,10 @@ def validate_config(c):
     for key in ('hot_face_K','cold_face_K','stress_free_K','yield_screen_temperature_K'):
         if not np.isfinite(c[key]) or c[key]<=0: raise ValueError('temperatures must be positive kelvin')
     if c['hot_face_K']<=c['cold_face_K']: raise ValueError('hot face must exceed cold face')
+    for key,default in [('ceramic_density_g_cm3',6.),('areal_mass_weight',.1)]:
+        value=c.get(key,default)
+        if not np.isfinite(value) or value<0 or (key=='ceramic_density_g_cm3' and value==0):
+            raise ValueError(f'invalid {key}')
     limits=c['constraints']
     for key in ('max_atomic_fraction','min_Cr_atomic_fraction','max_V_atomic_fraction','max_density_g_cm3','max_heat_flux_W_m2'):
         if key not in limits or not np.isfinite(limits[key]) or limits[key]<0: raise ValueError('invalid constraint bounds')
@@ -79,7 +83,7 @@ def run(args):
     # Ceramic density is only a declared conversion assumption; vendor density
     # and measured shrinkage/porosity are needed before dispensing powders.
     for row in recipe:
-        f=row['ceramic_volume_fraction']; rho_m=material['density_g_cm3']; rho_c=6.
+        f=row['ceramic_volume_fraction']; rho_m=material['density_g_cm3']; rho_c=cfg.get('ceramic_density_g_cm3',6.)
         row.update({'metal_atomic_fractions':best['atomic_fractions'],'ceramic':cfg['ceramic'],
                     'metal_mass_fraction':(1-f)*rho_m/((1-f)*rho_m+f*rho_c),
                     'ceramic_mass_fraction':f*rho_c/((1-f)*rho_m+f*rho_c),
@@ -138,6 +142,6 @@ def main():
     p.set_defaults(handler=calphad)
     args=parser.parse_args()
     try: args.handler(args)
-    except (ValueError,FileNotFoundError) as exc: parser.exit(2,f'ERROR: {exc}\n')
+    except (ValueError,TypeError,KeyError,FileNotFoundError) as exc: parser.exit(2,f'ERROR: {exc}\n')
 
 if __name__=='__main__': main()
